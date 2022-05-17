@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package bakdata.corporate.v1;
+
+message Bafin_meta {
+  uint32 issuer_id = 1;
+  string issuer = 2;
+  string domicile = 3;
+  string country = 4;
+  repeated Bafin_detail bafin_detail = 5;
+}
+
+message Bafin_detail {
+  uint32 reportable_id = 1;
+  string reportable = 2;
+  string reportable_domicile = 3;
+  string reportable_country = 4;
+  double rights_33_34 = 5;
+  double rights_38 = 6;
+  double rights_39 = 7;
+  string publishing_date = 8;
+}
