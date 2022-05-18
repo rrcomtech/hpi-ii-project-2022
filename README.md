@@ -13,7 +13,8 @@ The second step will only be executed when crawling in detail mode. Furthermore,
 ```shell
 poetry run python rights_bafin_crawler/main.py --detail "True" --csv_path "/PathToOutputCSVFile.csv"
 # --detail : True if crawling also the details for each company, False if not.
-# --path : The path to an empty, already existing csv file including the filename. If not given, no csv output will be produced.
+# --path : The path to an empty, already existing csv file including the filename.
+           If not given, no csv output will be produced.
 ```
 The crawler automatically produces results using a pre-defined protobuf schema.
 
