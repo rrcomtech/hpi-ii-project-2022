@@ -52,7 +52,7 @@ class BafinExtractor:
                                 bafin_detail.rights_38              = float(detail_row['§ 38 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 38 WpHG (Prozent)'] != '' else 0)
                                 bafin_detail.rights_39              = float(detail_row['§ 39 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 39 WpHG (Prozent)'] != '' else 0)
                                 bafin_detail.publishing_date        = detail_row['Veröffentlichung gemäß § 40 Abs.1 WpHG']
-                                bafin_meta.bafin_detail.extend(bafin_detail)
+                                bafin_meta.bafin_detail.append(bafin_detail)
 
                         except Exception as ex:
                             log.error(f"Skipping Company {meta_row['Emittent']}")
