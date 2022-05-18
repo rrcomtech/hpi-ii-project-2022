@@ -1,6 +1,24 @@
 # HPI information integration project SoSe 2022
+by Robert Richter and Fabian Lange
 
-This repository provides a code base for the information integration course in the summer semester of 2022. Below you
+This project integrates the given data source "Handelsregisterbekanntmachungen" with the data set "Voting Rights Proportions" from Bafin.
+
+# Task 2
+Crawl the "Voting Rights Proportions" dataset in two steps:
+1. Crawl the general data for each letter of the alphabet starting with letter `a` including a bafin-id, name, domicile and country for each company.
+2. Crawl detail data for each company that was returned during the first step including data for each issuer of a company: bafin-id, name, domicile, country, publishing data and their voting rights split up into three categories of german law paragraphs [1] §33 and §34, [2] §38 and [3] §39.
+
+The second step will only be executed when crawling in detail mode. Furthermore, our system provides the ability to additionally store the data in a csv file. Both can be indicated when starting the crawler with the command below:
+
+```shell
+poetry run python rights_bafin_crawler/main.py --detail "True" --csv_path "/PathToOutputCSVFile.csv"
+// --detail : True if crawling also the details for each company, False if not.
+// --path : The path to an empty, already existing csv file including the filename. If not given, no csv output will be produced.
+```
+The crawler automatically produces results using a pre-defined protobuf schema.
+
+# Initial Repository Readme
+This repository provides a code base for the information integration lecture in the summer semester of 2022. Below you
 can find the documentation for setting up the project.
 
 ## Prerequisites
