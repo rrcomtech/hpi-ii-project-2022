@@ -1,4 +1,6 @@
+from cmath import nan
 import logging
+import math
 from time import sleep
 
 import requests
@@ -35,19 +37,18 @@ class BafinExtractor:
                     try:
                         log.info(f"Sending Detail Request for company: {meta_row['Emittent']}")
                         detail_text = self.send_detail_request(meta_row['BaFin-Id'])
-                        detail_df = pd.read_csv(StringIO(detail_text), sep=";", header=0)
-
+                        detail_df = pd.read_csv(StringIO(detail_text), sep=";", header=0, na_filter=False)
                         for _, detail_row in detail_df.iterrows():
                             bafin_detail = Bafin_detail()
                             bafin_detail.reportable_id          = detail_row['BaFin-Id']
                             bafin_detail.reportable             = detail_row['Meldepflichtiger / Tochterunternehmen (T)']
                             bafin_detail.reportable_domicile    = detail_row['Sitz oder Ort']
                             bafin_detail.reportable_country     = detail_row['Land']
-                            #bafin_detail.rights_33_34           = detail_row['§§ 33, 34 WpHG (Prozent)']
-                            #bafin_detail.rights_38              = detail_row['§ 38 WpHG (Prozent)']
-                            #bafin_detail.rights_39              = detail_row['§ 39 WpHG (Prozent)']
-                            #bafin_detail.publishing_date        = detail_row['Veröffentlichung gemäß § 40 Abs.1 WpHG']
-                            #bafin_meta.bafin_detail.extend(bafin_detail)
+                            bafin_detail.rights_33_34           = float(detail_row['§§ 33, 34 WpHG (Prozent)'].replace(',', '.') if detail_row['§§ 33, 34 WpHG (Prozent)'] != '' else 0)
+                            bafin_detail.rights_38              = float(detail_row['§ 38 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 38 WpHG (Prozent)'] != '' else 0)
+                            bafin_detail.rights_39              = float(detail_row['§ 39 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 39 WpHG (Prozent)'] != '' else 0)
+                            bafin_detail.publishing_date        = detail_row['Veröffentlichung gemäß § 40 Abs.1 WpHG']
+                            bafin_meta.bafin_detail.extend(bafin_detail)
 
                     except Exception as ex:
                         log.error(f"Skipping Company {meta_row['Emittent']}")
