@@ -33,16 +33,23 @@ class BafinExtractor:
                     bafin_meta.country      = meta_row['Land']
 
                     try:
-                        log.info(f"Sending Detail Request for company: {meta_row['Emittent']}")
+                        log.info(f"Sending Detail Request for company: {meta_row['Emittent']} (ID: {meta_row['BaFin-Id']})")
                         detail_text = self.send_detail_request(meta_row['BaFin-Id'])
                         detail_df = pd.read_csv(StringIO(detail_text), sep=";", header=0)
 
                         for _, detail_row in detail_df.iterrows():
                             bafin_detail = Bafin_detail()
                             bafin_detail.reportable_id          = detail_row['BaFin-Id']
-                            bafin_detail.reportable             = detail_row['Meldepflichtiger / Tochterunternehmen (T)']
-                            bafin_detail.reportable_domicile    = detail_row['Sitz oder Ort']
-                            bafin_detail.reportable_country     = detail_row['Land']
+                            bafin_detail.reportable             = detail_row['Meldepflichtiger / Tochterunternehmen (T)']                            
+                            # For many entities, the country or domicile is not available --> results in NaN
+                            try:
+                                bafin_detail.reportable_domicile = detail_row['Sitz oder Ort']
+                            except Exception as ex:
+                                bafin_detail.reportable_domicile = ""
+                            try:
+                                bafin_detail.reportable_country = detail_row['Land']
+                            except Exception as ex:
+                                bafin_detail.reportable_country = ""
                             #bafin_detail.rights_33_34           = detail_row['§§ 33, 34 WpHG (Prozent)']
                             #bafin_detail.rights_38              = detail_row['§ 38 WpHG (Prozent)']
                             #bafin_detail.rights_39              = detail_row['§ 39 WpHG (Prozent)']
