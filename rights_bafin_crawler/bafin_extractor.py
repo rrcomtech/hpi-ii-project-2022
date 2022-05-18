@@ -35,7 +35,7 @@ class BafinExtractor:
                     bafin_meta.country      = meta_row['Land']
 
                     try:
-                        log.info(f"Sending Detail Request for company: {meta_row['Emittent']}")
+                        log.info(f"Sending Detail Request for company: {meta_row['Emittent']} (ID: {meta_row['BaFin-Id']})")
                         detail_text = self.send_detail_request(meta_row['BaFin-Id'])
                         detail_df = pd.read_csv(StringIO(detail_text), sep=";", header=0, na_filter=False)
                         for _, detail_row in detail_df.iterrows():
@@ -49,6 +49,7 @@ class BafinExtractor:
                             bafin_detail.rights_39              = float(detail_row['§ 39 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 39 WpHG (Prozent)'] != '' else 0)
                             bafin_detail.publishing_date        = detail_row['Veröffentlichung gemäß § 40 Abs.1 WpHG']
                             bafin_meta.bafin_detail.extend(bafin_detail)
+                    
 
                     except Exception as ex:
                         log.error(f"Skipping Company {meta_row['Emittent']}")
