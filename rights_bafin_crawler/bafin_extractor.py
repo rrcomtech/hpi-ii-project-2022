@@ -1,6 +1,7 @@
 from cmath import nan
 import logging
-import math
+import csv
+from pathlib import Path
 from time import sleep
 
 import requests
@@ -17,12 +18,22 @@ log = logging.getLogger(__name__)
 
 
 class BafinExtractor:
-    def __init__(self, detail: bool):
+    def __init__(self, detail: bool, csv_path: Path):
         self.crawl_detail = detail
+        self.csv_path = csv_path
         self.producer = BafinProducer()
         
 
     def extract(self):
+        if self.csv_path != "":
+            csv_file = open(self.csv_path, 'w')
+            writer = csv.writer(csv_file)
+            if self.crawl_detail:
+                header = ["Issuer BaFin-Id", "Issuer", "Issuer Domicile", "Issuer Country", "Reportable BaFin-Id", "Reportable", "Reportable Domicile", "Reportable Country", "Rights §33 & §34", "Rights §38", "Rights §39", "Publishing Date"]
+            else:
+                header = ["Issuer BaFin-Id", "Issuer", "Issuer Domicile", "Issuer Country"]
+            writer.writerow(header)
+        
         for letter in Letter:
             try:
                 log.info(f"Sending Meta Request for letter: {letter}")
@@ -52,6 +63,19 @@ class BafinExtractor:
                                 bafin_detail.rights_38              = float(detail_row['§ 38 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 38 WpHG (Prozent)'] != '' else 0)
                                 bafin_detail.rights_39              = float(detail_row['§ 39 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 39 WpHG (Prozent)'] != '' else 0)
                                 bafin_detail.publishing_date        = detail_row['Veröffentlichung gemäß § 40 Abs.1 WpHG']
+                                
+                                if self.csv_path != "":
+                                    writer.writerow([
+                                        "", "", "", "",
+                                        detail_row['BaFin-Id'],
+                                        detail_row['Meldepflichtiger / Tochterunternehmen (T)'],
+                                        detail_row['Sitz oder Ort'],
+                                        detail_row['Land'],
+                                        detail_row['§§ 33, 34 WpHG (Prozent)'],
+                                        detail_row['§ 38 WpHG (Prozent)'],
+                                        detail_row['§ 39 WpHG (Prozent)'],
+                                        detail_row['Veröffentlichung gemäß § 40 Abs.1 WpHG'],
+                                    ])
                                 bafin_meta.bafin_detail.append(bafin_detail)
 
                         except Exception as ex:
@@ -59,19 +83,21 @@ class BafinExtractor:
                             log.error(f"Cause: {ex}")
                             continue
                     
+                    if self.csv_path != "":
+                        if self.crawl_detail:
+                            row = [meta_row['BaFin-Id'], meta_row['Emittent'], meta_row['Sitz'], meta_row['Land'], "", "", "", "", "", "", "", ""]
+                        else:
+                            row = [meta_row['BaFin-Id'], meta_row['Emittent'], meta_row['Sitz'], meta_row['Land']]
+                        writer.writerow(row)
+                    
                     self.producer.produce_to_topic(bafin_meta=bafin_meta)
                     log.debug(bafin_meta)
-                """
-                Store result from Meta request: Read CSV and put all values into newly created bafin_meta schema for each value
-                Start a new Detail request for every Bafin Id of the result from above and store it into bafin_detail schema
-                Continue with next letter in alphabet until Z
-                
-                """
+
             except Exception as ex:
                 log.error(f"Skipping Letter {letter}")
                 log.error(f"Cause: {ex}")
-                # go to next letter in alphabet
                 continue
+        csv_file.close()
         exit(0)
 
     def send_meta_request(self, letter : str) -> str:
