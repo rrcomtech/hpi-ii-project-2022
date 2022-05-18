@@ -11,20 +11,22 @@ from io import StringIO
 
 from build.gen.bakdata.corporate.v1.bafin_pb2 import Bafin_meta, Bafin_detail
 from bafin_producer import BafinProducer
+from rights_bafin_crawler.constant import Letter
 
 log = logging.getLogger(__name__)
 
 
 class BafinExtractor:
-    def __init__(self, letter: str):
-        self.letter = letter
+    def __init__(self, detail: bool):
+        self.crawl_detail = detail
         self.producer = BafinProducer()
+        
 
     def extract(self):
-        while True:
+        for letter in Letter:
             try:
-                log.info(f"Sending Meta Request for letter: {self.letter}")
-                meta_text = self.send_meta_request()
+                log.info(f"Sending Meta Request for letter: {letter}")
+                meta_text = self.send_meta_request(letter)
                 meta_df = pd.read_csv(StringIO(meta_text), sep=";", header=0)
 
                 for _ , meta_row in meta_df.iterrows():
@@ -34,29 +36,28 @@ class BafinExtractor:
                     bafin_meta.domicile     = meta_row['Sitz']
                     bafin_meta.country      = meta_row['Land']
 
-                    try:
-                        log.info(f"Sending Detail Request for company: {meta_row['Emittent']} (ID: {meta_row['BaFin-Id']})")
-                        detail_text = self.send_detail_request(meta_row['BaFin-Id'])
-                        detail_df = pd.read_csv(StringIO(detail_text), sep=";", header=0, na_filter=False)
-                        for _, detail_row in detail_df.iterrows():
-                            bafin_detail = Bafin_detail()
-                            bafin_detail.reportable_id          = detail_row['BaFin-Id']
-                            bafin_detail.reportable             = detail_row['Meldepflichtiger / Tochterunternehmen (T)']
-                            bafin_detail.reportable_domicile    = detail_row['Sitz oder Ort']
-                            bafin_detail.reportable_country     = detail_row['Land']
-                            bafin_detail.rights_33_34           = float(detail_row['§§ 33, 34 WpHG (Prozent)'].replace(',', '.') if detail_row['§§ 33, 34 WpHG (Prozent)'] != '' else 0)
-                            bafin_detail.rights_38              = float(detail_row['§ 38 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 38 WpHG (Prozent)'] != '' else 0)
-                            bafin_detail.rights_39              = float(detail_row['§ 39 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 39 WpHG (Prozent)'] != '' else 0)
-                            bafin_detail.publishing_date        = detail_row['Veröffentlichung gemäß § 40 Abs.1 WpHG']
-                            bafin_meta.bafin_detail.extend(bafin_detail)
-                    
+                    if self.crawl_detail:
 
-                    except Exception as ex:
-                        log.error(f"Skipping Company {meta_row['Emittent']}")
-                        log.error(f"Cause: {ex}")
-                        continue
-                    
-                    
+                        try:
+                            log.info(f"Sending Detail Request for company: {meta_row['Emittent']} (ID: {meta_row['BaFin-Id']})")
+                            detail_text = self.send_detail_request(meta_row['BaFin-Id'])
+                            detail_df = pd.read_csv(StringIO(detail_text), sep=";", header=0, na_filter=False)
+                            for _, detail_row in detail_df.iterrows():
+                                bafin_detail = Bafin_detail()
+                                bafin_detail.reportable_id          = detail_row['BaFin-Id']
+                                bafin_detail.reportable             = detail_row['Meldepflichtiger / Tochterunternehmen (T)']
+                                bafin_detail.reportable_domicile    = detail_row['Sitz oder Ort']
+                                bafin_detail.reportable_country     = detail_row['Land']
+                                bafin_detail.rights_33_34           = float(detail_row['§§ 33, 34 WpHG (Prozent)'].replace(',', '.') if detail_row['§§ 33, 34 WpHG (Prozent)'] != '' else 0)
+                                bafin_detail.rights_38              = float(detail_row['§ 38 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 38 WpHG (Prozent)'] != '' else 0)
+                                bafin_detail.rights_39              = float(detail_row['§ 39 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 39 WpHG (Prozent)'] != '' else 0)
+                                bafin_detail.publishing_date        = detail_row['Veröffentlichung gemäß § 40 Abs.1 WpHG']
+                                bafin_meta.bafin_detail.extend(bafin_detail)
+
+                        except Exception as ex:
+                            log.error(f"Skipping Company {meta_row['Emittent']}")
+                            log.error(f"Cause: {ex}")
+                            continue
                     
                     self.producer.produce_to_topic(bafin_meta=bafin_meta)
                     log.debug(bafin_meta)
@@ -67,14 +68,14 @@ class BafinExtractor:
                 
                 """
             except Exception as ex:
-                log.error(f"Skipping Letter {self.letter}")
+                log.error(f"Skipping Letter {letter}")
                 log.error(f"Cause: {ex}")
                 # go to next letter in alphabet
                 continue
         exit(0)
 
-    def send_meta_request(self) -> str:
-        url = f"https://portal.mvp.bafin.de/database/AnteileInfo/suche.do?nameAktiengesellschaftButton=Suche+Emittent&d-7004401-e=1&6578706f7274=1&nameMeldepflichtiger=&nameAktiengesellschaft={self.letter}"
+    def send_meta_request(self, letter : str) -> str:
+        url = f"https://portal.mvp.bafin.de/database/AnteileInfo/suche.do?nameAktiengesellschaftButton=Suche+Emittent&d-7004401-e=1&6578706f7274=1&nameMeldepflichtiger=&nameAktiengesellschaft={letter}"
         # For graceful crawling! Remove this at your own risk!
         sleep(0.5)
         return requests.get(url=url).text

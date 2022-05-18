@@ -12,9 +12,9 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 @click.command()
-@click.option("-l", "--letter", type=click.Choice(Letter), help="The letter to start crawling with.")
-def run(letter: Letter):
-    BafinExtractor(letter.value).extract()
+@click.option("-d", "--detail", type=bool, help="Indicate whether to also crawl the detail view.")
+def run(detail: bool):
+    BafinExtractor(detail).extract()
 
 
 
