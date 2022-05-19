@@ -10,7 +10,7 @@ from parsel import Selector
 import pandas as pd
 from io import StringIO
 
-from build.gen.bakdata.corporate.v1.bafin_pb2 import Bafin_meta, Bafin_detail
+from build.gen.bakdata.corporate.v1.bafin_pb2 import Bafin_general, Bafin_detail
 from bafin_producer import BafinProducer
 from rights_bafin_crawler.constant import Letter
 
@@ -36,22 +36,22 @@ class BafinExtractor:
         
         for letter in Letter:
             try:
-                log.info(f"Sending Meta Request for letter: {letter}")
-                meta_text = self.send_meta_request(letter)
-                meta_df = pd.read_csv(StringIO(meta_text), sep=";", header=0)
+                log.info(f"Sending General Request for letter: {letter}")
+                general_text = self.send_meta_request(letter)
+                general_df = pd.read_csv(StringIO(general_text), sep=";", header=0)
 
-                for _ , meta_row in meta_df.iterrows():
-                    bafin_meta = Bafin_meta()
-                    bafin_meta.issuer_id    = meta_row['BaFin-Id']
-                    bafin_meta.issuer       = meta_row['Emittent']
-                    bafin_meta.domicile     = meta_row['Sitz']
-                    bafin_meta.country      = meta_row['Land']
+                for _ , general_row in general_df.iterrows():
+                    bafin_general = Bafin_general()
+                    bafin_general.issuer_id    = general_row['BaFin-Id']
+                    bafin_general.issuer       = general_row['Emittent']
+                    bafin_general.domicile     = general_row['Sitz']
+                    bafin_general.country      = general_row['Land']
 
                     if self.crawl_detail:
 
                         try:
-                            log.info(f"Sending Detail Request for company: {meta_row['Emittent']} (ID: {meta_row['BaFin-Id']})")
-                            detail_text = self.send_detail_request(meta_row['BaFin-Id'])
+                            log.info(f"Sending Detail Request for company: {general_row['Emittent']} (ID: {general_row['BaFin-Id']})")
+                            detail_text = self.send_detail_request(general_row['BaFin-Id'])
                             detail_df = pd.read_csv(StringIO(detail_text), sep=";", header=0, na_filter=False)
                             for _, detail_row in detail_df.iterrows():
                                 bafin_detail = Bafin_detail()
@@ -76,22 +76,22 @@ class BafinExtractor:
                                         detail_row['§ 39 WpHG (Prozent)'],
                                         detail_row['Veröffentlichung gemäß § 40 Abs.1 WpHG'],
                                     ])
-                                bafin_meta.bafin_detail.append(bafin_detail)
+                                bafin_general.bafin_detail.append(bafin_detail)
 
                         except Exception as ex:
-                            log.error(f"Skipping Company {meta_row['Emittent']}")
+                            log.error(f"Skipping Company {general_row['Emittent']}")
                             log.error(f"Cause: {ex}")
                             continue
                     
                     if self.csv_path != "":
                         if self.crawl_detail:
-                            row = [meta_row['BaFin-Id'], meta_row['Emittent'], meta_row['Sitz'], meta_row['Land'], "", "", "", "", "", "", "", ""]
+                            row = [general_row['BaFin-Id'], general_row['Emittent'], general_row['Sitz'], general_row['Land'], "", "", "", "", "", "", "", ""]
                         else:
-                            row = [meta_row['BaFin-Id'], meta_row['Emittent'], meta_row['Sitz'], meta_row['Land']]
+                            row = [general_row['BaFin-Id'], general_row['Emittent'], general_row['Sitz'], general_row['Land']]
                         writer.writerow(row)
                     
-                    self.producer.produce_to_topic(bafin_meta=bafin_meta)
-                    log.debug(bafin_meta)
+                    self.producer.produce_to_topic(bafin_general=bafin_general)
+                    log.debug(bafin_general)
 
             except Exception as ex:
                 log.error(f"Skipping Letter {letter}")

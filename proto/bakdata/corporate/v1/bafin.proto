@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package bakdata.corporate.v1;
 
-message Bafin_meta {
+message Bafin_general {
   uint32 issuer_id = 1;
   string issuer = 2;
   string domicile = 3;
