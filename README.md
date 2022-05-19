@@ -16,7 +16,8 @@ poetry run python rights_bafin_crawler/main.py --detail "True" --csv_path "/Path
 # --path : The path to an empty, already existing csv file including the filename.
 #          If not given, no csv output will be produced.
 ```
-The crawler automatically produces results using a pre-defined protobuf schema.
+
+The crawler automatically produces results using a [protobuf schema](./proto/bakdata/bafin/v1/bafin.proto).
 
 # Initial Repository Readme
 This repository provides a code base for the information integration lecture in the summer semester of 2022. Below you
