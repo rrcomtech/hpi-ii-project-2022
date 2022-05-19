@@ -5,8 +5,8 @@ from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.protobuf import ProtobufSerializer
 from confluent_kafka.serialization import StringSerializer
 
-from build.gen.bakdata.corporate.v1 import bafin_pb2
-from build.gen.bakdata.corporate.v1.bafin_pb2 import Bafin_general # not needed: Bafin_detail
+from build.gen.bakdata.bafin.v1 import bafin_pb2
+from build.gen.bakdata.bafin.v1.bafin_pb2 import Bafin_general
 from rights_bafin_crawler.constant import SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER, TOPIC
 
 log = logging.getLogger(__name__)

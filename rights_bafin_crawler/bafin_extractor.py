@@ -1,16 +1,14 @@
-from cmath import nan
 import logging
 import csv
 from pathlib import Path
 from time import sleep
 
 import requests
-from parsel import Selector
 
 import pandas as pd
 from io import StringIO
 
-from build.gen.bakdata.corporate.v1.bafin_pb2 import Bafin_general, Bafin_detail
+from build.gen.bakdata.bafin.v1.bafin_pb2 import Bafin_general, Bafin_detail
 from bafin_producer import BafinProducer
 from rights_bafin_crawler.constant import Letter
 
