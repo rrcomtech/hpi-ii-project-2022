@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package bakdata.corporate.v1;
+
+message Union {
+    string corporateName = 1;                   // we need to get the corporate name from rb dataset and join it on issuer of the bafin scheme
+    string rb_id = 2;                           // the whole id corresponding to field 1 of the corporate scheme
+    string bafin_id = 3;                        // corresponding to field issuer_id of bafin scheme
+    string bafin_domicile = 4;                  // corresponding to field domicile of bafin scheme
+    string bafin_country = 5;                   // corresponding to field country of bafin scheme
+    string rb_reference_id = 6;                 // corresponding to field reference_id of corporate scheme
+    string rb_event_data = 7;                   // corresponding to field event_data of corporate scheme
+    string rb_event_type = 8;                   // corresponding to field event_type of corporate scheme
+    Status br_status = 9;                       // corresponding to field status of corporate scheme
+    string rb_information = 10;                  // corresponding to field information of corporate scheme
+    repeated Bafin_detail bafin_detail = 11;    // corresponding to field bafin_detail of bafin scheme
+}
+
+enum Status {
+  STATUS_UNSPECIFIED = 0;
+  STATUS_INACTIVE = 1;
+  STATUS_ACTIVE = 2;
+}
+
+message Bafin_detail {
+  uint32 reportable_id = 1;
+  string reportable = 2;
+  string reportable_domicile = 3;
+  string reportable_country = 4;
+  double rights_33_34 = 5;
+  double rights_38 = 6;
+  double rights_39 = 7;
+  string publishing_date = 8;
+}
