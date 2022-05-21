@@ -11,7 +11,7 @@ message Union {
     string rb_reference_id = 6;                 // corresponding to field reference_id of corporate scheme
     string rb_event_data = 7;                   // corresponding to field event_data of corporate scheme
     string rb_event_type = 8;                   // corresponding to field event_type of corporate scheme
-    Status br_status = 9;                       // corresponding to field status of corporate scheme
+    Status rb_status = 9;                       // corresponding to field status of corporate scheme
     string rb_information = 10;                  // corresponding to field information of corporate scheme
     repeated Bafin_detail bafin_detail = 11;    // corresponding to field bafin_detail of bafin scheme
 }
