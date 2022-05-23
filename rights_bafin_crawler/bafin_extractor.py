@@ -51,6 +51,13 @@ class BafinExtractor:
                             log.info(f"Sending Detail Request for company: {general_row['Emittent']} (ID: {general_row['BaFin-Id']})")
                             detail_text = self.send_detail_request(general_row['BaFin-Id'])
                             detail_df = pd.read_csv(StringIO(detail_text), sep=";", header=0, na_filter=False)
+                            if self.csv_path != "":
+                                if self.crawl_detail:
+                                    row = [general_row['BaFin-Id'], general_row['Emittent'], general_row['Sitz'], general_row['Land'], "", "", "", "", "", "", "", ""]
+                                else:
+                                    row = [general_row['BaFin-Id'], general_row['Emittent'], general_row['Sitz'], general_row['Land']]
+                                writer.writerow(row)
+
                             for _, detail_row in detail_df.iterrows():
                                 bafin_detail = Bafin_detail()
                                 bafin_detail.reportable_id          = detail_row['BaFin-Id']
@@ -81,12 +88,7 @@ class BafinExtractor:
                             log.error(f"Cause: {ex}")
                             continue
                     
-                    if self.csv_path != "":
-                        if self.crawl_detail:
-                            row = [general_row['BaFin-Id'], general_row['Emittent'], general_row['Sitz'], general_row['Land'], "", "", "", "", "", "", "", ""]
-                        else:
-                            row = [general_row['BaFin-Id'], general_row['Emittent'], general_row['Sitz'], general_row['Land']]
-                        writer.writerow(row)
+                    
                     
                     self.producer.produce_to_topic(bafin_general=bafin_general)
                     log.debug(bafin_general)

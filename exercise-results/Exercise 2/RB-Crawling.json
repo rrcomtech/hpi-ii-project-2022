@@ -1,0 +1,1352 @@
+[
+    {
+        "partitionID": 0,
+        "offset": 4851,
+        "timestamp": 1652884338271,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61480",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61480",
+                "rbId": 61480,
+                "state": "rp",
+                "referenceId": "HRB 21597",
+                "eventDate": "03.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "IfEB Ingenieurbüro für EnergieBeratung UG (haftungsbeschränkt), Polch, Nachtigallenstraße 29, 56751 Polch.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 29.04.2009. Geschäftsanschrift: Nachtigallenstraße 29, 56751 Polch. Gegenstand: Gegenstand der Gesellschaft ist die ingenieurtechnische Beratung in Bezug auf die energetische Gebäudeoptimierung (Bauphysik, Anlagentechnik, etc.). Stammkapital: 5.000,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer gemeinsam vertreten. Geschäftsführer: Dipl.-Ing. (FH) Kauer, Herbert, Polch, *24.12.1956, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4852,
+        "timestamp": 1652884339081,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61481",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61481",
+                "rbId": 61481,
+                "state": "rp",
+                "referenceId": "HRB 21598",
+                "eventDate": "03.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "imagetrust Verwaltungs-GmbH, Koblenz, Bahnhofsplatz 6, 56068 Koblenz.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 15.05.2009. Geschäftsanschrift: Bahnhofsplatz 6, 56068 Koblenz. Gegenstand: Gegenstand der Gesellschaft ist die Übernahme der Stellung als persönlich haftende Gesellschafterinin der Kommanditgesellschaft unter der Firma imagetrust GmbH & Co KG mit dem Sitz in Koblenz, die die Übernahme von Dienstleistungen im Pressebereich und im Medienbereich zum Gegenstand hat. Stammkapital: 25.000,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Landsrath, Heike, geb. Behrendt, Miehlen, *31.08.1961, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4853,
+        "timestamp": 1652884339908,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61482",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61482",
+                "rbId": 61482,
+                "state": "rp",
+                "referenceId": "HRB 21599",
+                "eventDate": "03.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Gilles Rheinschifffahrt GmbH, Vallendar, Willi-Brandt-Ufer, 56179 Vallendar.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 27.04.2009. Geschäftsanschrift: Willi-Brandt-Ufer, 56179 Vallendar. Gegenstand: Gegenstand des Unternehmens ist der Betrieb einer Personenschifffahrt auf dem Rhein und alle damit verbundenen Tätigkeiten. Stammkapital: 25.000,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Gilles, Hans-Werner, Weitersburg, *28.10.1959; Gilles, Guido, Vallendar, *21.04.1968, jeweils mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4854,
+        "timestamp": 1652884340863,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61483",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61483",
+                "rbId": 61483,
+                "state": "rp",
+                "referenceId": "HRB 21600",
+                "eventDate": "04.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "YOOZOO GmbH, Koblenz, Löhrstraße 87 a/b, 56068 Koblenz.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 29.04.2009. Geschäftsanschrift: Löhrstraße 87 a/b, 56068 Koblenz. Gegenstand: Gegenstand der Gesellschaft ist der Betrieb einer Internet-Agentur. Stammkapital: 25.000,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Heine, Jochen, Aschaffenburg, *15.03.1975; Hild, Albert, Vallendar, *02.05.1983, jeweils einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4855,
+        "timestamp": 1652884341682,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61484",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61484",
+                "rbId": 61484,
+                "state": "rp",
+                "referenceId": "HRB 21601",
+                "eventDate": "05.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "BuM Service UG (haftungsbeschränkt), Cochem, Im Guguck 19, 56812 Cochem.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 30.04.2009. Geschäftsanschrift: Im Guguck 19, 56812 Cochem. Gegenstand: Gegenstand des Unternehmens ist die Erbringung von Serviceleistungen im Bereich Personenverkehr und Touristik. Stammkapital: 300,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch die Geschäftsführer gemeinsam vertreten. Geschäftsführer: Mergel, Wolfgang, Cochem, *13.06.1953, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4856,
+        "timestamp": 1652884342501,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61485",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61485",
+                "rbId": 61485,
+                "state": "rp",
+                "referenceId": "HRB 21603",
+                "eventDate": "10.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "MAIFA Maifelder Agrarhandel GmbH, Polch, August-Horch-Straße 41, 56751 Polch.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 09.05.2009 mit Änderung vom 27.05.2009. Geschäftsanschrift: August-Horch-Straße 41, 56751 Polch. Gegenstand: Gegenstand der Gesellschaft ist a) der Anbau von und der Handel mit Agrarprodukten, wozu Kartoffeln, Zwiebeln, Obst und Gemüse gehören, aus bzw. in dem Bereich Maifeld b) die Ausführung von Transporten c) die Verwaltung eigener Vermögenswerte sowie d) die Übernahme von Dienstleistungen im erlaubnisfreien Bereich. Stammkapital: 25.000,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Müller, Herbert, Trimbs, *13.05.1957."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4857,
+        "timestamp": 1652884343322,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61486",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61486",
+                "rbId": 61486,
+                "state": "rp",
+                "referenceId": "HRB 21604",
+                "eventDate": "10.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Repair Concepts Glas GmbH, Koblenz, Kreisstraße 50, 56077 Koblenz.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 14.05.2009. Geschäftsanschrift: Kreisstraße 50, 56077 Koblenz. Gegenstand: Bundesweite Erbringung von Dienstleistungen im Bereich Reparaturverglasung für Schadenversicherer bei Sach- und Haftpflichtschäden. Stammkapital: 30.000,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Becker, Peter, Koblenz, *28.10.1963, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4858,
+        "timestamp": 1652884344138,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61487",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61487",
+                "rbId": 61487,
+                "state": "rp",
+                "referenceId": "HRB 21605",
+                "eventDate": "10.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "AWO Haus und Garten gemeinnützige GmbH, Koblenz, Laubach 1, 56068 Koblenz.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 02.04.2009 mit Änderung vom 28.05.2009. Geschäftsanschrift: Laubach 1, 56068 Koblenz. Gegenstand: Gegenstand des Unternehmens ist ein Arbeits- und Integrationsprojekt mit dem Namen \"AWO Haus und Garten\". Hierzu zählen insbesondere die Anregung und Hilfe zur Selbsthilfe, die Mithilfe bei Aufgaben der öffentlichen Sozialhilfe sowie die Zusammenarbeit mit der Verwaltungskörperschaft der Kommunalverwaltung des Kreises und der Stadtverwaltung Koblenz. Die Gesellschaft verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts \"Steuerbegünstigte Zwecke\" der Abgabenordnung. Zweck der Gesellschaft ist die Förderung des Wohlfahrtswesens, insbesondere die Hilfe zur Arbeit, Integration von behinderten Menschen am 1. und 2. Arbeitsmarkt im Bereich von Garten- und Landschaftsbau und Arbeiten am Haus sowie Ausbildung und Qualifizierung. Stammkapital: 25.000,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Helfer, Jürgen, Koblenz, *17.02.1965."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4859,
+        "timestamp": 1652884344965,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61488",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61488",
+                "rbId": 61488,
+                "state": "rp",
+                "referenceId": "HRB 21606",
+                "eventDate": "12.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "mORe adventure UG (haftungsbeschränkt), Gierschnach, Burgstraße 1, 56294 Gierschnach.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 29.05.2009. Geschäftsanschrift: Burgstraße 1, 56294 Gierschnach. Gegenstand: Gegenstand der Gesellschaft sind Abenteuer- und Erlebnispädagogik, Events und Veranstaltungen, Outdoor Trainings, Seminare für Auszubildende und Firmen (Soziale Kompetenzen, Teamentwicklung etc.), Schule (Klassenfahrten, Projekttage), Strategieberatung und Coaching, Industrieklettern, Hochseilgartenbau. Stammkapital: 250,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch die Geschäftsführer gemeinsam vertreten. Geschäftsführer: Reisdorf, Olaf, Gierschnach, *13.12.1961, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4860,
+        "timestamp": 1652884345773,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61489",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61489",
+                "rbId": 61489,
+                "state": "rp",
+                "referenceId": "HRB 21607",
+                "eventDate": "15.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "TLA Tief-, Landschafts- und Außenanlagenbau GmbH, Koblenz, Rheinstraße 23, 56068 Koblenz.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 15.05.2009. Geschäftsanschrift: Rheinstraße 23, 56068 Koblenz. Gegenstand: Gegenstand des Unternehmens ist die Durchführung von Tief-, Landschafts- und Außenanlagenbau. Stammkapital: 25.000,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Naber, Kamal, Bonn, *25.06.1971, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4861,
+        "timestamp": 1652884346599,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61490",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61490",
+                "rbId": 61490,
+                "state": "rp",
+                "referenceId": "HRB 21608",
+                "eventDate": "15.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "SARA Sanierung und Recycling Aldingen GmbH, Koblenz, Klausenbergweg 40 A, 56077 Koblenz.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 14.05.2009. Geschäftsanschrift: Klausenbergweg 40 A, 56077 Koblenz. Gegenstand: Gegenstand des Unternehmens ist der Handel mit Baustoffen, Brennstof-fen, Rohstoffen und Sekundärrohstoffen, die Durchführung und Vermitt-lung von Transportleistungen aller Art, der Handel mit Abfällen auf die die Bestimmungen des Kreislaufwirtschafts- und Abfallgesetzes (Krw- /AbfG) zutreffen, die Durchführung und Vermittlung von Entsorgungs-, Verwertungs- und Beseitigungsdienstleistungen für Abfälle, das Erbrin-gen von Beratungsleistungen im Bereich der Abfallentsorgung, -verwertung und -beseitigung, die Errichtung von Anlagen zur Behandlung, Lagerung, Entsorgung, Verwertung und Beseitigung von Abfällen sowie die Aufbereitung und Zwischenlagerung von mineralischen Abfäl-len, sowie insbesondere der Betrieb einer Aufbereitungs- und Recycling-anlage am Standort Aldingen. Stammkapital: 200.000,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer gemeinsam vertreten. Geschäftsführer: Dr. Eckstein, Johannes, Frücht, *16.10.1965, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4862,
+        "timestamp": 1652884347417,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61491",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61491",
+                "rbId": 61491,
+                "state": "rp",
+                "referenceId": "HRB 21609",
+                "eventDate": "15.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "MediPlaza Pflegeservice GmbH, Koblenz, Firmungsstraße 4-6, 56068 Koblenz.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 11.05.2009. Geschäftsanschrift: Firmungsstraße 4-6, 56068 Koblenz. Gegenstand: Gegenstand des Unternehmens ist der Betrieb von ambulanten Einrichtungen zur Erbringung von Leistungen nach den Vorschriften des Sozialgesetzbuches SGB V und SGB XI. Hierunter fallen z.B. ambulante Pflegedienste wie auch physiotherapeutische Einrichtungen. Stammkapital: 25.000,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Jeder Geschäftsführer ist befugt, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte vorzunehmen. Geschäftsführer: Dr. Heinzen, Frank, Koblenz, *19.06.1968, einzelvertretungsberechtigt."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4863,
+        "timestamp": 1652884348237,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61492",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61492",
+                "rbId": 61492,
+                "state": "rp",
+                "referenceId": "HRB 21610",
+                "eventDate": "17.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "HIL Invest GmbH, Andernach, Rennweg 60, 56626 Andernach.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 09.06.2009. Geschäftsanschrift: Rennweg 60, 56626 Andernach. Gegenstand: Gegenstand des Unternehmens ist die Verwaltung eigenen Vermögens, der Kauf und der Verkauf sowie das Halten von Beteiligungen an anderen Unternehmen und die betriebswirtschaftliche Beratung von Unternehmen. Die Gesellschaft kann sich an anderen gleichartigen Unternehmen beteiligen, deren Geschäftsführung übernehmen und Zweigniederlassungen errichten. Stammkapital: 25.000,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Runkel, Michaela, Koblenz, *31.08.1968, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4864,
+        "timestamp": 1652884349054,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61493",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61493",
+                "rbId": 61493,
+                "state": "rp",
+                "referenceId": "HRB 21611",
+                "eventDate": "17.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "BVG Baumaschinen Vermietungsgesellschaft mbH, Koblenz, Rheinstraße 23, 56068 Koblenz.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 15.05.2009. Geschäftsanschrift: Rheinstraße 23, 56068 Koblenz. Gegenstand: Gegenstand des Unternehmens ist die Vermietung von Baumaschinen sowie der Handel mit neuen und gebrauchten Baumaschinen. Stammkapital: 25.000,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten. Geschäftsführer: Naber, Kamal, Bonn, *25.06.1971, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4865,
+        "timestamp": 1652884349872,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61494",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61494",
+                "rbId": 61494,
+                "state": "rp",
+                "referenceId": "HRB 21612",
+                "eventDate": "19.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Servicegesellschaft der Blindenhilfe Rheinland-Pfalz (SdBR) UG (haftugsbeschränkt), Koblenz, Magedeburger Straße 13 - 15, 56075 Koblenz.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 16.04.2009. Geschäftsanschrift: Magedeburger Straße 13 - 15, 56075 Koblenz. Gegenstand: Betrieb eines Catering-Unternehmens einschließlich eines Cafés und Dienstleistungen jeglicher Art für den Verein \"Blindenhilfe in Rheinland-Pfalz\" sowie alle Geschäfte, die den Gegenstand mittelbar oder unmittelbar zu fördern geeignet sind. Stammkapital: 1.000,00 EUR. Allgemeine Vertretungsregelung: Ist ein Geschäftsführer bestellt, vertritt dieser die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft durch sämtliche Geschäftsführer gemeinsam vertreten. Geschäftsführer: Reick, Wilfried, Bassenheim, *22.03.1959, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4866,
+        "timestamp": 1652884350695,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61495",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61495",
+                "rbId": 61495,
+                "state": "rp",
+                "referenceId": "HRB 21613",
+                "eventDate": "19.06.2009",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "VVB Verkehrsbetrieb UG (haftungsbeschränkt), Cochem, Bahnhofsvorplatz 3, 56812 Cochem.Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom 02.06.2009. Geschäftsanschrift: Bahnhofsvorplatz 3, 56812 Cochem. Gegenstand: Gegenstand des Unternehmens ist die Erbringung von Serviceleistungen im Bereich Personenverkehr und Touristik. Stammkapital: 500,00 EUR. Allgemeine Vertretungsregelung: Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch die Geschäftsführer gemeinsam vertreten. Geschäftsführer: May, Edgar, Cochem-Brauheck, *09.07.1964, mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4867,
+        "timestamp": 1652884351649,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61496",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61496",
+                "rbId": 61496,
+                "state": "rp",
+                "referenceId": "HRA 3810",
+                "eventDate": "20.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Objekt David-Roentgen-Straße 2-4 Grundstücks GmbH & Co. KG., Koblenz, St.-Elisabeth-Straße 3, 56073 Koblenz.Geschäftsanschrift: St.-Elisabeth-Straße 3, 56073 Koblenz."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4868,
+        "timestamp": 1652884352469,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61497",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61497",
+                "rbId": 61497,
+                "state": "rp",
+                "referenceId": "HRA 1044",
+                "eventDate": "22.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "KANN Beton GmbH & Co KG, Bendorf, Bendorfer Straße, 56170 Bendorf.Geschäftsanschrift: Bendorfer Straße, 56170 Bendorf. Die Gesellschaft ist als übernehmender Rechtsträger nach Maßgabe des Verschmelzungsvertrages vom 07.04.2009 sowie der Zustimmungsbeschlüsse ihrer Gesellschafterversammlung vom 07.04.2009 und der Gesellschafterversammlung des übertragenden Rechtsträgers vom 07.04.2009 mit der Kleber Beton GmbH mit Sitz in Herdorf (AG Montabaur HRB 1738) verschmolzen (Verschmelzung durch Aufnahme). Den Gläubigern der an der Verschmelzung beteiligten Gesellschaften ist, wenn sie binnen sechs Monaten nach dem Tag, an dem die Eintragung der Verschmelzung in das Register des Sitzes derjenigen Rechtsträger deren Gläubiger sie sind, nach § 19 Absatz 3 UmwG als bekanntgemacht gilt, ihren Anspruch nach Grund und Höhe schriftlich anmelden, Sicherheit zu leisten, soweit sie nicht Befriedigung verlangen können. Dieses Recht steht den Gläubigern jedoch nur zu, wenn sie glaubhaft machen, dass durch die Verschmelzung die Erfüllung ihrer Forderung gefährdet wird."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4869,
+        "timestamp": 1652884353289,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61498",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61498",
+                "rbId": 61498,
+                "state": "rp",
+                "referenceId": "HRA 1045",
+                "eventDate": "22.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Gebrüder Olef OHG, Braubach, Freiherr-vom-Stein-Straße 24, 56338 Braubach.Einzelkaufmann. Neue Firma: Gebrüder Olef Gebäudereinigung e.K. Geschäftsanschrift: Freiherr-vom-Stein-Straße 24, 56338 Braubach. Inhaber: Stauch, Ilse Elisabeth, Braubach, *14.05.1956. Nicht mehr Persönlich haftender Gesellschafter: Olef, Oskar, Braubach; Stauch, Ilse Elisabeth, Braubach, *14.05.1956."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4870,
+        "timestamp": 1652884354104,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61499",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61499",
+                "rbId": 61499,
+                "state": "rp",
+                "referenceId": "HRA 11204",
+                "eventDate": "26.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "St. Mauritius-Apotheke Marie-Luise Knobloch, Bad Neuenahr-Ahrweiler, Johannisstraße 20, 53474 Bad Neuenahr-Ahrweiler.Neue Firma: St. Mauritius-Apotheke Stephan Müller e.K., Bad Neuenahr-Ahrweiler, Johannistraße 20, 53474 Bad Neuenahr-Ahrweiler"
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4871,
+        "timestamp": 1652884354926,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61500",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61500",
+                "rbId": 61500,
+                "state": "rp",
+                "referenceId": "HRA 4988",
+                "eventDate": "28.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Fayat Bomag GmbH & Co. Unternehmensführungs KG, Boppard, Industriegebiet Hellerwald, 56154 Boppard.Geschäftsanschrift: Industriegebiet Hellerwald, 56154 Boppard. Prokura Vertretungsregel geändert; nunmehr: Gesamtprokura gemeinsam mit einem persönlich haftenden Gesellschafter oder einem anderen Prokuristen mit der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen: Blatt, Joachim, Gondershausen, *23.02.1960; Dieler, Dieter, Boppard, *24.05.1951; Junker, Ralf, St. Goar, *18.03.1964; Laux, Robert, Neuwied, *27.03.1971; Merfeld, Thomas, Lahnstein, *11.05.1960; Dr. Mölich, Karl-Heinz, Winningen, *04.01.1954. Prokura erloschen: Unger, Jörg, Winningen, *30.11.1960."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4872,
+        "timestamp": 1652884355744,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61501",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61501",
+                "rbId": 61501,
+                "state": "rp",
+                "referenceId": "HRA 13145",
+                "eventDate": "02.06.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "RHI Urmitz AG & Co. KG, Mülheim-Kärlich, Rheinau 38, 56218 Mülheim-Kärlich.Prokura erloschen: Kinzer, Manfred, Wiesbaden, *15.06.1948."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4873,
+        "timestamp": 1652884356564,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61502",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61502",
+                "rbId": 61502,
+                "state": "rp",
+                "referenceId": "HRA 3474",
+                "eventDate": "04.06.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Dr. Dienst & Partner GmbH & Co KG Wirtschaftsprüfungsgesellschaft Steuerberatungsgesellschaft, Koblenz, Ferdinand-Sauerbruch-Straße 26, 56073 Koblenz.Beschränkt auf die Zweigniederlassung Frankfurt: Gesamtprokura gemeinsam mit einem persönlich haftenden Gesellschafter oder einem Prokuristen, der gleichzeitig Kommanditist ist: Schmoll, Sascha, Wiesbaden, *07.05.1971. Prokuren geändert, nunmehr: Gesamtprokura gemeinsam mit einem persönlich haftenden Gesellschafter oder einem Prokuristen, der zugleich Kommanditist ist: Müller, Gerhard, St. Goar; Reinart, Ralf, Mayen; Seifer, Martina, Hachenburg, *27.01.1964; Wilbert, Claudia, Koblenz. Prokura erloschen: Bollinger, Manuela, geb. Keller, Lahnstein. Beschränkt auf die Zweigniederlassung Frankfurt: Gesamtprokura gemeinsam mit einem persönlich haftenden Gesellschafter oder einem Prokuristen, der zugleich Kommanditist ist: Mrosek, Angela, Mühltal, *23.05.1957."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4874,
+        "timestamp": 1652884357382,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61503",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61503",
+                "rbId": 61503,
+                "state": "rp",
+                "referenceId": "HRA 13029",
+                "eventDate": "04.06.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "MH Sportpromotion e.K., Herresbach, Rudolf-Diesel-Straße 15, 53520 Meuspath.Neuer Ort der Niederlassung: Meuspath. Geschäftsanschrift: Rudolf-Diesel-Straße 15, 53520 Meuspath. Die Niederlassung ist nach Meuspath verlegt."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4875,
+        "timestamp": 1652884358202,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61504",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61504",
+                "rbId": 61504,
+                "state": "rp",
+                "referenceId": "HRA 10237",
+                "eventDate": "12.06.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Nikolaus Stephany OHG, Andernach, Wilhelmstraße 18, 56626 Andernach.Firma geändert . nunmehr : Neue Firma: Stephany OHG. Geschäftsanschrift: Wilhelmstraße 18, 56626 Andernach. Die Gesellschaft ist als übernehmender Rechtsträger nach Maßgabe des Verschmelzungsvertrages vom 15.04.2009 mit Ergänzung vom 07.05.2009 sowie der Zustimmungsbeschlüsse ihrer Gesellschafterversammlung vom 15.04.2009 und 07.05.2009 und der Gesellschafterversammlung des übertragenden Rechtsträgers vom 15.04.2009 und 07.05.2009 mit der Stephany Fliesen-Baustoffe GmbH mit Sitz in Andernach (AG Koblenz; HRB 14091) verschmolzen (Verschmelzung durch Aufnahme). Als nicht eingetragen wird bekanntgemacht: Den Gläubigern der an der Verschmelzung beteiligten Gesellschaften ist, wenn sie binnen sechs Monaten nach dem Tag, an dem die Eintragung der Verschmelzung in das Register des Sitzes desjenigen Rechtsträgers, dessen Gläubiger sie sind, nach § 19 Absatz 3 UmwG als bekanntgemacht gilt, ihren Anspruch nach Grund und Höhe schriftlich anmelden, Sicherheit zu leisten, soweit sie nicht Befriedigung verlangen können. Dieses Recht steht den Gläubigern jedoch nur zu, wenn sie glaubhaft machen, dass durch die Verschmelzung die Erfüllung ihrer Forderung gefährdet wird."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4876,
+        "timestamp": 1652884359024,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61505",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61505",
+                "rbId": 61505,
+                "state": "rp",
+                "referenceId": "HRA 13227",
+                "eventDate": "16.06.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Rolandseck Immobilien Grundbesitzverwaltungsgesellschaft mbH & Co. KG, Remagen-Rolandseck, Bonner Str. 10, 53424 Remagen-Rolandseck.Geschäftsanschrift: Bonner Str. 10, 53424 Remagen-Rolandseck."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4877,
+        "timestamp": 1652884359844,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61506",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61506",
+                "rbId": 61506,
+                "state": "rp",
+                "referenceId": "HRA 1802",
+                "eventDate": "22.06.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Anton Hammes Weinbau- und Weinhandel Edelbranntweinbrennerei GmbH & Co KG, Alken, Von-Wiltberg-Str. 13, 56332 Alken.Geschäftsanschrift: Von-Wiltberg-Str. 13, 56332 Alken. Firma der persönlich haftenden Gesellschafterin geändert in: IMTRA GmbH, Alken (AG Koblenz HRB 879)."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4878,
+        "timestamp": 1652884360664,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61507",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61507",
+                "rbId": 61507,
+                "state": "rp",
+                "referenceId": "HRB 4921",
+                "eventDate": "20.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Zeller Engineering GmbH, Zell (Mosel), Willi-Gräbner-Str. 4, 56856 Zell (Mosel).Nicht mehr Geschäftsführer: Clauzel, Vincent, Rueil Malmaison, *11.05.1972. Bestellt als Geschäftsführer: Dr. Stölben, Peter, Briedel, *27.02.1959, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4879,
+        "timestamp": 1652884361618,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61508",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61508",
+                "rbId": 61508,
+                "state": "rp",
+                "referenceId": "HRB 13462",
+                "eventDate": "20.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Delwo metaltrading GmbH, Andernach, Rennweg 97, 56626 Andernach.Die Gesellschafterversammlung vom 20.02.2009 hat eine Änderung des Gesellschaftsvertrages in § 1 (Firma) und mit ihr die Änderung der Firma beschlossen. Die Gesellschafterversammlung vom 23.04.2009 hat eine Änderung des Gesellschaftsvertrages in § 2 (Gegenstand des Unternehmens) und mit ihr die Änderung des Unternehmensgegenstandes beschlossen. Neue Firma: DELWO Aluminium GmbH. Geschäftsanschrift: Rennweg 97, 56626 Andernach. Neuer Unternehmensgegenstand: Gegenstand des Unternehmens ist die technische Entwicklung und Herstellung von Systemkomponenten, Baugruppen und Fertigprodukten insbesondere von hochwertigen Aluminiumhalbzeugen im Investitionsgüterbereich, der An- und Verkauf von Fertigungseinrichtungen, Produktionseinheiten und Fertigprodukten, die Weitergabe von technischem Know How, die Beratung von Produktionsunternehmen, ferner der Handel in Metallen in bearbeiteter und unbearbeiteter Form sowie alle Tätigkeiten, die dem Gesellschaftszweck zu dienen geeignet sind."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4880,
+        "timestamp": 1652884362437,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61509",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61509",
+                "rbId": 61509,
+                "state": "rp",
+                "referenceId": "HRB 14001",
+                "eventDate": "20.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Fensterbau Fuhs GmbH, Bad Neuenahr-Ahrweiler, Walporzheimer Str. 88, 56474 Bad Neuenahr-Ahrweiler.Geschäftsanschrift: Walporzheimer Str. 88, 56474 Bad Neuenahr-Ahrweiler. Geschäftsführer: Fuhs, Bastian, Bad Neuenahr-Ahrweiler, *09.06.1981, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4881,
+        "timestamp": 1652884363257,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61510",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61510",
+                "rbId": 61510,
+                "state": "rp",
+                "referenceId": "HRB 21463",
+                "eventDate": "20.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "KB KälteBeratung GmbH, Kaisersesch, Am Römerturm 2, 56759 Kaisersesch.Die Gesellschafterversammlung vom 08.05.2009 hat eine Änderung des Gesellschaftsvertrages in § 2 Absatz 1 (Gegenstand) und mit ihr die Änderung des Unternehmensgegenstandes beschlossen. Neuer Unternehmensgegenstand: Gegenstand des Unternehmens ist die Fachplanung und Beratung von Kältetechnik und Energietechnik, Erstellung von Gutachten im Bereich Kälte- und Energietechnik, der Ankauf und Verkauf von Waren aller Art, insbesondere Artikel des täglichen Bedarfs. Die Gesellschaft ist berechtigt, Unternehmen gleicher oder ähnlicher Art zu erwerben, sich an ihnen zu beteiligen oder deren Vertretung zu übernehmen sowie Zweigniederlassungen im In- und Ausland zu errichten."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4882,
+        "timestamp": 1652884364076,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61511",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61511",
+                "rbId": 61511,
+                "state": "rp",
+                "referenceId": "HRB 2608",
+                "eventDate": "22.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Pütz & Partner Steuerberatungsgesellschaft mbH., Boppard, Brodenbacher Str. 21, 56154 Boppard.Geschäftsanschrift: Brodenbacher Str. 21, 56154 Boppard. Nicht mehr Geschäftsführer: Heibel, Anja, Siershahn, *09.03.1967; Jouvenal, Richard, Göttingen, *24.03.1961; Pütz, Helmut, Steuerbevollmächtigter, Boppard, *12.09.1942."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4883,
+        "timestamp": 1652884364894,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61512",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61512",
+                "rbId": 61512,
+                "state": "rp",
+                "referenceId": "HRB 3108",
+                "eventDate": "22.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "\"Clematis\" Blumen Cieslik GmbH, Bad Ems, Römerstr. 85, 56130 Bad Ems.Geschäftsanschrift: Römerstr. 85, 56130 Bad Ems. Ist nur ein Liquidator bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Liquidatoren bestellt, so wird die Gesellschaft durch die Liquidatoren gemeinsam vertreten. Name der Geschäfsführerin geändert und nunmehr bestellt als Liquidator: Klöckner, Sandra, geb. Cieslik, Wirscheid, *14.06.1979, einzelvertretungsberechtigt. Durch Beschluss der Gesellschafterversammlung vom 31.03.2009 ist die Gesellschaft aufgelöst."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4884,
+        "timestamp": 1652884365711,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61513",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61513",
+                "rbId": 61513,
+                "state": "rp",
+                "referenceId": "HRB 7536",
+                "eventDate": "22.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Clean Concept GmbH, Koblenz, Siedlung Depot 12a, 56218 Mülheim-Kärlich.Die Gesellschafterversammlung vom 13.02.2009 hat eine Änderung des Gesellschaftsvertrages in § 1 Abs. (2) Firma und Sitz, § 2 Abs. (1) Gegenstand des Unternehmens und mit ihr die Sitzverlegung nach Mülheim-Kärlich und die Änderung des Gegenstandes beschlossen. Geändert wurden ebenfalls die §§ 3, 11 und 17 des Gesellschaftsvertrages. Neuer Sitz: Mülheim-Kärlich. Geschäftsanschrift: Siedlung Depot 12a, 56218 Mülheim-Kärlich. Neuer Unternehmensgegenstand: Gegenstand des Unternehmens sind die Durchführung von Reinigungsarbeiten in und an Gebäuden."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4885,
+        "timestamp": 1652884366529,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61514",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61514",
+                "rbId": 61514,
+                "state": "rp",
+                "referenceId": "HRB 12314",
+                "eventDate": "22.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Wunderlich GmbH, Sinzig, Kranzweiherweg 12, 53489 Sinzig.Geschäftsanschrift: Kranzweiherweg 12, 53489 Sinzig. Geschäftsführer: Delamotte, Alexander Josef, Bad Neuenahr-Ahrweiler, *19.11.1969, einzelvertretungsberechtigt."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4886,
+        "timestamp": 1652884367350,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61515",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61515",
+                "rbId": 61515,
+                "state": "rp",
+                "referenceId": "HRB 13539",
+                "eventDate": "22.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "TradeMaster Vertrieb & Logistik GmbH, Polch, August-Horch-Straße 23, 56751 Polch.Geschäftsführer: Dr. Hennige, Andreas, Lutherstadt Wittenberg, *09.02.1967, vertretungsberechtigt gemeinsam mit einem anderen Geschäftsführer oder einem Prokuristen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4887,
+        "timestamp": 1652884368170,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61516",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61516",
+                "rbId": 61516,
+                "state": "rp",
+                "referenceId": "HRB 15438",
+                "eventDate": "22.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "PaulySales GmbH, Lonnig, Dreckenacher Weg 10, 56751 Lonnig.Geschäftsanschrift: Dreckenacher Weg 10, 56751 Lonnig. Zweigniederlassung errichtet unter Firma: PaulySales GmbH - Zweigniederlassung Schenefeld, 22869 Schenefeld, Geschäftsanschrift: Mühlenstieg 9, 22869 Schenefeld."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4888,
+        "timestamp": 1652884368990,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61517",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61517",
+                "rbId": 61517,
+                "state": "rp",
+                "referenceId": "HRB 20114",
+                "eventDate": "22.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Baulig Gaststätten GmbH, Boppard, Kronengasse 24, 56154 Boppard.Geschäftsanschrift: Kronengasse 24, 56154 Boppard. Geschäftsführer: Baulig, Wolfgang, Mülheim-Kärlich, *07.03.1947, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4889,
+        "timestamp": 1652884369809,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61518",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61518",
+                "rbId": 61518,
+                "state": "rp",
+                "referenceId": "HRB 20734",
+                "eventDate": "22.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "SCHOTTEL GmbH, Spay, Mainzer Straße 99, 56322 Spay.Die Gesellschafterversammlung vom 13.05.2009 hat eine Ergänzung des Gesellschaftsvertrages um § 15 (Aufgaben des Aufsichtsrates) beschlossen, dadurch ändert sich die Nummerierung der §§ 15, 16 und 17 in §§ 16, 17 und 18 entsprechend. Prokura erloschen: Reuter, Reinhold, Schwall, *02.09.1948.Es wurde eine neue Liste der Mitglieder des Aufsichtsrats eingereicht."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4890,
+        "timestamp": 1652884370626,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61519",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61519",
+                "rbId": 61519,
+                "state": "rp",
+                "referenceId": "HRB 20814",
+                "eventDate": "22.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Krumholz Verwaltungs- und Dienstleistungs-GmbH, Mülheim-Kärlich, Industriestraße 11-13, 56218 Mülheim-Kärlich.Die Gesellschafterversammlung vom 08.05.2009 hat eine Ergänzung des Gesellschaftsvertrages um § 8a (Beirat) beschlossen. Geschäftsanschrift: Industriestraße 11-13, 56218 Mülheim-Kärlich."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4891,
+        "timestamp": 1652884371577,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61520",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61520",
+                "rbId": 61520,
+                "state": "rp",
+                "referenceId": "HRB 6835",
+                "eventDate": "25.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "TWplus Werbeagentur Verwaltungs GmbH, Koblenz, (Hofstr. 272, 56077 Koblenz).Die Gesellschaft ist als übertragender Rechtsträger nach Maßgabe des Verschmelzungsvertrages vom 09.12.2008 sowie der Zustimmungsbeschlüsse ihrer Gesellschafterversammlung vom 09.12.2008 und der Gesellschafterversammlung des übernehmenden Rechtsträgers vom 09.12.2008 mit der Twpluswerbeagentur GmbH mit Sitz in Koblenz (Amtsgericht Koblenz, HRB 6848) verschmolzen (Verschmelzung durch Aufnahme). Die Verschmelzung wird erst wirksam mit Eintragung auf dem Registerblatt des übernehmenden Rechtsträgers. Den Gläubigern der an der Verschmelzung beteiligten Gesellschaften ist, wenn sie binnen sechs Monaten nach dem Tag, an dem die Eintragung der Verschmelzung in das Register des Sitzes desjenigen Rechtsträgers, dessen Gläubiger sie sind, nach § 19 Absatz 3 UmwG als bekanntgemacht gilt, ihren Anspruch nach Grund und Höhe schriftlich anmelden, Sicherheit zu leisten, soweit sie nicht Befriedigung verlangen können. Dieses Recht steht den Gläubigern jedoch nur zu, wenn sie glaubhaft machen, dass durch die Verschmelzung die Erfüllung ihrer Forderung gefährdet wird."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4892,
+        "timestamp": 1652884372403,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61521",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61521",
+                "rbId": 61521,
+                "state": "rp",
+                "referenceId": "HRB 14091",
+                "eventDate": "25.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Stephany Fliesen-Baustoffe GmbH, Andernach, Wilhelmstr. 18, 56626 Andernach.Geschäftsanschrift: Wilhelmstr. 18, 56626 Andernach. Die Gesellschaft ist als übertragender Rechtsträger nach Maßgabe des Verschmelzungsvertrages vom 15.04.2009 mit Ergänzung vom 07.05.2009 sowie der Zustimmungsbeschlüsse ihrer Gesellschafterversammlungen vom 15.04.2009 und 07.05.2009 und der Gesellschafterversammlungen des übernehmenden Rechtsträgers vom 15.04.2009 und 07.05.2009 mit der Nikolaus Stephany OHG mit Sitz in Andernach (AG Koblenz, HRA 10237) verschmolzen (Verschmelzung durch Aufnahme). Die Verschmelzung wird erst wirksam mit Eintragung auf dem Registerblatt des übernehmenden Rechtsträgers. Den Gläubigern der an der Verschmelzung beteiligten Gesellschaften ist, wenn sie binnen sechs Monaten nach dem Tag, an dem die Eintragung der Verschmelzung in das Register des Sitzes desjenigen Rechtsträgers, dessen Gläubiger sie sind, nach § 19 Absatz 3 UmwG als bekanntgemacht gilt, ihren Anspruch nach Grund und Höhe schriftlich anmelden, Sicherheit zu leisten, soweit sie nicht Befriedigung verlangen können. Dieses Recht steht den Gläubigern jedoch nur zu, wenn sie glaubhaft machen, dass durch die Verschmelzung die Erfüllung ihrer Forderung gefährdet wird."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4893,
+        "timestamp": 1652884373221,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61522",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61522",
+                "rbId": 61522,
+                "state": "rp",
+                "referenceId": "HRB 3120",
+                "eventDate": "26.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "BIG PLAY Zimmermann GmbH., Bendorf, Hauptstr. 105, 56170 Bendorf.Die Gesellschafterversammlung hat am 04.05.2009 beschlossen, das Stammkapital (DEM 50.000,00) auf Euro umzustellen, es von dann EUR 25.564,59 um EUR 435,41 auf EUR 26.000,00 zu erhöhen und den Gesellschaftsvertrag in § 3 (Stammkapital) zu ändern. Ebenfalls geändert wurde § 7. Geschäftsanschrift: Hauptstr. 105, 56170 Bendorf. Neues Stammkapital: 26.000,00 EUR."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4894,
+        "timestamp": 1652884374042,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61523",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61523",
+                "rbId": 61523,
+                "state": "rp",
+                "referenceId": "HRB 4710",
+                "eventDate": "26.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Beratungsbüro Wirtschaft GmbH BbW - Unternehmensberatung -, Lahnstein, Braubacher Straße 1, 56112 Lahnstein.Geschäftsanschrift: Braubacher Straße 1, 56112 Lahnstein. Prokura erloschen: Leininger, Thomas, Pillig, *01.01.1963."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4895,
+        "timestamp": 1652884374861,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61524",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61524",
+                "rbId": 61524,
+                "state": "rp",
+                "referenceId": "HRB 4816",
+                "eventDate": "26.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "IDV Consulting Marketing u. Vertriebs GmbH, Boppard, Brunnengasse 4, 56355 Kehlbach.Die Gesellschafterversammlung vom 24.04.2009 hat eine Änderung des Gesellschaftsvertrages in § 1 (Firma, Sitz) Absatz 1) und 2) und mit ihr die Änderung der Firma und die Verlegung des Sitzes nach Kehlbach beschlossen. Neue Firma: PosBill GmbH. Neuer Sitz: Kehlbach. Geschäftsanschrift: Brunnengasse 4, 56355 Kehlbach. Geschäftsführer: Finkbeiner, Udo, Boppard, *25.01.1969, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4896,
+        "timestamp": 1652884375812,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61525",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61525",
+                "rbId": 61525,
+                "state": "rp",
+                "referenceId": "HRB 15169",
+                "eventDate": "26.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Eurovlies Nord GmbH, Urmitz, Josef-Höfer-Straße 9, 56220 Urmitz.Geschäftsanschrift: Josef-Höfer-Straße 9, 56220 Urmitz."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4897,
+        "timestamp": 1652884376642,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61526",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61526",
+                "rbId": 61526,
+                "state": "rp",
+                "referenceId": "HRB 5976",
+                "eventDate": "27.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Starcraft Automotive Services GmbH., Lipporn, (56357 Lipporn).Von Amts wegen eingetragen: Die Gesellschaft wird durch den/die Liquidator/en vertreten. Von Amts wegen eingetragen: Liquidator: GülImann, Heinz Jörg, Lipporn, *15.07.1947, einzelvertretungsberechtigt mit der Befugnis im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen. Durch rechtskräftigen Beschluss des Amtsgerichts Koblenz vom 26.03.2009 -21 IN 362/08- ist die Eröffnung des Insolvenzverfahrens über das Vermögen der Gesellschaft mangels Masse abgelehnt. Die Gesellschaft ist aufgelöst. Von Amts wegen eingetragen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4898,
+        "timestamp": 1652884377591,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61527",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61527",
+                "rbId": 61527,
+                "state": "rp",
+                "referenceId": "HRB 7563",
+                "eventDate": "27.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "WISPO GmbH, Bendorf, (Luisenstr. 16, 56170 Bendorf).Von Amts wegen berichtigt: Allgemeine Vertretungsregelung: Die Gesellschaft wird durch den/die Liquidator/en vertreten. Von Amts wegen berichtigt: Liquidator: Henrichen, Josef, Womrath, *10.11.1954."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4899,
+        "timestamp": 1652884378410,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61528",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61528",
+                "rbId": 61528,
+                "state": "rp",
+                "referenceId": "HRB 20129",
+                "eventDate": "27.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "PTHV Philosophisch-Theologische Hochschule Vallendar gGmbH, Vallendar, Pallottistr. 3, 56179 Vallendar.Geschäftsanschrift: Pallottistr. 3, 56179 Vallendar. Nicht mehr Geschäftsführer: Prof. Pater Dr. Niederschlag, Heribert, Vallendar, *20.05.1944."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 4900,
+        "timestamp": 1652884379229,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "rp_61529",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "rp_61529",
+                "rbId": 61529,
+                "state": "rp",
+                "referenceId": "HRB 21234",
+                "eventDate": "27.05.2009",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "d7 Management Consulting GmbH, Cochem, August-Horch-Straße 4, 56812 Cochem.Die Gesellschafterversammlung vom 05.05.2009 hat eine Änderung des Gesellschaftsvertrages in § 1 Abs. 1 (Firma) und § 2 Abs. 1 (Gegenstand des Unternehmens) und mit ihr die Änderung der Firma und des Unternehmensgegenstandes beschlossen. Neue Firma: SCYTEQ Institut für Industrielle Werkinstandhaltung GmbH. Neuer Unternehmensgegenstand: Gegenstand des Unternehmens ist die Durchführung von Forschung, Studien, Entwicklung, Ausbildung/Schulung und anderer Anwendungen sowie der Verkauf entsprechender Anwendungs-Dienstleistungen in der Industriellen Werkinstandhaltung."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    }
+]
