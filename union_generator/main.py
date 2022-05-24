@@ -5,6 +5,7 @@ from pathlib import Path
 import click
 
 from rights_bafin_crawler.constant import Letter
+from union_generator.union_consumer import UnionConsumer
 from union_generator.union_extractor import UnionExtractor
 
 logging.basicConfig(
@@ -15,7 +16,9 @@ log = logging.getLogger(__name__)
 @click.command()
 @click.option("-p", "--csv_path", type=Path, help="The path if you want to store the output in a csv file.")
 def run(csv_path: Path = ""):
-    UnionExtractor(csv_path).extract()
+    cons = UnionConsumer()
+    print( cons.consume() )    
+    # UnionExtractor(csv_path).extract()
 
 
 

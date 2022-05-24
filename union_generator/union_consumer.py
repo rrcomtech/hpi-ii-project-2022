@@ -1,7 +1,7 @@
 from confluent_kafka import DeserializingConsumer
 from union_generator.constant import SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER, GROUP_ID
 from rb_crawler.constant import TOPIC as RB_TOPIC
-from rights_bafin_crawler import TOPIC as BAFIN_TOPIC
+from rights_bafin_crawler.constant import TOPIC as BAFIN_TOPIC
 
 from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.protobuf import ProtobufSerializer
@@ -43,9 +43,9 @@ class BafinConsumer:
 
         producer_conf = {
             "bootstrap.servers": BOOTSTRAP_SERVER,
-            "key.serializer": StringSerializer("utf_8"),
-            "value.serializer": protobuf_serializer,
-            "group_id": GROUP_ID
+#            "key.serializer": StringSerializer("utf_8"),
+#            "value.serializer": protobuf_serializer,
+            "group.id": GROUP_ID
         }
 
         self.consumer = DeserializingConsumer(producer_conf)
@@ -61,14 +61,14 @@ class RbConsumer:
         schema_registry_client = SchemaRegistryClient(schema_registry_conf)
 
         protobuf_serializer = ProtobufSerializer(
-            corporate_pb2.Corparate, schema_registry_client, {"use.deprecated.format": True}
+            corporate_pb2.Corporate, schema_registry_client, {"use.deprecated.format": True}
         )
 
         producer_conf = {
             "bootstrap.servers": BOOTSTRAP_SERVER,
-            "key.serializer": StringSerializer("utf_8"),
-            "value.serializer": protobuf_serializer,
-            "group_id": GROUP_ID
+#            "key.serializer": StringSerializer("utf_8"),
+#            "value.serializer": protobuf_serializer,
+            "group.id": GROUP_ID
         }
 
         self.consumer = DeserializingConsumer(producer_conf)

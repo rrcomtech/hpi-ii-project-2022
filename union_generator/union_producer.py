@@ -7,7 +7,7 @@ from confluent_kafka.serialization import StringSerializer
 
 from build.gen.bakdata.union.v1 import union_pb2
 from build.gen.bakdata.union.v1.union_pb2 import Union
-from union_generator.constant import SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER, TOPIC
+from union_generator.constant import SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER, TOPIC, GROUP_ID
 
 log = logging.getLogger(__name__)
 
@@ -25,6 +25,7 @@ class UnionProducer:
             "bootstrap.servers": BOOTSTRAP_SERVER,
             "key.serializer": StringSerializer("utf_8"),
             "value.serializer": protobuf_serializer,
+            "group_id": GROUP_ID
         }
 
         self.producer = SerializingProducer(producer_conf)

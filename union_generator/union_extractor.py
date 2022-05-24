@@ -1,7 +1,8 @@
 import logging
 
 from pathlib import Path
-from build.gen.bakdata.union.v1.union_pb2 import Union, Bafin_detail
+from build.gen.bakdata.union.v1.union_pb2 import Union
+from build.gen.bakdata.union.v1.union_pb2 import Union_Bafin_detail as Bafin_detail
 from union_producer import UnionProducer
 
 log = logging.getLogger(__name__)
