@@ -3,21 +3,33 @@ by Robert Richter and Fabian Lange
 
 This project integrates the given data source "Handelsregisterbekanntmachungen" with the data set "Voting Rights Proportions" from Bafin.
 
-# Task 2
+## Task 2
 Crawl the "Voting Rights Proportions" dataset in two steps:
-1. Crawl the general data for each letter of the alphabet starting with letter `a` including a bafin-id, name, domicile and country for each company.
+1. Crawl the general data for each letter of the alphabet starting with letter  `A`  including a bafin-id, name, domicile and country for each company.
 2. Crawl detail data for each company that was returned during the first step including data for each issuer of a company: bafin-id, name, domicile, country, publishing data and their voting rights split up into three categories of german law paragraphs: [1] §33 and §34, [2] §38 and [3] §39.
 
 The second step will only be executed when crawling in detail mode. Furthermore, our system provides the ability to additionally store the data in a csv file. Both can be indicated when starting the crawler with the command below:
 
 ```shell
-poetry run python rights_bafin_crawler/main.py --detail "True" --csv_path "/PathToOutputCSVFile.csv"
+poetry run python rights_bafin_crawler/main.py --detail "True" --csv_path "/OutputCSVFile.csv"
 # --detail : True if crawling also the details for each company, False if not.
 # --path : The path to an empty, already existing csv file including the filename.
 #          If not given, no csv output will be produced.
 ```
 
-The crawler automatically produces results using a [protobuf schema](./proto/bakdata/bafin/v1/bafin.proto).
+The crawler automatically produces results using a [protobuf schema](./proto/bakdata/bafin/v1/bafin.proto) by doing the following requests on the bafin website:
+
+```shell
+# General search for every letter starting with A
+export LETTER = "A"
+curl -X Get "https://portal.mvp.bafin.de/database/AnteileInfo/suche.do?nameAktiengesellschaftButton=Suche+Emittent&d-7004401-e=1&6578706f7274=1&nameMeldepflichtiger=&nameAktiengesellschaft=$LETTER"
+```
+
+```shell
+# Detail search for every result from the general search if in detail mode
+export BAFIN_ID = "40001244"
+curl -X Get "https://portal.mvp.bafin.de/database/AnteileInfo/aktiengesellschaft.do?d-3611442-e=1&cmd=zeigeAktiengesellschaft&id=$BAFIN_ID&6578706f7274=1"
+```
 
 # Initial Repository Readme
 This repository provides a code base for the information integration lecture in the summer semester of 2022. Below you
