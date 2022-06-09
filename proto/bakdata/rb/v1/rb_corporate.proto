@@ -2,18 +2,18 @@ syntax = "proto3";
 
 package bakdata.corporate.v1;
 
-message Corporate {
+message RB_Corporate {
   string id = 1;
   uint32 rb_id = 2;
   string state = 3;
   string reference_id = 4;
   string event_date = 5;
   string event_type = 6;
-  Status status = 7;
+  RB_Status status = 7;
   string information = 8;
 }
 
-enum Status {
+enum RB_Status {
   STATUS_UNSPECIFIED = 0;
   STATUS_INACTIVE = 1;
   STATUS_ACTIVE = 2;

@@ -2,10 +2,9 @@ import enum
 from sys import implementation
 from typing import Iterable
 
-BOOTSTRAP_SERVER: str = "localhost:29092"
-SCHEMA_REGISTRY_URL: str = "http://localhost:8081"
-TOPIC: str = "bafin-events"
-
+TOPIC_BAFIN: str = "bafin_event"
+TOPIC_BAFIN_PERSON: str = "bafin_person"
+TOPIC_BAFIN_CORPORATE: str = "bafin_corporate"
 class Letter(str, enum.Enum):
     A = "a"
     B = "b"

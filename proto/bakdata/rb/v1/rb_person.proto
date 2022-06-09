@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package bakdata.corporate.v1;
+
+message RB_Person {
+  string firstname = 1;
+  string lastname = 2;
+  string city = 3;
+  string birthdate = 4;
+  string role = 5;
+  string corporateName = 6;
+  string corporateID = 7;
+}

@@ -1,9 +1,7 @@
 import enum
 
-BOOTSTRAP_SERVER: str = "localhost:29092"
-SCHEMA_REGISTRY_URL: str = "http://localhost:8081"
-TOPIC: str = "corporate-events"
-
+TOPIC_RB_CORPORATE: str = "rb_corporate"
+TOPIC_RB_PERSON: str = "rb_person"
 
 class State(str, enum.Enum):
     BADEN_WUETTEMBERG = "bw"

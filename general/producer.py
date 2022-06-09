@@ -5,20 +5,22 @@ from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.protobuf import ProtobufSerializer
 from confluent_kafka.serialization import StringSerializer
 
-from build.gen.bakdata.bafin.v1 import bafin_pb2
-from build.gen.bakdata.bafin.v1.bafin_pb2 import Bafin_general
-from rights_bafin_crawler.constant import SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER, TOPIC
+from build.gen.bakdata.rb.v1.rb_corporate_pb2 import RB_Corporate, RB_Status
+from build.gen.bakdata.rb.v1.rb_person_pb2 import RB_Person
+
+BOOTSTRAP_SERVER: str = "localhost:29092"
+SCHEMA_REGISTRY_URL: str = "http://localhost:8081"
 
 log = logging.getLogger(__name__)
 
 
-class BafinProducer:
-    def __init__(self):
+class Producer:
+    def __init__(self, schema, topic):
         schema_registry_conf = {"url": SCHEMA_REGISTRY_URL}
         schema_registry_client = SchemaRegistryClient(schema_registry_conf)
 
         protobuf_serializer = ProtobufSerializer(
-            bafin_pb2.Bafin_general, schema_registry_client, {"use.deprecated.format": True}
+            schema, schema_registry_client, {"use.deprecated.format": True}
         )
 
         producer_conf = {
@@ -28,10 +30,11 @@ class BafinProducer:
         }
 
         self.producer = SerializingProducer(producer_conf)
+        self.topic = topic
 
-    def produce_to_topic(self, bafin_general: Bafin_general):
+    def produce_to_topic(self, value, id):
         self.producer.produce(
-            topic=TOPIC, partition=-1, key=str(bafin_general.issuer_id), value=bafin_general, on_delivery=self.delivery_report
+            topic=self.topic, partition=-1, key=str(id), value=value, on_delivery=self.delivery_report
         )
 
         # It is a naive approach to flush after each produce this can be optimised
