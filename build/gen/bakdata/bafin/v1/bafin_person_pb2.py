@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#bakdata/bafin/v1/bafin_person.proto\x12\x10\x62\x61kdata.bafin.v1\"\xcd\x01\n\x17\x42\x61\x66in_Reportable_Person\x12\x15\n\rreportable_id\x18\x01 \x01(\r\x12\x11\n\tfirstname\x18\x02 \x01(\t\x12\x10\n\x08lastname\x18\x03 \x01(\t\x12\x14\n\x0crights_33_34\x18\x04 \x01(\x01\x12\x11\n\trights_38\x18\x05 \x01(\x01\x12\x11\n\trights_39\x18\x06 \x01(\x01\x12\x17\n\x0fpublishing_date\x18\x07 \x01(\t\x12\x0e\n\x06issuer\x18\x08 \x01(\t\x12\x11\n\tissuer_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#bakdata/bafin/v1/bafin_person.proto\x12\x10\x62\x61kdata.bafin.v1\"\xdc\x01\n\x17\x42\x61\x66in_Reportable_Person\x12\x15\n\rreportable_id\x18\x01 \x01(\r\x12\r\n\x05title\x18\x02 \x01(\t\x12\x11\n\tfirstname\x18\x03 \x01(\t\x12\x10\n\x08lastname\x18\x04 \x01(\t\x12\x14\n\x0crights_33_34\x18\x05 \x01(\x01\x12\x11\n\trights_38\x18\x06 \x01(\x01\x12\x11\n\trights_39\x18\x07 \x01(\x01\x12\x17\n\x0fpublishing_date\x18\x08 \x01(\t\x12\x0e\n\x06issuer\x18\t \x01(\t\x12\x11\n\tissuer_id\x18\n \x01(\rb\x06proto3')
 
 
 
@@ -30,5 +30,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _BAFIN_REPORTABLE_PERSON._serialized_start=58
-  _BAFIN_REPORTABLE_PERSON._serialized_end=263
+  _BAFIN_REPORTABLE_PERSON._serialized_end=278
 # @@protoc_insertion_point(module_scope)

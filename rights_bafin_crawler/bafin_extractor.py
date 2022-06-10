@@ -1,5 +1,5 @@
 import logging
-import csv
+import re
 from pathlib import Path
 from time import sleep
 
@@ -72,8 +72,11 @@ class BafinExtractor:
                                 if not detail_row['Sitz oder Ort'] and not detail_row['Land']:
                                     bafin_reportable_person = Bafin_Reportable_Person()
                                     bafin_reportable_person.reportable_id       = detail_row['BaFin-Id']
-                                    bafin_reportable_person.firstname           = detail_row['Meldepflichtiger / Tochterunternehmen (T)']
-                                    bafin_reportable_person.lastname            = detail_row['Meldepflichtiger / Tochterunternehmen (T)']
+                                    match = re.search('([a-zA-Z\u0080-\uFFFF\ /.-]+ )?([a-zA-Z\u0080-\uFFFF -]+), ([a-zA-Z\u0080-\uFFFF -]+)', detail_row['Meldepflichtiger / Tochterunternehmen (T)'])
+                                    log.info(match)
+                                    bafin_reportable_person.title               = match.group(1) if match.group(1) else ''
+                                    bafin_reportable_person.firstname           = match.group(3) if match.group(3) else ''
+                                    bafin_reportable_person.lastname            = match.group(2) if match.group(2) else ''
                                     bafin_reportable_person.rights_33_34        = float(detail_row['§§ 33, 34 WpHG (Prozent)'].replace(',', '.') if detail_row['§§ 33, 34 WpHG (Prozent)'] != '' else 0)
                                     bafin_reportable_person.rights_38           = float(detail_row['§ 38 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 38 WpHG (Prozent)'] != '' else 0)
                                     bafin_reportable_person.rights_39           = float(detail_row['§ 39 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 39 WpHG (Prozent)'] != '' else 0)

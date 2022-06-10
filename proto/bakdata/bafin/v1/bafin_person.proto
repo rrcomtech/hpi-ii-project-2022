@@ -4,12 +4,13 @@ package bakdata.bafin.v1;
 
 message Bafin_Reportable_Person {
   uint32 reportable_id = 1;
-  string firstname = 2;
-  string lastname = 3;
-  double rights_33_34 = 4;
-  double rights_38 = 5;
-  double rights_39 = 6;
-  string publishing_date = 7;
-  string issuer = 8;
-  uint32 issuer_id = 9;
+  string title = 2;
+  string firstname = 3;
+  string lastname = 4;
+  double rights_33_34 = 5;
+  double rights_38 = 6;
+  double rights_39 = 7;
+  string publishing_date = 8;
+  string issuer = 9;
+  uint32 issuer_id = 10;
 }
