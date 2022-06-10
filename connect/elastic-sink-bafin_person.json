@@ -1,0 +1,14 @@
+{
+    "name": "elasticsearch-sink-bafin_person",
+    "config": {
+      "connector.class": "io.confluent.connect.elasticsearch.ElasticsearchSinkConnector",
+      "topics": "bafin-person",
+      "input.data.format": "PROTOBUF",
+      "connection.url": "http://elasticsearch:9200",
+      "type.name": "bafin-person",
+      "key.ignore": "false",
+      "schema.ignore": "true",
+      "tasks.max": "1"
+    }
+  }
+  
