@@ -17,8 +17,7 @@ log = logging.getLogger(__name__)
 @click.option("-p", "--csv_path", type=Path, help="The path if you want to store the output in a csv file.")
 def run(csv_path: Path = ""):
     cons = UnionConsumer()
-    print( cons.consume() )    
-    # UnionExtractor(csv_path).extract()
+    cons.consume()
 
 
 

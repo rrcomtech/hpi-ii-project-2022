@@ -11,6 +11,7 @@ message RB_Corporate {
   string event_type = 6;
   RB_Status status = 7;
   string information = 8;
+  string company_name = 9;
 }
 
 enum RB_Status {

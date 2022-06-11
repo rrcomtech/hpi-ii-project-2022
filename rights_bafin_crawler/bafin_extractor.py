@@ -116,8 +116,6 @@ class BafinExtractor:
                             log.error(f"Cause: {ex}")
                             continue
                     
-                    
-                    
                     self.bafin_issuer_producer.produce_to_topic(bafin_issuer, bafin_issuer.issuer_id)
                     log.debug(bafin_issuer)
 

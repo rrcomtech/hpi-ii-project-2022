@@ -39,6 +39,7 @@ class RbExtractor:
                 corporate.event_date = selector.xpath("/html/body/font/table/tr[4]/td/text()").get()
                 corporate.id = f"{self.state}_{self.rb_id}"
                 raw_text: str = selector.xpath("/html/body/font/table/tr[6]/td/text()").get()
+                corporate.company_name = self.extract_company_name(raw_text)
                 self.extract_persons(corporate, raw_text)
                 self.handle_events(corporate, event_type, raw_text)
                 self.rb_id = self.rb_id + 1
@@ -88,6 +89,10 @@ class RbExtractor:
         corporate.status = RB_Status.STATUS_INACTIVE
         self.rb_corporate_producer.produce_to_topic(corporate, corporate.id)
 
+    def extract_company_name(self, raw_text: str):
+        match = re.findall('^[^,]*', raw_text)[0]
+        return match
+
     def extract_persons(self, corporate: RB_Corporate, raw_text: str):
         log.debug(f'Extract Persons for Company {corporate.id}')
         match = re.findall(' ([a-zA-Z\u0080-\uFFFF -]+), ([a-zA-Z\u0080-\uFFFF -]+), ([a-zA-Z\u0080-\uFFFF.\/ -]+), \*(\d{2}.\d{2}.\d{4}), ([a-zA-Z\u0080-\uFFFF,\/ -]+)', raw_text)
@@ -98,6 +103,6 @@ class RbExtractor:
             person.city = match[i][2]
             person.birthdate = match[i][3]
             person.role = match[i][4]
-            person.corporateName = corporate.id
+            person.corporateName = corporate.company_name
             person.corporateID = corporate.state + str(corporate.rb_id)
             self.rb_person_producer.produce_to_topic(person, '#' + str(i) + '@' + person.corporateID)
