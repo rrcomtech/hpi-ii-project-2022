@@ -3,7 +3,10 @@ import logging
 from pathlib import Path
 from build.gen.bakdata.union.v1.union_pb2 import Union
 from build.gen.bakdata.union.v1.union_pb2 import Union_Bafin_detail as Bafin_detail
-from union_producer import UnionProducer
+
+from constant import TOPIC
+
+from general.producer import Producer
 
 log = logging.getLogger(__name__)
 
@@ -11,7 +14,7 @@ log = logging.getLogger(__name__)
 class UnionExtractor:
     def __init__(self, csv_path: Path):
         self.csv_path = csv_path
-        self.producer = UnionProducer()
+        self.producer = Producer(Union, TOPIC)
         
 
     def extract(self):
@@ -29,5 +32,5 @@ class UnionExtractor:
         union.rb_status         = 1
         union.rb_information    = "Test"
         union.bafin_detail.append(Bafin_detail())
-        self.producer.produce_to_topic(union=union)
+        self.producer.produce_to_topic(union, union.rb_id)
 
