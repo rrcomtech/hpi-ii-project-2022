@@ -27,37 +27,28 @@ log = logging.getLogger(__name__)
 class UnionConsumer:
 
     def consume(self):
-
-        msg_integrated = {}
-
         msg_bafin_events = self.consume_topic(TOPIC_BAFIN, Bafin_Issuer)
         print("Bafin-Events consumed.")
         msg_bafin_persons = self.consume_topic(TOPIC_BAFIN_PERSON, Bafin_Reportable_Person)
         print("Bafin-Persons consumed.")
-        msg_bafin_corporate = self.consume_topic(TOPIC_BAFIN_CORPORATE, Bafin_Reportable_Corp)
+        msg_bafin_corporates = self.consume_topic(TOPIC_BAFIN_CORPORATE, Bafin_Reportable_Corp)
         print("Bafin-Coporates consumed.")
-        msg_rb_corporate = self.consume_topic(TOPIC_RB_CORPORATE, RB_Corporate)
+        msg_rb_corporates = self.consume_topic(TOPIC_RB_CORPORATE, RB_Corporate)
         print("HRB-Corporates consumed.")
         msg_rb_persons = self.consume_topic(TOPIC_RB_PERSON, RB_Person)
         print("HRB-Persons consumed.")
 
-        for bafin_event in msg_bafin_events:
-            msg_integrated[bafin_event.issuer] = Union()
-            msg_integrated[bafin_event.issuer].corporateName = bafin_event.issuer
-            msg_integrated[bafin_event.issuer].bafin_id = str(bafin_event.issuer_id)
-            msg_integrated[bafin_event.issuer].bain_domicile = bafin_event.domicile
-            msg_integrated[bafin_event.issuer].bafin_country = bafin_event.country
-
-        for bafin_person in msg_bafin_persons:
-            msg_integrated[bafin_person.issuer].bafin_detail = None
-
-        print("Producing to Kafka ...")
-        producer = Producer(Union, TOPIC_UNION)
-        for union in msg_integrated:
-            producer.produce_to_topic(union, union.bafin_id)
-
         # Example for using the values:
         # print(str(msg_bafin_events[0].issuer))
+
+        return {
+            "bafin-events": msg_bafin_events,
+            "bafin-persons": msg_bafin_persons,
+            "bafin-corporates": msg_bafin_corporates,
+            "rb-corporates": msg_rb_corporates,
+            "rb-persons": msg_rb_persons
+        }
+
 
     def consume_topic(self, topic, schema):
         schema_registry_conf = {"url": SCHEMA_REGISTRY_URL}
