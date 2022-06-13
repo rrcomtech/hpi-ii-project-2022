@@ -8,3 +8,6 @@ message Bafin_Issuer {
   string domicile = 3;
   string country = 4;
 }
+
+
+

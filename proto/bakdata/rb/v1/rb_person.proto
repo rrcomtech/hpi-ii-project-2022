@@ -11,3 +11,4 @@ message RB_Person {
   string corporateName = 6;
   string corporateID = 7;
 }
+
