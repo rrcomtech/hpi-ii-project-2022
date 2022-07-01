@@ -5,8 +5,6 @@ from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.protobuf import ProtobufSerializer
 from confluent_kafka.serialization import StringSerializer
 
-from build.gen.bakdata.rb.v1.rb_corporate_pb2 import RB_Corporate, RB_Status
-from build.gen.bakdata.rb.v1.rb_person_pb2 import RB_Person
 
 BOOTSTRAP_SERVER: str = "localhost:29092"
 SCHEMA_REGISTRY_URL: str = "http://localhost:8081"

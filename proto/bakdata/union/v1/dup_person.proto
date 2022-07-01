@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package bakdata.union.v1;
+
+message DeDup_Person {
+    string title = 1;
+    string firstname = 2;
+    string lastname = 3;
+    string bafin_issuer = 4;
+    string rb_corporateName = 5;
+    uint32 bafin_reportable_id = 6;
+    uint32 bafin_issuer_id = 7;
+    string rb_corporateID = 8;
+}
