@@ -20,6 +20,7 @@ data_file_path = "rb_crawler/corporate-events-dump"
 #                   mit sich selbst oder als Vertreter Dritter abzuschlieÃŸen'
 # }
 #
+
 def main():
     if not check_for_data_file():
         return
@@ -44,16 +45,13 @@ def main():
 
 def check_for_data_file():
     path = os.getcwd() + "/" + data_file_path
-    print(path)
     file_exists = exists(path)
 
-    if file_exists:
-        return True
-    else:
-        print("Could not find file 'corporate-events-dump' in the folder 'data_loader'")
+    if not file_exists:
+        print("Could not find file 'corporate-events-dump' in the folder 'rb_crawler'")
         print("Please download it from here: https://owncloud.hpi.de/s/RBZRO1nhSSYRbyt")
         print("and unpack it.")
-    return False
+    return file_exists
 
 
 def translate_event_type(type):
