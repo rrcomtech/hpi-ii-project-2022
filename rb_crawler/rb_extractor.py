@@ -98,8 +98,8 @@ class RbExtractor:
         match = re.findall(' ([\w -]+), ([\w -]+), ([\w.\ -]+), \*(\d{2}.\d{2}.\d{4}), ([\w,\ -]+)', raw_text)
         for i in range(0, len(match)):
             person = RB_Person()
-            person.firstname = match[i][0]
-            person.lastname = match[i][1]
+            person.firstname = match[i][1]
+            person.lastname = match[i][0]
             person.city = match[i][2]
             person.birthdate = match[i][3]
             person.role = match[i][4]
