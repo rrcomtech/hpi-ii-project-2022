@@ -51,6 +51,20 @@ class RbExtractor:
                 continue
         exit(0)
 
+    def extract_from_dataloader(self, rb_id, state, reference_id, event_date, event_type, text):
+        selector = Selector(text=text)
+        corporate = RB_Corporate()
+        corporate.rb_id = rb_id
+        corporate.state = state
+        corporate.reference_id = reference_id
+        corporate.event_date = event_date
+        corporate.id = f"{state}_{rb_id}"
+        corporate.company_name = self.extract_company_name_data_loader(text)
+        self.extract_persons(corporate, text)
+        self.handle_events(corporate, event_type, text)
+        self.rb_id = self.rb_id + 1
+        log.debug(corporate)
+
     def send_request(self) -> str:
         url = f"https://www.handelsregisterbekanntmachungen.de/skripte/hrb.php?rb_id={self.rb_id}&land_abk={self.state}"
         # For graceful crawling! Remove this at your own risk!
@@ -89,11 +103,16 @@ class RbExtractor:
         corporate.status = RB_Status.STATUS_INACTIVE
         self.rb_corporate_producer.produce_to_topic(corporate, corporate.id)
 
+    def extract_company_name_data_loader(self, raw_text: str):
+        match = re.findall('(?<=\:\ )(.*?)(?=\,)', raw_text)[0]
+        return match
+
     def extract_company_name(self, raw_text: str):
         match = re.findall('^[^,]*', raw_text)[0]
         return match
 
     def extract_persons(self, corporate: RB_Corporate, raw_text: str):
+        print("Persons")
         log.debug(f'Extract Persons for Company {corporate.id}')
         match = re.findall(' ([\w -]+), ([\w -]+), ([\w.\ -]+), \*(\d{2}.\d{2}.\d{4}), ([\w,\ -]+)', raw_text)
         for i in range(0, len(match)):
