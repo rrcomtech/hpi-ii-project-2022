@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package bakdata.union.v1;
 
-message DeDup_Person {
+message Dup_Person {
     string title = 1;
     string firstname = 2;
     string lastname = 3;

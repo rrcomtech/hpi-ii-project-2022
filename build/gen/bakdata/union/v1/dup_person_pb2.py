@@ -14,21 +14,21 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!bakdata/union/v1/dup_person.proto\x12\x10\x62\x61kdata.union.v1\"\xc0\x01\n\x0c\x44\x65\x44up_Person\x12\r\n\x05title\x18\x01 \x01(\t\x12\x11\n\tfirstname\x18\x02 \x01(\t\x12\x10\n\x08lastname\x18\x03 \x01(\t\x12\x14\n\x0c\x62\x61\x66in_issuer\x18\x04 \x01(\t\x12\x18\n\x10rb_corporateName\x18\x05 \x01(\t\x12\x1b\n\x13\x62\x61\x66in_reportable_id\x18\x06 \x01(\r\x12\x17\n\x0f\x62\x61\x66in_issuer_id\x18\x07 \x01(\r\x12\x16\n\x0erb_corporateID\x18\x08 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!bakdata/union/v1/dup_person.proto\x12\x10\x62\x61kdata.union.v1\"\xbe\x01\n\nDup_Person\x12\r\n\x05title\x18\x01 \x01(\t\x12\x11\n\tfirstname\x18\x02 \x01(\t\x12\x10\n\x08lastname\x18\x03 \x01(\t\x12\x14\n\x0c\x62\x61\x66in_issuer\x18\x04 \x01(\t\x12\x18\n\x10rb_corporateName\x18\x05 \x01(\t\x12\x1b\n\x13\x62\x61\x66in_reportable_id\x18\x06 \x01(\r\x12\x17\n\x0f\x62\x61\x66in_issuer_id\x18\x07 \x01(\r\x12\x16\n\x0erb_corporateID\x18\x08 \x01(\tb\x06proto3')
 
 
 
-_DEDUP_PERSON = DESCRIPTOR.message_types_by_name['DeDup_Person']
-DeDup_Person = _reflection.GeneratedProtocolMessageType('DeDup_Person', (_message.Message,), {
-  'DESCRIPTOR' : _DEDUP_PERSON,
+_DUP_PERSON = DESCRIPTOR.message_types_by_name['Dup_Person']
+Dup_Person = _reflection.GeneratedProtocolMessageType('Dup_Person', (_message.Message,), {
+  'DESCRIPTOR' : _DUP_PERSON,
   '__module__' : 'bakdata.union.v1.dup_person_pb2'
-  # @@protoc_insertion_point(class_scope:bakdata.union.v1.DeDup_Person)
+  # @@protoc_insertion_point(class_scope:bakdata.union.v1.Dup_Person)
   })
-_sym_db.RegisterMessage(DeDup_Person)
+_sym_db.RegisterMessage(Dup_Person)
 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DEDUP_PERSON._serialized_start=56
-  _DEDUP_PERSON._serialized_end=248
+  _DUP_PERSON._serialized_start=56
+  _DUP_PERSON._serialized_end=246
 # @@protoc_insertion_point(module_scope)
