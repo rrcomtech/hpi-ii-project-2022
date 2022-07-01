@@ -42,11 +42,11 @@ class PersonDedupExtractor:
         for i, person in enumerate(sorted_person_names):
             similarity_array = []
             for j, neighbour in enumerate(sorted_person_names[ i + 1 : min(i + 6, len(sorted_person_names) - 1)]):
-                similarity = distance.get_jaro_distance(person, neighbour, winkler = False, scaling = 0.1)
+                similarity = distance.get_jaro_distance(person, neighbour, winkler = True, scaling = 0.1)
                 similarity_array.append(similarity)
                 if similarity >= TRESHOLD:
                     duplicate_indices.append(i)
-                    duplicate_indices.append(j)
+                    duplicate_indices.append(i + j + 1)
 
         for i, index in enumerate(sorted_indices):
             if i not in duplicate_indices:
@@ -57,8 +57,39 @@ class PersonDedupExtractor:
                     msg = msg_rb_persons[index - len(msg_bafin_persons)]
                 person = self.personFromMessage(msg)
                 self.dedup_producer.produce_to_topic(person, hash(person.firstname.lower() + person.lastname.lower()))
-        exit(0)
 
+        print(duplicate_indices)
+
+        duplicate_families = []
+        for i, duplicate_index in enumerate(duplicate_indices):
+            if i % 2 == 1 or duplicate_index < 0:
+                continue
+            duplicate_family = []
+            duplicate_family.append(duplicate_index)
+            duplicate_indices[i] = - duplicate_indices[i]
+            if duplicate_indices[i + 1] > 0:
+                duplicate_family.append(duplicate_indices[i + 1])
+                duplicate_indices[i + 1] = - duplicate_indices[i + 1]
+            for j, next_index in enumerate(duplicate_indices[i + 2:]):
+                if next_index in duplicate_family:
+                    if j % 2 == 0:
+                        if duplicate_indices[i + j + 3] not in duplicate_family and duplicate_indices[i + j + 3] > 0:
+                            duplicate_family.append(duplicate_indices[i + j + 3])
+                            duplicate_indices[i + j + 3] = - duplicate_indices[i + j + 3]
+                    else:
+                        if duplicate_indices[i + j + 1] not in duplicate_family and duplicate_indices[i + j + 1] > 0:
+                            duplicate_family.append(duplicate_indices[i + j + 1])
+                            duplicate_indices[i + j + 1] = - duplicate_indices[i + j + 1]
+            counter = 0
+            for existing_duplicate_family in duplicate_families:
+                if existing_duplicate_family[0] not in duplicate_family:
+                    duplicate_families.append(duplicate_family)
+                    counter += 1
+            if counter == 0:
+                duplicate_families.append(duplicate_family)
+                
+        print(duplicate_families)
+        exit(0)
 
     def personFromMessage(self, msg):
         person = DeDup_Person()
