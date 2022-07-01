@@ -1,5 +1,6 @@
 import logging
 import re
+from pathlib import Path
 from time import sleep
 
 import requests
@@ -22,14 +23,23 @@ log = logging.getLogger(__name__)
 
 
 class BafinExtractor:
-    def __init__(self, detail: bool):
+    def __init__(self, detail: bool, csv_path: Path):
         self.crawl_detail = detail
+        self.csv_path = csv_path
         self.bafin_issuer_producer = Producer(Bafin_Issuer, TOPIC_BAFIN)
         self.bafin_person_producer = Producer(Bafin_Reportable_Person, TOPIC_BAFIN_PERSON)
         self.bafin_corporate_producer = Producer(Bafin_Reportable_Corp, TOPIC_BAFIN_CORPORATE)
         
 
     def extract(self):
+        # if self.csv_path != "":
+            # csv_file = open(self.csv_path, 'w')
+            # writer = csv.writer(csv_file)
+            # if self.crawl_detail:
+            #     header = ["Issuer BaFin-Id", "Issuer", "Issuer Domicile", "Issuer Country", "Reportable BaFin-Id", "Reportable", "Reportable Domicile", "Reportable Country", "Rights §33 & §34", "Rights §38", "Rights §39", "Publishing Date"]
+            # else:
+            #     header = ["Issuer BaFin-Id", "Issuer", "Issuer Domicile", "Issuer Country"]
+            # writer.writerow(header)
         
         for letter in Letter:
             try:
@@ -50,17 +60,23 @@ class BafinExtractor:
                             log.info(f"Sending Detail Request for company: {general_row['Emittent']} (ID: {general_row['BaFin-Id']})")
                             detail_text = self.send_detail_request(general_row['BaFin-Id'])
                             detail_df = pd.read_csv(StringIO(detail_text), sep=";", header=0, na_filter=False)
-                            
+                            if self.csv_path != "":
+                                if self.crawl_detail:
+                                    row = [general_row['BaFin-Id'], general_row['Emittent'], general_row['Sitz'], general_row['Land'], "", "", "", "", "", "", "", ""]
+                                else:
+                                    row = [general_row['BaFin-Id'], general_row['Emittent'], general_row['Sitz'], general_row['Land']]
+                                #writer.writerow(row)
+
                             for _, detail_row in detail_df.iterrows():
 
                                 if not detail_row['Sitz oder Ort'] and not detail_row['Land']:
                                     bafin_reportable_person = Bafin_Reportable_Person()
                                     bafin_reportable_person.reportable_id       = detail_row['BaFin-Id']
-                                    match = re.search('([\w]+), ([\w]+.* )?([\w]+)', detail_row['Meldepflichtiger / Tochterunternehmen (T)'])
+                                    match = re.search('([a-zA-Z\u0080-\uFFFF\ /.-]+ )?([a-zA-Z\u0080-\uFFFF -]+), ([a-zA-Z\u0080-\uFFFF -]+)', detail_row['Meldepflichtiger / Tochterunternehmen (T)'])
                                     log.info(match)
-                                    bafin_reportable_person.title               = match.group(2) if match.group(2) else ''
+                                    bafin_reportable_person.title               = match.group(1) if match.group(1) else ''
                                     bafin_reportable_person.firstname           = match.group(3) if match.group(3) else ''
-                                    bafin_reportable_person.lastname            = match.group(1) if match.group(1) else ''
+                                    bafin_reportable_person.lastname            = match.group(2) if match.group(2) else ''
                                     bafin_reportable_person.rights_33_34        = float(detail_row['§§ 33, 34 WpHG (Prozent)'].replace(',', '.') if detail_row['§§ 33, 34 WpHG (Prozent)'] != '' else 0)
                                     bafin_reportable_person.rights_38           = float(detail_row['§ 38 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 38 WpHG (Prozent)'] != '' else 0)
                                     bafin_reportable_person.rights_39           = float(detail_row['§ 39 WpHG (Prozent)'].replace(',', '.') if detail_row['§ 39 WpHG (Prozent)'] != '' else 0)
@@ -81,6 +97,19 @@ class BafinExtractor:
                                     bafin_reportable_corp.issuer                = general_row['Emittent']
                                     bafin_reportable_corp.issuer_id             = general_row['BaFin-Id']
                                     self.bafin_corporate_producer.produce_to_topic(bafin_reportable_corp, bafin_reportable_corp.reportable_id)
+                                
+                                #if self.csv_path != "":
+                                #    writer.writerow([
+                                #        "", "", "", "",
+                                #        detail_row['BaFin-Id'],
+                                #        detail_row['Meldepflichtiger / Tochterunternehmen (T)'],
+                                #        detail_row['Sitz oder Ort'],
+                                #        detail_row['Land'],
+                                #        detail_row['§§ 33, 34 WpHG (Prozent)'],
+                                #        detail_row['§ 38 WpHG (Prozent)'],
+                                #        detail_row['§ 39 WpHG (Prozent)'],
+                                #        detail_row['Veröffentlichung gemäß § 40 Abs.1 WpHG'],
+                                #    ])
 
                         except Exception as ex:
                             log.error(f"Skipping Company {general_row['Emittent']}")
@@ -94,6 +123,7 @@ class BafinExtractor:
                 log.error(f"Skipping Letter {letter}")
                 log.error(f"Cause: {ex}")
                 continue
+        #csv_file.close()
         exit(0)
 
     def send_meta_request(self, letter : str) -> str:

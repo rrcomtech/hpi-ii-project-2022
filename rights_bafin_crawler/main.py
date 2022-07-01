@@ -14,9 +14,8 @@ log = logging.getLogger(__name__)
 
 @click.command()
 @click.option("-d", "--detail", type=bool, help="Indicate whether you want to also crawl the detail view.")
-@click.option("-p", "--csv_path", type=Path, help="The path if you want to store the output in a csv file.")
 def run(detail: bool = False, csv_path: Path = ""):
-    BafinExtractor(detail, csv_path).extract()
+    BafinExtractor(detail).extract()
 
 
 
