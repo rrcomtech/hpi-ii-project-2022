@@ -1,7 +1,6 @@
 import logging
 
-from pathlib import Path
-from build.gen.bakdata.union.v1.union_pb2 import Union, UnionStatus
+from build.gen.bakdata.union.v1.union_pb2 import Union
 from build.gen.bakdata.union.v1.union_pb2 import Union_Bafin_detail as Bafin_detail
 
 from constant import TOPIC_UNION
@@ -28,7 +27,6 @@ class UnionExtractor:
         bafin_persons = msgs["bafin-persons"]
         bafin_corporates = msgs["bafin-corporates"]
         rb_corporates = msgs["rb-corporates"]
-        rb_persons = msgs["rb-persons"]
 
         union = {}
 
@@ -80,7 +78,7 @@ class UnionExtractor:
             union[rb_corp.company_name].rb_status = rb_corp.status
             union[rb_corp.company_name].rb_information = rb_corp.information
 
-        print("Producing to Kafka ...")
+        log.info("Producing to Kafka ...")
         producer = Producer(Union, TOPIC_UNION)
         for union_obj in union:
             key = ""
