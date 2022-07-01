@@ -13,7 +13,12 @@ log = logging.getLogger(__name__)
 
 @click.command()
 def run():
-    PersonConsumer().consume()
+    msg = PersonConsumer().consume()
+    log.info(msg)
+    msg_bafin_persons = msg["bafin-persons"]
+    msg_rb_persons = msg["rb-persons"]
+    log.info(msg_bafin_persons[0].issuer)
+    log.info(msg_rb_persons[0].issuer)
 
 
 if __name__ == "__main__":

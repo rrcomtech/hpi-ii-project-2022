@@ -1,6 +1,4 @@
 import enum
-from sys import implementation
-from typing import Iterable
 
 TOPIC_BAFIN: str = "bafin_event"
 TOPIC_BAFIN_PERSON: str = "bafin_person"

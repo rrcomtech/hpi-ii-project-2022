@@ -12,20 +12,22 @@ from build.gen.bakdata.rb.v1.rb_person_pb2 import RB_Person
 
 from general.consumer import consume_topic
 
+from union_generator.constant import GROUP_ID
+
 log = logging.getLogger(__name__)
 
 class UnionConsumer:
 
     def consume(self):
-        msg_bafin_events = consume_topic(TOPIC_BAFIN, Bafin_Issuer)
+        msg_bafin_events = consume_topic(TOPIC_BAFIN, Bafin_Issuer, GROUP_ID)
         log.info("Bafin-Events consumed.")
-        msg_bafin_persons = consume_topic(TOPIC_BAFIN_PERSON, Bafin_Reportable_Person)
+        msg_bafin_persons = consume_topic(TOPIC_BAFIN_PERSON, Bafin_Reportable_Person, GROUP_ID)
         log.info("Bafin-Persons consumed.")
-        msg_bafin_corporates = consume_topic(TOPIC_BAFIN_CORPORATE, Bafin_Reportable_Corp)
+        msg_bafin_corporates = consume_topic(TOPIC_BAFIN_CORPORATE, Bafin_Reportable_Corp, GROUP_ID)
         log.info("Bafin-Coporates consumed.")
-        msg_rb_corporates = consume_topic(TOPIC_RB_CORPORATE, RB_Corporate)
+        msg_rb_corporates = consume_topic(TOPIC_RB_CORPORATE, RB_Corporate, GROUP_ID)
         log.info("HRB-Corporates consumed.")
-        msg_rb_persons = consume_topic(TOPIC_RB_PERSON, RB_Person)
+        msg_rb_persons = consume_topic(TOPIC_RB_PERSON, RB_Person, GROUP_ID)
         log.info("HRB-Persons consumed.")
 
         # Example for using the values:

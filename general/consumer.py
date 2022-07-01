@@ -3,9 +3,9 @@ from confluent_kafka import DeserializingConsumer
 from confluent_kafka.schema_registry.protobuf import ProtobufDeserializer
 from confluent_kafka.serialization import StringDeserializer
 
-from union_generator.constant import BOOTSTRAP_SERVER, GROUP_ID
+from union_generator.constant import BOOTSTRAP_SERVER
 
-def consume_topic(topic, schema):
+def consume_topic(topic, schema, group_id):
 
     deserializer = ProtobufDeserializer(
         schema, {"use.deprecated.format": True}
@@ -16,7 +16,7 @@ def consume_topic(topic, schema):
         'bootstrap.servers': BOOTSTRAP_SERVER,
         'key.deserializer': string_deserializer,
         'value.deserializer': deserializer,
-        'group.id': GROUP_ID,
+        'group.id': group_id,
         'session.timeout.ms': 6000,
         'auto.offset.reset': 'earliest'
     }
