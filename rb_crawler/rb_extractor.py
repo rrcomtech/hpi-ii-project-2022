@@ -112,7 +112,6 @@ class RbExtractor:
         return match
 
     def extract_persons(self, corporate: RB_Corporate, raw_text: str):
-        print("Persons")
         log.debug(f'Extract Persons for Company {corporate.id}')
         match = re.findall(' ([\w -]+), ([\w -]+), ([\w.\ -]+), \*(\d{2}.\d{2}.\d{4}), ([\w,\ -]+)', raw_text)
         for i in range(0, len(match)):
