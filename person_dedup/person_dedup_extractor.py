@@ -19,4 +19,5 @@ class PersonDedupExtractor:
 
     def extract(self):
         msg = PersonConsumer().consume()
+        log.info(msg)
         exit(0)

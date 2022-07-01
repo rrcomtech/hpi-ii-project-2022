@@ -3,7 +3,7 @@ from confluent_kafka import DeserializingConsumer
 from confluent_kafka.schema_registry.protobuf import ProtobufDeserializer
 from confluent_kafka.serialization import StringDeserializer
 
-from constant import BOOTSTRAP_SERVER
+from general.constant import BOOTSTRAP_SERVER
 
 def consume_topic(topic, schema, group_id):
 
