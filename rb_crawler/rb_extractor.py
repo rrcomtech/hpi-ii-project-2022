@@ -40,7 +40,8 @@ class RbExtractor:
                 corporate.id = f"{self.state}_{self.rb_id}"
                 raw_text: str = selector.xpath("/html/body/font/table/tr[6]/td/text()").get()
                 corporate.company_name = self.extract_company_name(raw_text)
-                self.extract_persons(corporate, raw_text)
+                if self.state != 'be':
+                    self.extract_persons(corporate, raw_text)
                 self.handle_events(corporate, event_type, raw_text)
                 self.rb_id = self.rb_id + 1
                 log.debug(corporate)
@@ -52,7 +53,6 @@ class RbExtractor:
         exit(0)
 
     def extract_from_dataloader(self, rb_id, state, reference_id, event_date, event_type, text):
-        selector = Selector(text=text)
         corporate = RB_Corporate()
         corporate.rb_id = rb_id
         corporate.state = state
@@ -105,6 +105,7 @@ class RbExtractor:
 
     def extract_company_name_data_loader(self, raw_text: str):
         match = re.findall('(?<=\:\ )(.*?)(?=\,)', raw_text)[0]
+        # fails probably here: https://www.handelsregisterbekanntmachungen.de/skripte/hrb.php?rb_id=572022&land_abk=be
         return match
 
     def extract_company_name(self, raw_text: str):
