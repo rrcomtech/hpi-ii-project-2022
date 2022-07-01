@@ -50,38 +50,70 @@ class PersonDedupExtractor:
 
         for i, index in enumerate(sorted_indices):
             if i not in duplicate_indices:
-
                 msg = None
                 if index < len(msg_bafin_persons):
                     msg = msg_bafin_persons[index]
                 else:
                     msg = msg_rb_persons[index - len(msg_bafin_persons)]
-                
-                person = DeDup_Person()
-                person.firstname = msg.firstname
-                person.lastname = msg.lastname
-
-                try:
-                    person.title = msg.title if msg.title else ''
-                    person.bafin_issuer = msg.bafin_issuer if msg.bafin_issuer else ''
-                    person.rights_33_34 = msg.rights_33_34 if msg.rights_33_34 else ''
-                    person.rights_38 = msg.rights_38 if msg.rights_38 else ''
-                    person.rights_39 = msg.rights_39 if msg.rights_39 else ''
-                    person.bafin_reportable_id = msg.bafin_reportable_id if msg.bafin_reportable_id else ''
-                    person.bafin_issuer_id = msg.bafin_issuer_id if msg.bafin_issuer_id else ''
-                    person.publishing_date = msg.publishing_date if msg.publishing_date else ''
-                except AttributeError:
-                    log.info('Attribute Error catched when producing Dedup Persons')
-                
-                try:
-                    person.rb_corporateName = msg.rb_corporateName if msg.rb_corporateName else ''
-                    person.birthdate = msg.birthdate if msg.birthdate else ''
-                    person.city = msg.city if msg.city else ''
-                    person.rb_role = msg.rb_role if msg.rb_role else ''
-                    person.rb_corporateID = msg.rb_corporateID if msg.rb_corporateID else ''
-                except AttributeError:
-                    log.info('Attribute Error catched when producing Dedup Persons')
-                
+                person = self.personFromMessage(msg)
                 self.dedup_producer.produce_to_topic(person, hash(person.firstname.lower() + person.lastname.lower()))
-
         exit(0)
+
+
+    def personFromMessage(self, msg):
+        person = DeDup_Person()
+        person.firstname = msg.firstname
+        person.lastname = msg.lastname
+        try:
+            person.title = msg.title
+        except:
+            pass
+        try:
+            person.bafin_issuer = msg.bafin_issuer
+        except:
+            pass
+        try:
+            person.rights_33_34 = msg.rights_33_34
+        except:
+            pass
+        try:
+            person.rights_38 = msg.rights_38
+        except:
+            pass
+        try:
+            person.rights_39 = msg.rights_39
+        except:
+            pass
+        try:
+            person.bafin_reportable_id = msg.bafin_reportable_id
+        except:
+            pass
+        try:
+            person.bafin_issuer_id = msg.bafin_issuer_id
+        except:
+            pass
+        try:
+            person.publishing_date = msg.publishing_date
+        except:
+            pass
+        try:
+            person.rb_corporateName = msg.rb_corporateName
+        except:
+            pass
+        try:
+            person.birthdate = msg.birthdate
+        except:
+            pass
+        try:
+            person.city = msg.city
+        except:
+            pass
+        try:
+            person.rb_role = msg.rb_role
+        except:
+            pass
+        try:
+            person.rb_corporateID = msg.rb_corporateID
+        except:
+            pass
+        return person
