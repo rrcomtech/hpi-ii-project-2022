@@ -1,0 +1,4602 @@
+[
+    {
+        "partitionID": 0,
+        "offset": 2979,
+        "timestamp": 1656770920116,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4924232667408023069",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Petz",
+                "rbCorporateName": "Primarius GmbH",
+                "rbCorporateID": "by1035565"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2980,
+        "timestamp": 1656770920146,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "168841081213759889",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias Peter Karl",
+                "lastname": "Harms",
+                "rbCorporateName": "SWEG Bus Verkehr West II GmbH",
+                "rbCorporateID": "bw870767"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2981,
+        "timestamp": 1656770920163,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "168841081213759889",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias Peter Karl",
+                "lastname": "Harms",
+                "rbCorporateName": "SWEG Bus Verkehr Ost II GmbH",
+                "rbCorporateID": "bw870820"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2982,
+        "timestamp": 1656770920177,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "168841081213759889",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias Peter Karl",
+                "lastname": "Harms",
+                "rbCorporateName": "SWEG Bus Verkehr SEV GmbH",
+                "rbCorporateID": "bw871118"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2983,
+        "timestamp": 1656770920193,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "168841081213759889",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias Peter Karl",
+                "lastname": "Harms",
+                "rbCorporateName": "SWEG Bus Flottenmanagement GmbH",
+                "rbCorporateID": "bw871295"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2984,
+        "timestamp": 1656770920223,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1908415248413905993",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Schneider",
+                "rbCorporateName": "KS Küchenvertrieb GmbH",
+                "rbCorporateID": "bw872932"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2985,
+        "timestamp": 1656770920239,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5089770028366592257",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Schwender",
+                "rbCorporateName": "feinesleben GmbH",
+                "rbCorporateID": "bw875804"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2986,
+        "timestamp": 1656770920269,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3318214816185574797",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Spiethaler",
+                "rbCorporateName": "curing shot UG (haftungsbeschränkt)",
+                "rbCorporateID": "by1043343"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2987,
+        "timestamp": 1656770920287,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2097228174263644073",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Stieler",
+                "rbCorporateName": "Tobias Stieler Heizung-Sanitär GmbH",
+                "rbCorporateID": "by1042762"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2988,
+        "timestamp": 1656770920299,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8146125626202639453",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Steimer",
+                "rbCorporateName": "Steimer Baggerbetrieb GmbH",
+                "rbCorporateID": "by1038424"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2989,
+        "timestamp": 1656770920332,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4149617656641610891",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Stark",
+                "rbCorporateName": "Kanalsanierung Süd GmbH",
+                "rbCorporateID": "bw873640"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2990,
+        "timestamp": 1656770920346,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5096350219630068115",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Sterk",
+                "rbCorporateName": "Kanalsanierung Süd GmbH",
+                "rbCorporateID": "bw876591"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2991,
+        "timestamp": 1656770920376,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1557098801022457579",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Wagner",
+                "rbCorporateName": "Elektrotechnik Wagner GmbH",
+                "rbCorporateID": "bw881995"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2992,
+        "timestamp": 1656770920391,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1557098801022457579",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Wagner",
+                "rbCorporateName": "Wagner Bros. GmbH",
+                "rbCorporateID": "by1048277"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2993,
+        "timestamp": 1656770920407,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3462238489699309678",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Wallner",
+                "rbCorporateName": "Wal soft GmbH",
+                "rbCorporateID": "bw875013"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2994,
+        "timestamp": 1656770920437,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "478836235843601915",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Todor Boris",
+                "lastname": "Bodurov",
+                "rbCorporateName": "K & B Bauservice GmbH",
+                "rbCorporateID": "bw868560"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2995,
+        "timestamp": 1656770920453,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "478836235843601915",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Todor Boris",
+                "lastname": "Bodurov",
+                "rbCorporateName": "H & D Dienstleistungen GmbH",
+                "rbCorporateID": "bw874938"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2996,
+        "timestamp": 1656770920483,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2063543358989547517",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tomasz",
+                "lastname": "Kozielec",
+                "rbCorporateName": "TK Holding GmbH",
+                "rbCorporateID": "bw863689"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2997,
+        "timestamp": 1656770920498,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2063543358989547517",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tomasz",
+                "lastname": "Kozielec",
+                "rbCorporateName": "J & K Bau GmbH",
+                "rbCorporateID": "bw865793"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2998,
+        "timestamp": 1656770920530,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7080834022380126245",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tony",
+                "lastname": "Wieschalla",
+                "rbCorporateName": "Bonsai IT Solutions GmbH",
+                "rbCorporateID": "by1046557"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 2999,
+        "timestamp": 1656770920544,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7080834022380126245",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tony",
+                "lastname": "Wieschalla",
+                "rbCorporateName": "ISO QM Software GmbH",
+                "rbCorporateID": "by1046611"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3000,
+        "timestamp": 1656770920575,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4836321936096644950",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Torsten Alexander",
+                "lastname": "Ledwig",
+                "rbCorporateName": "Eichle Arts UG (haftungsbeschränkt)",
+                "rbCorporateID": "bw864908"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3001,
+        "timestamp": 1656770920590,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4836321936096644950",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Torsten Alexander",
+                "lastname": "Ledwig",
+                "rbCorporateName": "Dole-Caravaning UG (haftungsbeschränkt)",
+                "rbCorporateID": "bw875736"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3002,
+        "timestamp": 1656770920621,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7455269751746280336",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Torsten",
+                "lastname": "Fründt",
+                "rbCorporateName": "KL - 412 - Geschäftsführungs-GmbH",
+                "rbCorporateID": "bw880162"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3003,
+        "timestamp": 1656770920637,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7455269751746280336",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Torsten",
+                "lastname": "Fründt",
+                "rbCorporateName": "KL - 426 - Geschäftsführungs-GmbH",
+                "rbCorporateID": "bw880572"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3004,
+        "timestamp": 1656770920666,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-189461858344473024",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Torsten",
+                "lastname": "Kern",
+                "rbCorporateName": "Maschinenbau Kern GmbH",
+                "rbCorporateID": "bw881927"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3005,
+        "timestamp": 1656770920681,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-189461858344473024",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Torsten",
+                "lastname": "Kern",
+                "rbCorporateName": "Maschinenbau Kern GmbH",
+                "rbCorporateID": "bw881928"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3006,
+        "timestamp": 1656770920696,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3415292259007957614",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Torsten",
+                "lastname": "Rink",
+                "rbCorporateName": "Selz & Cie GmbH",
+                "rbCorporateID": "bw863373"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3007,
+        "timestamp": 1656770920729,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8881383782172160271",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tys",
+                "lastname": "Gohl",
+                "rbCorporateName": "Gohl Vermögensverwaltung UG (haftungsbeschränkt)",
+                "rbCorporateID": "bw879064"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3008,
+        "timestamp": 1656770920744,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8881383782172160271",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tys",
+                "lastname": "Gohl",
+                "rbCorporateName": "Gohl Holding UG (haftungsbeschränkt)",
+                "rbCorporateID": "bw879227"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3009,
+        "timestamp": 1656770920777,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "4893753397623061438",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Udo Manfred Wolfgang",
+                "lastname": "Schwetlick",
+                "rbCorporateName": "Projekt Leun GmbH",
+                "rbCorporateID": "bw871003"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3010,
+        "timestamp": 1656770920791,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "4893753397623061438",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Udo Manfred Wolfgang",
+                "lastname": "Schwetlick",
+                "rbCorporateName": "Schwetlick Projekt Hügelsheim GmbH",
+                "rbCorporateID": "bw871296"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3011,
+        "timestamp": 1656770920806,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "4893753397623061438",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Udo Manfred Wolfgang",
+                "lastname": "Schwetlick",
+                "rbCorporateName": "Schwetlick Projekt Höpfingen GmbH",
+                "rbCorporateID": "bw871821"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3012,
+        "timestamp": 1656770920839,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6788035824523988755",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Udo",
+                "lastname": "Schwetlick",
+                "rbCorporateName": "Schwetlick Projekt Waldbrunn GmbH",
+                "rbCorporateID": "bw871170"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3013,
+        "timestamp": 1656770920856,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6788035824523988755",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Udo",
+                "lastname": "Schwetlick",
+                "rbCorporateName": "Schwetlick Bauträgergesellschaft mbH",
+                "rbCorporateID": "bw871233"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3014,
+        "timestamp": 1656770920910,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8415860819627604890",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Udo",
+                "lastname": "Zimmermann",
+                "rbCorporateName": "Gerda Nückel GmbH",
+                "rbCorporateID": "bw878674"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3015,
+        "timestamp": 1656770920931,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8415860819627604890",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Udo",
+                "lastname": "Zimmermann",
+                "rbCorporateName": "Fiebig Palapharm GmbH",
+                "rbCorporateID": "bw882265"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3016,
+        "timestamp": 1656770920945,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8415860819627604890",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Udo",
+                "lastname": "Zimmermann",
+                "rbCorporateName": "Pharma Privat Kurier GmbH",
+                "rbCorporateID": "bw882268"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3017,
+        "timestamp": 1656770920974,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5259120426870310747",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich",
+                "lastname": "Friedrich",
+                "rbCorporateName": "Kaim Elektrotechnik GmbH",
+                "rbCorporateID": "by1037656"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3018,
+        "timestamp": 1656770920989,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4620487771187126204",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich",
+                "lastname": "Friedrichson",
+                "rbCorporateName": "Frie Health GmbH",
+                "rbCorporateID": "bw866578"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3019,
+        "timestamp": 1656770921018,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-667020781546015804",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich",
+                "lastname": "Hoffmann",
+                "rbCorporateName": "Elektrohandelsgesellschaft mbH",
+                "rbCorporateID": "bw872129"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3020,
+        "timestamp": 1656770921034,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-667020781546015804",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich",
+                "lastname": "Hoffmann",
+                "rbCorporateName": "pro optik Augenoptik Fachgeschäft GmbH",
+                "rbCorporateID": "bw881236"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3021,
+        "timestamp": 1656770921064,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3017050070700789207",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich Josef",
+                "lastname": "Reichenbach",
+                "rbCorporateName": "Kandel Event GmbH",
+                "rbCorporateID": "bw873180"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3022,
+        "timestamp": 1656770921081,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3017050070700789207",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich Josef",
+                "lastname": "Reichenbach",
+                "rbCorporateName": "Kandel Gastro GmbH",
+                "rbCorporateID": "bw873573"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3023,
+        "timestamp": 1656770921110,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2849382980290057762",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich",
+                "lastname": "Kammerer",
+                "rbCorporateName": "Tavoite Verwaltungs GmbH",
+                "rbCorporateID": "bw872541"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3024,
+        "timestamp": 1656770921126,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2849382980290057762",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich",
+                "lastname": "Kammerer",
+                "rbCorporateName": "Carragh Holding GmbH",
+                "rbCorporateID": "bw876899"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3025,
+        "timestamp": 1656770921141,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2849382980290057762",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich",
+                "lastname": "Kammerer",
+                "rbCorporateName": "diginit GmbH",
+                "rbCorporateID": "bw877003"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3026,
+        "timestamp": 1656770921156,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2849382980290057762",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich",
+                "lastname": "Kammerer",
+                "rbCorporateName": "Turvapaikka Immobilien GmbH",
+                "rbCorporateID": "bw878047"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3027,
+        "timestamp": 1656770921187,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-9162886192601985656",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich Werner",
+                "lastname": "Fränkle",
+                "rbCorporateName": "Ulrich Fränkle Zweite Verwaltungs GmbH",
+                "rbCorporateID": "bw865290"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3028,
+        "timestamp": 1656770921203,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-9162886192601985656",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich Werner",
+                "lastname": "Fränkle",
+                "rbCorporateName": "FFO 1. Invest GmbH",
+                "rbCorporateID": "bw865375"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3029,
+        "timestamp": 1656770921234,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3976194301519205734",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrike",
+                "lastname": "Gschossmann",
+                "rbCorporateName": "Naabgold Handels GmbH & Co KG",
+                "rbCorporateID": "by1045136"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3030,
+        "timestamp": 1656770921249,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3976194301519205734",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrike",
+                "lastname": "Gschossmann",
+                "rbCorporateName": "Oberpfälzische Konserven-Industrie Schwandorf GmbH & Co. KG",
+                "rbCorporateID": "by1047479"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3031,
+        "timestamp": 1656770921278,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7076990163843331612",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Urs",
+                "lastname": "Nibler",
+                "rbCorporateName": "HeNi Projekt I GmbH",
+                "rbCorporateID": "by1032784"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3032,
+        "timestamp": 1656770921292,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7076990163843331612",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Urs",
+                "lastname": "Nibler",
+                "rbCorporateName": "HeNi Projekt II GmbH",
+                "rbCorporateID": "by1033078"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3033,
+        "timestamp": 1656770921329,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "969075327837119800",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uta",
+                "lastname": "Röttger",
+                "rbCorporateName": "9toSQUARE GmbH",
+                "rbCorporateID": "by1032789"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3034,
+        "timestamp": 1656770921345,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "969075327837119800",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uta",
+                "lastname": "Röttger",
+                "rbCorporateName": "LIONS AD WORK GmbH",
+                "rbCorporateID": "by1032804"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3035,
+        "timestamp": 1656770921378,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "969075327837119800",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uta",
+                "lastname": "Röttger",
+                "rbCorporateName": "IDPP GmbH",
+                "rbCorporateID": "by1047709"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3036,
+        "timestamp": 1656770921414,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8553533283819276389",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uwe Dieter",
+                "lastname": "Weigele",
+                "rbCorporateName": "Weigele Scientific UG (haftungsbeschränkt)",
+                "rbCorporateID": "bw875813"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3037,
+        "timestamp": 1656770921429,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8553533283819276389",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uwe Dieter",
+                "lastname": "Weigele",
+                "rbCorporateName": "Vientum UG (haftungsbeschränkt)",
+                "rbCorporateID": "bw876031"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3038,
+        "timestamp": 1656770921481,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1926129380204588673",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uwe Gerhard",
+                "lastname": "Zimmermann",
+                "rbCorporateName": "DYT eCommerce GmbH",
+                "rbCorporateID": "bw863589"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3039,
+        "timestamp": 1656770921504,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1926129380204588673",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uwe Gerhard",
+                "lastname": "Zimmermann",
+                "rbCorporateName": "Lapa eCommerce GmbH",
+                "rbCorporateID": "bw867727"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3040,
+        "timestamp": 1656770921555,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-137671143324368282",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uwe",
+                "lastname": "Stoll",
+                "rbCorporateName": "Elvartis Verwaltungs GmbH",
+                "rbCorporateID": "bw874014"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3041,
+        "timestamp": 1656770921569,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-137671143324368282",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uwe",
+                "lastname": "Stoll",
+                "rbCorporateName": "Stoll Beteiligungs GmbH",
+                "rbCorporateID": "bw874064"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3042,
+        "timestamp": 1656770921602,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1407809806689442700",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uwe",
+                "lastname": "Thoma",
+                "rbCorporateName": "Thoma Invest GmbH",
+                "rbCorporateID": "bw872144"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3043,
+        "timestamp": 1656770921619,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1407809806689442700",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uwe",
+                "lastname": "Thoma",
+                "rbCorporateName": "Wyhlen Grundbesitz GmbH",
+                "rbCorporateID": "bw874233"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3044,
+        "timestamp": 1656770921648,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4616970596503669265",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Valentin",
+                "lastname": "Kosterin",
+                "rbCorporateName": "Kosterin Group GmbH",
+                "rbCorporateID": "bw877390"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3045,
+        "timestamp": 1656770921663,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4616970596503669265",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Valentin",
+                "lastname": "Kosterin",
+                "rbCorporateName": "ALVA Immobilieninvestment GmbH",
+                "rbCorporateID": "bw881002"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3046,
+        "timestamp": 1656770921694,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3043174468362538842",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Veit",
+                "lastname": "Klinkenberg",
+                "rbCorporateName": "Dr. Schacht Zahnmedizin MVZ GmbH",
+                "rbCorporateID": "bw868780"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3047,
+        "timestamp": 1656770921707,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3043174468362538842",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Veit",
+                "lastname": "Klinkenberg",
+                "rbCorporateName": "Mobilodent GmbH",
+                "rbCorporateID": "bw869890"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3048,
+        "timestamp": 1656770921737,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2559821166825075035",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Vera",
+                "lastname": "Seehausen",
+                "rbCorporateName": "Medical Imaging Bremen GmbH",
+                "rbCorporateID": "hb62703"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3049,
+        "timestamp": 1656770921753,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2559821166825075035",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Vera",
+                "lastname": "Seehausen",
+                "rbCorporateName": "Veramici UG (haftungsbeschränkt)",
+                "rbCorporateID": "hb62715"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3050,
+        "timestamp": 1656770921783,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6724602979064760616",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Verena",
+                "lastname": "Benz",
+                "rbCorporateName": "Lovjoi ORGANIC CLOTHING GmbH",
+                "rbCorporateID": "bw866514"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3051,
+        "timestamp": 1656770921798,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6724602979064760616",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Verena",
+                "lastname": "Benz",
+                "rbCorporateName": "ConStella Holding GmbH",
+                "rbCorporateID": "bw866792"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3052,
+        "timestamp": 1656770921815,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6724602979064760616",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Verena",
+                "lastname": "Benz",
+                "rbCorporateName": "Paul Bio GmbH",
+                "rbCorporateID": "bw866839"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3053,
+        "timestamp": 1656770921845,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "749353455510995670",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Verena",
+                "lastname": "Götz",
+                "rbCorporateName": "Maxine Cosmetics GmbH",
+                "rbCorporateID": "bw865485"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3054,
+        "timestamp": 1656770921860,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "749353455510995670",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Verena",
+                "lastname": "Götz",
+                "rbCorporateName": "Bauspenglerei Rudolf Götz GmbH",
+                "rbCorporateID": "by1034788"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3055,
+        "timestamp": 1656770921891,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4620096614093919432",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Viktor",
+                "lastname": "Sellmann",
+                "rbCorporateName": "J. Brinnig GmbH Autolackiererei und Karosserie-Fachbetrieb",
+                "rbCorporateID": "bw866304"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3056,
+        "timestamp": 1656770921905,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2719832644940206251",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Viktor",
+                "lastname": "Ullmann",
+                "rbCorporateName": "Mix Markt 56 GmbH",
+                "rbCorporateID": "bw866356"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3057,
+        "timestamp": 1656770921937,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3297342451903247259",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Vinzent",
+                "lastname": "von Witten",
+                "rbCorporateName": "Los flacos UG (haftungsbeschränkt)",
+                "rbCorporateID": "bw868966"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3058,
+        "timestamp": 1656770921953,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3297342451903247259",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Vinzent",
+                "lastname": "von Witten",
+                "rbCorporateName": "Pinsl GmbH",
+                "rbCorporateID": "bw880771"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3059,
+        "timestamp": 1656770921983,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2848998969950541338",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Vlado",
+                "lastname": "Lazic",
+                "rbCorporateName": "Lazic Holding GmbH",
+                "rbCorporateID": "bw879166"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3060,
+        "timestamp": 1656770921997,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2848998969950541338",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Vlado",
+                "lastname": "Lazic",
+                "rbCorporateName": "Lazic Verwaltungs GmbH",
+                "rbCorporateID": "bw879536"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3061,
+        "timestamp": 1656770922029,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2204246869937547305",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Baumgärtner",
+                "rbCorporateName": "Eisen Seegerer Gesellschaft mit beschränkter Haftung",
+                "rbCorporateID": "bw879936"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3062,
+        "timestamp": 1656770922045,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2204246869937547305",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Baumgärtner",
+                "rbCorporateName": "Beteiligungs-Gesellschaft Fischer mbH",
+                "rbCorporateID": "bw880583"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3063,
+        "timestamp": 1656770922074,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-612117873831686800",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Burkhard",
+                "rbCorporateName": "Merz Verwaltungs GmbH",
+                "rbCorporateID": "bw869928"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3064,
+        "timestamp": 1656770922090,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-612117873831686800",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Burkhard",
+                "rbCorporateName": "Merz GmbH Textile Dienstleistungen",
+                "rbCorporateID": "bw875834"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3065,
+        "timestamp": 1656770922121,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "499502700977898723",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Feldkamp",
+                "rbCorporateName": "DFH Zweite Beteiligung GmbH",
+                "rbCorporateID": "by1049670"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3066,
+        "timestamp": 1656770922137,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "499502700977898723",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Feldkamp",
+                "rbCorporateName": "Deutsche Fachpflege Holding GmbH",
+                "rbCorporateID": "by1049683"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3067,
+        "timestamp": 1656770922151,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "499502700977898723",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Feldkamp",
+                "rbCorporateName": "DFH Dritte Beteiligung GmbH",
+                "rbCorporateID": "by1049799"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3068,
+        "timestamp": 1656770922167,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "499502700977898723",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Feldkamp",
+                "rbCorporateName": "DFH Fünfte Beteiligung GmbH",
+                "rbCorporateID": "by1049871"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3069,
+        "timestamp": 1656770922181,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "499502700977898723",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Feldkamp",
+                "rbCorporateName": "DFH Vierte Beteiligung GmbH",
+                "rbCorporateID": "by1050058"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3070,
+        "timestamp": 1656770922214,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6404608721066637348",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Klien",
+                "rbCorporateName": "Freizeitwerk GmbH",
+                "rbCorporateID": "by1039434"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3071,
+        "timestamp": 1656770922228,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3448354730447487057",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Knickel",
+                "rbCorporateName": "John Deere-Lanz Verwaltungs-GmbH",
+                "rbCorporateID": "bw871782"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3072,
+        "timestamp": 1656770922259,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7232223011269020423",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Käsewieter",
+                "rbCorporateName": "Donautaler Wohnbau GmbH",
+                "rbCorporateID": "by1048935"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3073,
+        "timestamp": 1656770922273,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7232223011269020423",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Käsewieter",
+                "rbCorporateName": "Ramio GmbH",
+                "rbCorporateID": "by1048941"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3074,
+        "timestamp": 1656770922304,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5496908239796704659",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Roese",
+                "rbCorporateName": "Auctus dreiundsechzigste Beteiligungsgesellschaft mbH",
+                "rbCorporateID": "by1040088"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3075,
+        "timestamp": 1656770922320,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5496908239796704659",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Roese",
+                "rbCorporateName": "AUCTUS sechsundsechzigste Beteiligungsgesellschaft mbH",
+                "rbCorporateID": "by1049916"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3076,
+        "timestamp": 1656770922351,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4743041317558752729",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Seynstahl",
+                "rbCorporateName": "H.Henninger - Reifbräu Gesellschaft mit beschränkter Haftung",
+                "rbCorporateID": "by1044211"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3077,
+        "timestamp": 1656770922367,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4743041317558752729",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Seynstahl",
+                "rbCorporateName": "Brauerei Humbser-Geismann Gesellschaft mit beschränkter Haftung",
+                "rbCorporateID": "by1044513"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3078,
+        "timestamp": 1656770922382,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4743041317558752729",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Seynstahl",
+                "rbCorporateName": "Nürnberger Bierkontor GmbH",
+                "rbCorporateID": "by1045465"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3079,
+        "timestamp": 1656770922413,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8698050916454473476",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volkmar",
+                "lastname": "Mäckle",
+                "rbCorporateName": "Workstart Arbeitshilfen GmbH",
+                "rbCorporateID": "bw881430"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3080,
+        "timestamp": 1656770922427,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8698050916454473476",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volkmar",
+                "lastname": "Mäckle",
+                "rbCorporateName": "SHT - Sozialunternehmen HoGa - Tourist GmbH",
+                "rbCorporateID": "bw881770"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3081,
+        "timestamp": 1656770922458,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "155196879151645515",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Walter",
+                "lastname": "Kuna",
+                "rbCorporateName": "K3-Invest-GmbH",
+                "rbCorporateID": "by1045628"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3082,
+        "timestamp": 1656770922473,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "155196879151645515",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Walter",
+                "lastname": "Kuna",
+                "rbCorporateName": "River Beteiligungs GmbH",
+                "rbCorporateID": "by1045754"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3083,
+        "timestamp": 1656770922489,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "155196879151645515",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Walter",
+                "lastname": "Kuna",
+                "rbCorporateName": "Poseidon Beteiligungs GmbH",
+                "rbCorporateID": "by1046390"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3084,
+        "timestamp": 1656770922504,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "155196879151645515",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Walter",
+                "lastname": "Kuna",
+                "rbCorporateName": "Kuna Real Estate Verwaltungs GmbH",
+                "rbCorporateID": "by1048926"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3085,
+        "timestamp": 1656770922536,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-6552421171958098181",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Walter Michael",
+                "lastname": "Leuthe",
+                "rbCorporateName": "Leuthe GmbH",
+                "rbCorporateID": "bw880276"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3086,
+        "timestamp": 1656770922550,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-6552421171958098181",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Walter Michael",
+                "lastname": "Leuthe",
+                "rbCorporateName": "Ferd. Hauber GmbH",
+                "rbCorporateID": "bw882155"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3087,
+        "timestamp": 1656770922580,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2998200677960102701",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Walter",
+                "lastname": "Winkler",
+                "rbCorporateName": "FIL Beteiligungs GmbH",
+                "rbCorporateID": "by1033465"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3088,
+        "timestamp": 1656770922596,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2998200677960102701",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Walter",
+                "lastname": "Winkler",
+                "rbCorporateName": "WITRON Vermögensverwaltungs GmbH",
+                "rbCorporateID": "by1039960"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3089,
+        "timestamp": 1656770922628,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6938778069349667461",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wedemark",
+                "lastname": "Sebastian",
+                "rbCorporateName": "Curatum Beteiligungs- und Verwaltungsgesellschaft mbH",
+                "rbCorporateID": "by1042847"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3090,
+        "timestamp": 1656770922645,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6938778069349667461",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wedemark",
+                "lastname": "Sebastian",
+                "rbCorporateName": "Charleston Holding GmbH",
+                "rbCorporateID": "by1044040"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3091,
+        "timestamp": 1656770922674,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8741803870328149377",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wei",
+                "lastname": "Guo",
+                "rbCorporateName": "PAI Property Investment GmbH",
+                "rbCorporateID": "bw880531"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3092,
+        "timestamp": 1656770922689,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8741803870328149377",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wei",
+                "lastname": "Guo",
+                "rbCorporateName": "Vansch GmbH",
+                "rbCorporateID": "bw881402"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3093,
+        "timestamp": 1656770922719,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "639515528843712977",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner Hubertus",
+                "lastname": "Echsle",
+                "rbCorporateName": "Hertwig Kochprofi UG (haftungsbeschränkt)",
+                "rbCorporateID": "bw865040"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3094,
+        "timestamp": 1656770922738,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "639515528843712977",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner Hubertus",
+                "lastname": "Echsle",
+                "rbCorporateName": "Hügel Kochprofi UG (haftungsbeschränkt)",
+                "rbCorporateID": "bw865694"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3095,
+        "timestamp": 1656770922750,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "639515528843712977",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner Hubertus",
+                "lastname": "Echsle",
+                "rbCorporateName": "Stecknitz Kochprofi UG (haftungsbeschränkt)",
+                "rbCorporateID": "bw865955"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3096,
+        "timestamp": 1656770922768,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "639515528843712977",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner Hubertus",
+                "lastname": "Echsle",
+                "rbCorporateName": "Wachter Kochprofi UG (haftungsbeschränkt)",
+                "rbCorporateID": "bw867939"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3097,
+        "timestamp": 1656770922794,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2925506319538970256",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner",
+                "lastname": "Kreibl",
+                "rbCorporateName": "Totech GmbH",
+                "rbCorporateID": "bw864741"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3098,
+        "timestamp": 1656770922810,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2925506319538970256",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner",
+                "lastname": "Kreibl",
+                "rbCorporateName": "ASYS Prozeß- und Reinraumtechnik GmbH",
+                "rbCorporateID": "bw871874"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3099,
+        "timestamp": 1656770922824,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2925506319538970256",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner",
+                "lastname": "Kreibl",
+                "rbCorporateName": "ASYS Invest GmbH",
+                "rbCorporateID": "bw872300"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3100,
+        "timestamp": 1656770922857,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4949913127902512379",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner Rolf",
+                "lastname": "Dürr",
+                "rbCorporateName": "Carmen-Autovermietung-GmbH",
+                "rbCorporateID": "by1038211"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3101,
+        "timestamp": 1656770922870,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4949913127902512379",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner Rolf",
+                "lastname": "Dürr",
+                "rbCorporateName": "AHG Leasing GmbH",
+                "rbCorporateID": "by1042752"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3102,
+        "timestamp": 1656770922901,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3924787921500255421",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner",
+                "lastname": "Schilcher",
+                "rbCorporateName": "Terago Objekt Warthausen GmbH",
+                "rbCorporateID": "by1034407"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3103,
+        "timestamp": 1656770922917,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3924787921500255421",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner",
+                "lastname": "Schilcher",
+                "rbCorporateName": "PRIMUS Concept 1. Renditeimmobilien Augsburg GmbH",
+                "rbCorporateID": "by1034464"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3104,
+        "timestamp": 1656770922934,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3924787921500255421",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner",
+                "lastname": "Schilcher",
+                "rbCorporateName": "PRIMUS Concept 2. Renditeimmobilien Fürstgartencenter GmbH",
+                "rbCorporateID": "by1038352"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3105,
+        "timestamp": 1656770922970,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "521247786768921719",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wido",
+                "lastname": "Fath",
+                "rbCorporateName": "Fath Solar GmbH",
+                "rbCorporateID": "by1036796"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3106,
+        "timestamp": 1656770922992,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "521247786768921719",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wido",
+                "lastname": "Fath",
+                "rbCorporateName": "Fath Solar Group Holding GmbH",
+                "rbCorporateID": "by1036810"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3107,
+        "timestamp": 1656770923022,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4115536751465373249",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wigo",
+                "lastname": "Steinberg",
+                "rbCorporateName": "Grundstücksverwaltung Ermlitz Verwaltungs-GmbH",
+                "rbCorporateID": "by1037078"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3108,
+        "timestamp": 1656770923038,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4115536751465373249",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wigo",
+                "lastname": "Steinberg",
+                "rbCorporateName": "Grundstücksverwaltung Solarkraftwerk Verwaltungs-GmbH",
+                "rbCorporateID": "by1037457"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3109,
+        "timestamp": 1656770923055,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4115536751465373249",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wigo",
+                "lastname": "Steinberg",
+                "rbCorporateName": "Grundstücksverwaltung Töpchin Verwaltungs-GmbH",
+                "rbCorporateID": "by1037505"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3110,
+        "timestamp": 1656770923069,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4115536751465373249",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wigo",
+                "lastname": "Steinberg",
+                "rbCorporateName": "Grundstücksverwaltung Hessisch-Lichtenau Verwaltungs-GmbH",
+                "rbCorporateID": "by1037714"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3111,
+        "timestamp": 1656770923085,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4115536751465373249",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wigo",
+                "lastname": "Steinberg",
+                "rbCorporateName": "Grundstücksverwaltung Wünsdorf Verwaltungs-GmbH",
+                "rbCorporateID": "by1037740"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3112,
+        "timestamp": 1656770923099,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4115536751465373249",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wigo",
+                "lastname": "Steinberg",
+                "rbCorporateName": "Climagy PV-Systeme Verwaltungs-GmbH",
+                "rbCorporateID": "by1037789"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3113,
+        "timestamp": 1656770923114,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4115536751465373249",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wigo",
+                "lastname": "Steinberg",
+                "rbCorporateName": "FGD Grundstücksverwaltungs Beteiligungs-GmbH",
+                "rbCorporateID": "by1037792"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3114,
+        "timestamp": 1656770923134,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4115536751465373249",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wigo",
+                "lastname": "Steinberg",
+                "rbCorporateName": "Grundstücksverwaltung Markranstädt Verwaltungs-GmbH",
+                "rbCorporateID": "by1038008"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3115,
+        "timestamp": 1656770923144,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4115536751465373249",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wigo",
+                "lastname": "Steinberg",
+                "rbCorporateName": "Solarkraftwerk Burg Verwaltungs-GmbH",
+                "rbCorporateID": "by1038144"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3116,
+        "timestamp": 1656770923161,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4115536751465373249",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wigo",
+                "lastname": "Steinberg",
+                "rbCorporateName": "hoch.rein Immobilienverwaltung Helmstadt GmbH",
+                "rbCorporateID": "by1038570"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3117,
+        "timestamp": 1656770923177,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4115536751465373249",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wigo",
+                "lastname": "Steinberg",
+                "rbCorporateName": "hoch.rein Immobilienverwaltung Kitzingen Klosterforst GmbH",
+                "rbCorporateID": "by1039420"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3118,
+        "timestamp": 1656770923190,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4115536751465373249",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wigo",
+                "lastname": "Steinberg",
+                "rbCorporateName": "Photovoltaikkraftwerk Markt Bibart Verwaltungs-GmbH",
+                "rbCorporateID": "by1046666"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3119,
+        "timestamp": 1656770923221,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5207739171938746040",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wilfrid Bernd",
+                "lastname": "Friedrich",
+                "rbCorporateName": "Dürrwächter + Friedrich Bau GmbH & Co. KG",
+                "rbCorporateID": "bw864312"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3120,
+        "timestamp": 1656770923238,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5207739171938746040",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wilfrid Bernd",
+                "lastname": "Friedrich",
+                "rbCorporateName": "Günther Friedrich GmbH",
+                "rbCorporateID": "bw866403"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3121,
+        "timestamp": 1656770923269,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5481422676290874218",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wilfried",
+                "lastname": "Halbig",
+                "rbCorporateName": "Grammes & Kollegen Steuerberatungsgesellschaft mbH",
+                "rbCorporateID": "by1036172"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3122,
+        "timestamp": 1656770923289,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5481422676290874218",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wilfried",
+                "lastname": "Halbig",
+                "rbCorporateName": "Mohr & Partner Steuerberatungsgesellschaft mbH",
+                "rbCorporateID": "by1041422"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3123,
+        "timestamp": 1656770923331,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1835437554496052226",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wilhelm",
+                "lastname": "Bezold",
+                "rbCorporateName": "CURENT Baubetreuungs- und Vermögensverwaltungsgesellschaft mbH",
+                "rbCorporateID": "by1042210"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3124,
+        "timestamp": 1656770923342,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1835437554496052226",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wilhelm",
+                "lastname": "Bezold",
+                "rbCorporateName": "Cur-Plan Curent Beteiligungsgesellschaft mbH",
+                "rbCorporateID": "by1042697"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3125,
+        "timestamp": 1656770923372,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4724837130331762604",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Winfried",
+                "lastname": "Aust",
+                "rbCorporateName": "Aust Wohnbau GmbH",
+                "rbCorporateID": "by1034412"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3126,
+        "timestamp": 1656770923386,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4724837130331762604",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Winfried",
+                "lastname": "Aust",
+                "rbCorporateName": "Aust Wohn- und Gewerbebau GmbH & Co. KG",
+                "rbCorporateID": "by1049507"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3127,
+        "timestamp": 1656770923418,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "654618772938515942",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Winfried",
+                "lastname": "Rother",
+                "rbCorporateName": "W. Rother Verwaltungs GmbH",
+                "rbCorporateID": "by1038358"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3128,
+        "timestamp": 1656770923433,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2344756536435628260",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Winfried",
+                "lastname": "Rothermel",
+                "rbCorporateName": "Print Medien Holding GmbH",
+                "rbCorporateID": "bw865808"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3129,
+        "timestamp": 1656770923464,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "542277534952547188",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Abler",
+                "rbCorporateName": "MULI UG (haftungsbeschränkt)",
+                "rbCorporateID": "by1046148"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3130,
+        "timestamp": 1656770923479,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2184912265044541294",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Bartel",
+                "rbCorporateName": "AlkoVerM GmbH",
+                "rbCorporateID": "by1044582"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3131,
+        "timestamp": 1656770923509,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1599028268935389498",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Bichler",
+                "rbCorporateName": "Elektro Bichler GmbH",
+                "rbCorporateID": "by1044816"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3132,
+        "timestamp": 1656770923525,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-7532481975046145172",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Buchner",
+                "rbCorporateName": "buchner ingenieur GmbH",
+                "rbCorporateID": "by1049426"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3133,
+        "timestamp": 1656770923563,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1772509068583938485",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Eilzer",
+                "rbCorporateName": "Leonhardt",
+                "rbCorporateID": "bw870524"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3134,
+        "timestamp": 1656770923592,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "456679306889174192",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Exler",
+                "rbCorporateName": "WEX Consulting GmbH",
+                "rbCorporateID": "by1036103"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3135,
+        "timestamp": 1656770923686,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2373098600858774601",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Heller",
+                "rbCorporateName": "\"Heller Bau GmbH\".",
+                "rbCorporateID": "by1037814"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3136,
+        "timestamp": 1656770923708,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2548722926383641586",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Hieber",
+                "rbCorporateName": "Hieber Car Service GmbH",
+                "rbCorporateID": "by1038036"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3137,
+        "timestamp": 1656770923723,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1296088713518961623",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Hägele",
+                "rbCorporateName": "Hägele & Werner Rohrisolierungen GmbH",
+                "rbCorporateID": "bw866294"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3138,
+        "timestamp": 1656770923754,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8878636968758944903",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Hörz",
+                "rbCorporateName": "Hörz Immobilien Verwaltungs-GmbH",
+                "rbCorporateID": "bw868889"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3139,
+        "timestamp": 1656770923770,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8878636968758944903",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Hörz",
+                "rbCorporateName": "Dr. Hörz MyDent Holding MVZ GmbH",
+                "rbCorporateID": "bw871106"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3140,
+        "timestamp": 1656770923800,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7340207696231961198",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang Josef",
+                "lastname": "Hirth",
+                "rbCorporateName": "Beton- und Kiesverwaltungs- GmbH",
+                "rbCorporateID": "bw865052"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3141,
+        "timestamp": 1656770923817,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7340207696231961198",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang Josef",
+                "lastname": "Hirth",
+                "rbCorporateName": "BKG Transportbeton Verwaltungs-GmbH",
+                "rbCorporateID": "bw867096"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3142,
+        "timestamp": 1656770923848,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "639880206366549584",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Klose",
+                "rbCorporateName": "CADCORE GmbH",
+                "rbCorporateID": "by1050522"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3143,
+        "timestamp": 1656770923864,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5732957329851396942",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Koos",
+                "rbCorporateName": "Kunststofftechnik Weiden GmbH",
+                "rbCorporateID": "by1048662"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3144,
+        "timestamp": 1656770923895,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5001180671464150766",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Köstler",
+                "rbCorporateName": "Compart AG",
+                "rbCorporateID": "bw870687"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3145,
+        "timestamp": 1656770923910,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5001180671464150766",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Köstler",
+                "rbCorporateName": "Compart Deutschland GmbH",
+                "rbCorporateID": "bw870761"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3146,
+        "timestamp": 1656770923941,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7888921356203716591",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Lichtenwalder",
+                "rbCorporateName": "ZfP Zentrum für Präzisionskomponenten GmbH",
+                "rbCorporateID": "by1042392"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3147,
+        "timestamp": 1656770923956,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7888921356203716591",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Lichtenwalder",
+                "rbCorporateName": "Zentrum für Präzisionsfertigung Oberviechtach GmbH",
+                "rbCorporateID": "by1043984"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3148,
+        "timestamp": 1656770924001,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1598382540665613418",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang Markus",
+                "lastname": "Winter",
+                "rbCorporateName": "Winter Grundstücksverwaltungs GmbH",
+                "rbCorporateID": "bw868802"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3149,
+        "timestamp": 1656770924018,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1598382540665613418",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang Markus",
+                "lastname": "Winter",
+                "rbCorporateName": "Seelig Winter GmbH Feinblechtechnologie",
+                "rbCorporateID": "bw869299"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3150,
+        "timestamp": 1656770924031,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1598382540665613418",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang Markus",
+                "lastname": "Winter",
+                "rbCorporateName": "Bauflaschnerei Winter GmbH",
+                "rbCorporateID": "bw878899"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3151,
+        "timestamp": 1656770924063,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5662013106120954877",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Rich",
+                "rbCorporateName": "RICH Praezision GmbH",
+                "rbCorporateID": "bw869633"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3152,
+        "timestamp": 1656770924078,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-839525899251660360",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Rösch",
+                "rbCorporateName": "Autohaus Rieger GmbH + Co KG",
+                "rbCorporateID": "bw873426"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3153,
+        "timestamp": 1656770924095,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-839525899251660360",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Rösch",
+                "rbCorporateName": "Helmut Rieger GmbH",
+                "rbCorporateID": "bw876813"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3154,
+        "timestamp": 1656770924130,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6664670470889431737",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Schneider",
+                "rbCorporateName": "WIBA Gesellschaft für Wirtschaftsförderung und Marketing bayerischer Apotheken mbH",
+                "rbCorporateID": "by1039863"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3155,
+        "timestamp": 1656770924155,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6094232565940500110",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Schweizer",
+                "rbCorporateName": "Eis. Zoone GmbH",
+                "rbCorporateID": "bw865607"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3156,
+        "timestamp": 1656770924188,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "404323833110103007",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Schütt",
+                "rbCorporateName": "TFL International GmbH",
+                "rbCorporateID": "bw873377"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3157,
+        "timestamp": 1656770924202,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "404323833110103007",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Schütt",
+                "rbCorporateName": "TFL Ledertechnik GmbH",
+                "rbCorporateID": "bw880759"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3158,
+        "timestamp": 1656770924231,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4912683659329462306",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Trenkwald",
+                "rbCorporateName": "RTO Verwaltungs-GmbH",
+                "rbCorporateID": "by1034824"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3159,
+        "timestamp": 1656770924247,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4912683659329462306",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Trenkwald",
+                "rbCorporateName": "RTO Heizung-Sanitär Trenkwald GmbH & Co. KG",
+                "rbCorporateID": "by1037539"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3160,
+        "timestamp": 1656770924276,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8744109805535455041",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Wente",
+                "rbCorporateName": "MEAG Real Estate Erste Beteiligungsgesellschaft mbH",
+                "rbCorporateID": "by1043092"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3161,
+        "timestamp": 1656770924292,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8636801134570642631",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Werner",
+                "rbCorporateName": "Achalm Hotel Verwaltungs GmbH",
+                "rbCorporateID": "bw878031"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3162,
+        "timestamp": 1656770924308,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8636801134570642631",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Werner",
+                "rbCorporateName": "SOLERA GmbH",
+                "rbCorporateID": "bw879629"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3163,
+        "timestamp": 1656770924336,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1377742322497276763",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Zappe",
+                "rbCorporateName": "KMS-Bauunternehmung GmbH",
+                "rbCorporateID": "by1038107"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3164,
+        "timestamp": 1656770924352,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1377742322497276763",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Zappe",
+                "rbCorporateName": "ANZA Wohn- und Gewerbebau GmbH",
+                "rbCorporateID": "by1044355"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3165,
+        "timestamp": 1656770924382,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6098494071297577193",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Yasin Friedrich",
+                "lastname": "Tuncer",
+                "rbCorporateName": "Tuncer Wohnen I GmbH",
+                "rbCorporateID": "bw864730"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3166,
+        "timestamp": 1656770924397,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6098494071297577193",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Yasin Friedrich",
+                "lastname": "Tuncer",
+                "rbCorporateName": "TUNCER Wohnen I Bestand GmbH",
+                "rbCorporateID": "bw880875"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3167,
+        "timestamp": 1656770924428,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5562553645473955896",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "York Sebastian Friedrich",
+                "lastname": "Dhein",
+                "rbCorporateName": "MediClin Geschäftsführungs-GmbH",
+                "rbCorporateID": "bw875212"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3168,
+        "timestamp": 1656770924443,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5562553645473955896",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "York Sebastian Friedrich",
+                "lastname": "Dhein",
+                "rbCorporateName": "MediClin à la Carte GmbH",
+                "rbCorporateID": "bw875617"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3169,
+        "timestamp": 1656770924473,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5664273249021540247",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Yousef",
+                "lastname": "Bajjali",
+                "rbCorporateName": "NEA412 UG (haftungsbeschränkt)",
+                "rbCorporateID": "by1044017"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3170,
+        "timestamp": 1656770924491,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5664273249021540247",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Yousef",
+                "lastname": "Bajjali",
+                "rbCorporateName": "Gesundheitssport UG (haftungsbeschränkt)",
+                "rbCorporateID": "by1048579"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3171,
+        "timestamp": 1656770924521,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7540441196708573094",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Yuan",
+                "lastname": "Zhao",
+                "rbCorporateName": "Vogt und Zhao Beteiligungs UG (haftungsbeschränkt)",
+                "rbCorporateID": "bw877720"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3172,
+        "timestamp": 1656770924540,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7540441196708573094",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Yuan",
+                "lastname": "Zhao",
+                "rbCorporateName": "Vogt und Zhao Vermögensverwaltung GmbH",
+                "rbCorporateID": "bw882163"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3173,
+        "timestamp": 1656770924584,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2865164248768538282",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Yvonne",
+                "lastname": "Burkhart",
+                "rbCorporateName": "Deutsches Zentrum für Frischzellentherapie Verwaltungs-GmbH",
+                "rbCorporateID": "by1044660"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3174,
+        "timestamp": 1656770924600,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2865164248768538282",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Yvonne",
+                "lastname": "Burkhart",
+                "rbCorporateName": "petracell Kosmetik Verwaltungs GmbH",
+                "rbCorporateID": "by1047992"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3175,
+        "timestamp": 1656770924629,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8660214263180455346",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Zeki",
+                "lastname": "Taygar",
+                "rbCorporateName": "V-U-L-K-A-N Natursteinhandel GmbH",
+                "rbCorporateID": "by1038933"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3176,
+        "timestamp": 1656770924643,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8660214263180455346",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Zeki",
+                "lastname": "Taygar",
+                "rbCorporateName": "V-U-L-K-A-N Natursteinhandel GmbH",
+                "rbCorporateID": "by1044032"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3177,
+        "timestamp": 1656770924674,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5188222819964326632",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Zenun",
+                "lastname": "Krasniqi",
+                "rbCorporateName": "GURI Immobilien GmbH",
+                "rbCorporateID": "bw871317"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 3178,
+        "timestamp": 1656770924692,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5188222819964326632",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Zenun",
+                "lastname": "Krasniqi",
+                "rbCorporateName": "ADRIATIK STONE GmbH",
+                "rbCorporateID": "bw871848"
+            },
+            "encoding": "protobuf",
+            "schemaId": 8
+        }
+    }
+]

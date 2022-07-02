@@ -1,0 +1,4602 @@
+[
+    {
+        "partitionID": 0,
+        "offset": 10644,
+        "timestamp": 1656770913015,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1901273062333474182",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stefan",
+                "lastname": "Wallner",
+                "birthdate": "13.11.1961",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10645,
+        "timestamp": 1656770913092,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5850471196065652218",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stefan",
+                "lastname": "Webhofer",
+                "birthdate": "10.11.1976",
+                "city": "Weißenstadt"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10646,
+        "timestamp": 1656770913140,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5644824980853304381",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stefan",
+                "lastname": "Weiß",
+                "birthdate": "25.09.1975",
+                "city": "Stockdorf"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10647,
+        "timestamp": 1656770913216,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3388449106656206142",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stefan",
+                "lastname": "Zeilinger",
+                "birthdate": "01.10.1967",
+                "city": "Pullach"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10648,
+        "timestamp": 1656770913262,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-7251935929463157583",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stefan",
+                "lastname": "Zenkel",
+                "birthdate": "01.09.1975",
+                "city": "Garching b. München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10649,
+        "timestamp": 1656770913309,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6484597660539459125",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stefanie Andrea",
+                "lastname": "Nestle",
+                "birthdate": "23.03.1988",
+                "city": "Balzheim"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10650,
+        "timestamp": 1656770913566,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2587759842737804551",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stefanie Brigitte",
+                "lastname": "Watzl",
+                "birthdate": "10.10.1971",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10651,
+        "timestamp": 1656770913613,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "4456143727832494498",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stefanie",
+                "lastname": "Kendel",
+                "birthdate": "13.04.1972",
+                "city": "Frankfurt am Main"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10652,
+        "timestamp": 1656770913656,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8943832651042619068",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stefanie",
+                "lastname": "Strebel",
+                "birthdate": "28.06.1979",
+                "city": "Schwindegg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10653,
+        "timestamp": 1656770913726,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3969604360223002585",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stefanie",
+                "lastname": "Sturtz",
+                "birthdate": "26.01.1966",
+                "city": "Stuttgart"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10654,
+        "timestamp": 1656770913781,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8415720193405807703",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stefanie",
+                "lastname": "Waeber",
+                "birthdate": "10.02.1989",
+                "city": "Bietigheim-Bissingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10655,
+        "timestamp": 1656770913842,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3197588636783400763",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stefanie",
+                "lastname": "Winkler",
+                "birthdate": "08.04.1974",
+                "city": "Schwarzenbruck"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10656,
+        "timestamp": 1656770913888,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-503427402403069347",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stefano",
+                "lastname": "Farci",
+                "birthdate": "21.09.1978",
+                "city": "Ahrensburg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10657,
+        "timestamp": 1656770913951,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3324057689061385185",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Steffen",
+                "lastname": "Böhringer",
+                "birthdate": "13.12.1978",
+                "city": "Satteldorf"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10658,
+        "timestamp": 1656770913994,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8715006225854057586",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Steffen Karl",
+                "lastname": "Hägele",
+                "birthdate": "09.04.1991",
+                "city": "Schorndorf"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10659,
+        "timestamp": 1656770914063,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4302493556610503574",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Steffen",
+                "lastname": "Müllers",
+                "birthdate": "23.03.1972",
+                "city": "Waldenburg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10660,
+        "timestamp": 1656770914116,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1022123941279553104",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Steffen",
+                "lastname": "Stüber",
+                "birthdate": "19.04.1971",
+                "city": "Bruchsal"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10661,
+        "timestamp": 1656770914162,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8234725139114792946",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Steffen",
+                "lastname": "Vangerow",
+                "birthdate": "25.09.1990",
+                "city": "Pliezhausen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10662,
+        "timestamp": 1656770914209,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3075702200838794301",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Steffen",
+                "lastname": "Walter",
+                "birthdate": "12.03.1965",
+                "city": "Schwieberdingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10663,
+        "timestamp": 1656770914257,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4889279062066231573",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stephan Dominikus",
+                "lastname": "Gotzler",
+                "birthdate": "24.07.1964",
+                "city": "Maisach"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10664,
+        "timestamp": 1656770914300,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "9105745351707882486",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stephan",
+                "lastname": "Gebhardt-Seele",
+                "birthdate": "15.08.1958",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10665,
+        "timestamp": 1656770914346,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4661178982218232252",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stephan",
+                "lastname": "Hauber",
+                "birthdate": "21.08.1973",
+                "city": "Schorfheide"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10666,
+        "timestamp": 1656770914392,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-423987426665851409",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stephan Hermann",
+                "lastname": "Wermter",
+                "birthdate": "04.10.1960",
+                "city": "Elzach"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10667,
+        "timestamp": 1656770914439,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7168375161353048165",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stephan",
+                "lastname": "Jakob",
+                "birthdate": "25.07.1966",
+                "city": "Vellberg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10668,
+        "timestamp": 1656770914506,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6286466548285704973",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stephan",
+                "lastname": "Miller",
+                "birthdate": "30.06.1973",
+                "city": "Ingelfingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10669,
+        "timestamp": 1656770914577,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3952466127981846666",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stephan",
+                "lastname": "Schindler",
+                "birthdate": "14.11.1984",
+                "city": "Berlin"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10670,
+        "timestamp": 1656770914621,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8443441131267938100",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stephan",
+                "lastname": "Schirmer",
+                "birthdate": "17.09.1957",
+                "city": "Kiefersfelden"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10671,
+        "timestamp": 1656770914666,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8380302064221524604",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stephan",
+                "lastname": "Schoberth",
+                "birthdate": "13.01.1966",
+                "city": "Erlangen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10672,
+        "timestamp": 1656770914715,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8968050573990914245",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stephan",
+                "lastname": "Stadler",
+                "birthdate": "26.12.1985",
+                "city": "Ruderting"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10673,
+        "timestamp": 1656770914807,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "352052573724200849",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stephan",
+                "lastname": "Strauss",
+                "birthdate": "26.06.1966",
+                "city": "Ratingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10674,
+        "timestamp": 1656770914850,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8243910504489625309",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Stephan",
+                "lastname": "Werner",
+                "birthdate": "02.03.1977",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10675,
+        "timestamp": 1656770914898,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6842853462505958514",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Steven",
+                "lastname": "Sandwall",
+                "birthdate": "01.10.1964",
+                "city": "Bad Kissingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10676,
+        "timestamp": 1656770914945,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8311732229142271744",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Susann Sandra",
+                "lastname": "Uhlenhuth",
+                "birthdate": "23.03.1954",
+                "city": "Rottach-Egern"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10677,
+        "timestamp": 1656770914990,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8271211430298950682",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Susanne Marianne",
+                "lastname": "Then",
+                "birthdate": "07.06.1988",
+                "city": "Grafenrheinfeld"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10678,
+        "timestamp": 1656770915038,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3334685423177288511",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Susanne",
+                "lastname": "Neuy",
+                "birthdate": "18.09.1965",
+                "city": "Oberstaufen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10679,
+        "timestamp": 1656770915083,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-6332376521292013868",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Susanne",
+                "lastname": "Schröder",
+                "birthdate": "16.03.1964",
+                "city": "Herrenberg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10680,
+        "timestamp": 1656770915128,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7795686829532144726",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Sven",
+                "lastname": "Brückner",
+                "birthdate": "03.04.1999",
+                "city": "Korntal-Münchingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10681,
+        "timestamp": 1656770915176,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "9038539461827141783",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Sven",
+                "lastname": "Holfert",
+                "birthdate": "04.01.1976",
+                "city": "Valley"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10682,
+        "timestamp": 1656770915220,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-6381137044116016839",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Sven",
+                "lastname": "Marten",
+                "birthdate": "09.05.1969",
+                "city": "Heidelberg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10683,
+        "timestamp": 1656770915265,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5235321998651092470",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Sven",
+                "lastname": "Meyer",
+                "birthdate": "26.05.1965",
+                "city": "Stuttgart"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10684,
+        "timestamp": 1656770915311,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8508724987129293320",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Sven Michael",
+                "lastname": "Bogner",
+                "birthdate": "09.10.1974",
+                "city": "Neuhausen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10685,
+        "timestamp": 1656770915374,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4061781162995070586",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Sylvia",
+                "lastname": "Eder",
+                "birthdate": "19.01.1979",
+                "city": "Julbach"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10686,
+        "timestamp": 1656770915418,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2184449793854943319",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Sylvia",
+                "lastname": "Seissiger",
+                "birthdate": "19.02.1984",
+                "city": "Würzburg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10687,
+        "timestamp": 1656770915465,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "4663425313505382614",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Sören",
+                "lastname": "Hammermüller",
+                "birthdate": "29.04.1988",
+                "city": "Leipzig"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10688,
+        "timestamp": 1656770915510,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5406788038165754865",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tamer",
+                "lastname": "Öteles",
+                "birthdate": "14.07.1977",
+                "city": "Niedereschach"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10689,
+        "timestamp": 1656770915558,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2163299713557818517",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tanya",
+                "lastname": "Georgieva",
+                "birthdate": "29.05.1995",
+                "city": "Stuttgart"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10690,
+        "timestamp": 1656770915619,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8110260461758095666",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tatjana",
+                "lastname": "Stoll",
+                "birthdate": "16.01.1998",
+                "city": "Ebersbach an der Fils"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10691,
+        "timestamp": 1656770915664,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5942168550841705450",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thilo",
+                "lastname": "Köhler",
+                "birthdate": "01.04.1966",
+                "city": "Anzing"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10692,
+        "timestamp": 1656770915741,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3236341375250842238",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Barkamis",
+                "birthdate": "04.06.1966",
+                "city": "Kirchardt"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10693,
+        "timestamp": 1656770915791,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7359349521895890839",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Bachmaier",
+                "birthdate": "27.05.1963",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10694,
+        "timestamp": 1656770915941,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7291126268687542917",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Bauer",
+                "birthdate": "17.01.1965",
+                "city": "Regensburg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10695,
+        "timestamp": 1656770915984,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8908975535145035613",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Blank",
+                "birthdate": "17.09.1990",
+                "city": "Iphofen OT Hellmitzheim"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10696,
+        "timestamp": 1656770916030,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "4812019003811411565",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Buschner",
+                "birthdate": "30.04.1966",
+                "city": "Friedrichshafen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10697,
+        "timestamp": 1656770916079,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-6691761669970874275",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Burkhardt",
+                "birthdate": "06.02.1960",
+                "city": "Jesenwang"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10698,
+        "timestamp": 1656770916128,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5628106320416113460",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas Christian",
+                "lastname": "Erhardt",
+                "birthdate": "07.01.1975",
+                "city": "Karlsdorf-Neuthard"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10699,
+        "timestamp": 1656770916187,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1051254162906782985",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Eisinger",
+                "birthdate": "28.07.1963",
+                "city": "Heroldsberg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10700,
+        "timestamp": 1656770916233,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1682396047987226427",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Fuchs",
+                "birthdate": "09.06.1959",
+                "city": "Oberelsbach"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10701,
+        "timestamp": 1656770916275,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3294326279305695239",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Grah",
+                "birthdate": "28.10.1958",
+                "city": "Warburg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10702,
+        "timestamp": 1656770916336,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-491859592637665477",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Groß",
+                "birthdate": "09.04.1966",
+                "city": "Titisee-Neustadt"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10703,
+        "timestamp": 1656770916452,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3907832559381196260",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Gütle",
+                "birthdate": "10.03.1962",
+                "city": "Aying"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10704,
+        "timestamp": 1656770916507,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4510084155150701287",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Herling",
+                "birthdate": "23.03.1970",
+                "city": "Villingen-Schwenningen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10705,
+        "timestamp": 1656770916612,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1452975225175004153",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Hitzlsperger",
+                "birthdate": "05.04.1982",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10706,
+        "timestamp": 1656770916657,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "4708775289617045374",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Hornauer",
+                "birthdate": "11.01.1965",
+                "city": "Pettendorf"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10707,
+        "timestamp": 1656770916703,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "9093020991396244665",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Hurst",
+                "birthdate": "27.03.1970",
+                "city": "Willstätt"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10708,
+        "timestamp": 1656770916749,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7873155231281656984",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Jablonski",
+                "birthdate": "14.05.1984",
+                "city": "Heidelberg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10709,
+        "timestamp": 1656770916814,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4841494250822513422",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas Jürgen",
+                "lastname": "Mäder",
+                "birthdate": "14.05.1979",
+                "city": "Villingen-Schwenningen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10710,
+        "timestamp": 1656770916858,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8581505131133500688",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas Jürgen",
+                "lastname": "Schmitt",
+                "birthdate": "04.03.1964",
+                "city": "Pliezhausen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10711,
+        "timestamp": 1656770916905,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "9180730537823455938",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Kaack",
+                "birthdate": "23.08.1948",
+                "city": "Leipzig"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10712,
+        "timestamp": 1656770916980,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8179255951766587675",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Krohn",
+                "birthdate": "09.06.1963",
+                "city": "Kirchheim unter Teck"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10713,
+        "timestamp": 1656770917025,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5495705200250895953",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Küspert",
+                "birthdate": "23.11.1964",
+                "city": "Starnberg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10714,
+        "timestamp": 1656770917070,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1896984562240164997",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Laufer",
+                "birthdate": "01.03.1979",
+                "city": "Lauf a.d.Pegnitz"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10715,
+        "timestamp": 1656770917500,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2768728466429206617",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Leidenberger",
+                "birthdate": "26.09.1965",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10716,
+        "timestamp": 1656770917561,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2818019170272416473",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Lindereich",
+                "birthdate": "12.09.1977",
+                "city": "Altensteig"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10717,
+        "timestamp": 1656770917608,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2944459170324398315",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Link",
+                "birthdate": "06.10.1960",
+                "city": "Fellbach"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10718,
+        "timestamp": 1656770917654,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5514006419135059129",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Maerz",
+                "birthdate": "19.11.1984",
+                "city": "Johannesberg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10719,
+        "timestamp": 1656770917698,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-95483043040781053",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Mang",
+                "birthdate": "13.12.1987",
+                "city": "Oberderdingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10720,
+        "timestamp": 1656770917744,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8979240612206244239",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas Martin",
+                "lastname": "Hartmann",
+                "birthdate": "12.07.1985",
+                "city": "Neuenbürg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10721,
+        "timestamp": 1656770917790,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8080280031516067993",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Meffle",
+                "birthdate": "30.12.1970",
+                "city": "Westerheim"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10722,
+        "timestamp": 1656770917838,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8423863242681873122",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Mohr",
+                "birthdate": "03.12.1970",
+                "city": "St. Leon-Rot"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10723,
+        "timestamp": 1656770917914,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5805090522860108234",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Müller",
+                "birthdate": "18.02.1963",
+                "city": "Augsburg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10724,
+        "timestamp": 1656770917979,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5913788427248983697",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Peukert",
+                "birthdate": "25.05.1983",
+                "city": "Oberpframmern"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10725,
+        "timestamp": 1656770918022,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6681390675978823220",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Pflugbeil",
+                "birthdate": "14.07.1983",
+                "city": "Lohr a. Main"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10726,
+        "timestamp": 1656770918070,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-672853872426483219",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas Reinhold",
+                "lastname": "Wötzel",
+                "birthdate": "05.09.1965",
+                "city": "Bonn"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10727,
+        "timestamp": 1656770918111,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "4983892606498006789",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Rudolf",
+                "birthdate": "29.01.1963",
+                "city": "Ispringen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10728,
+        "timestamp": 1656770918158,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8078089825059890705",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas Rudolf",
+                "lastname": "Hallweger",
+                "birthdate": "10.06.1983",
+                "city": "Nußdorf"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10729,
+        "timestamp": 1656770918252,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "588679504906340396",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Schauberger",
+                "birthdate": "13.06.1969",
+                "city": "Bad Heilbrunn"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10730,
+        "timestamp": 1656770918327,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3406140693856491694",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Schmeißer",
+                "birthdate": "03.07.1977",
+                "city": "Schonach im Schwarzwald"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10731,
+        "timestamp": 1656770918409,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-7213332441673530688",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Schmidt",
+                "birthdate": "15.03.1966",
+                "city": "Esslingen am Neckar"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10732,
+        "timestamp": 1656770918469,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8985207417543860721",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Schulin",
+                "birthdate": "24.01.1970",
+                "city": "Eberstadt"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10733,
+        "timestamp": 1656770918612,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4665195375868301199",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Schührer",
+                "birthdate": "31.10.1967",
+                "city": "Sigmaringen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10734,
+        "timestamp": 1656770918680,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3493676154450740056",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Sethi",
+                "birthdate": "11.12.1967",
+                "city": "Sulzbach"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10735,
+        "timestamp": 1656770918759,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "571148625505067574",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Steinmetz",
+                "birthdate": "08.03.1978",
+                "city": "Laudenbach"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10736,
+        "timestamp": 1656770918818,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3408247849030580361",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Stocker",
+                "birthdate": "03.02.1971",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10737,
+        "timestamp": 1656770918863,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-837817478791570290",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Tschirf",
+                "birthdate": "29.11.1983",
+                "city": "Ludwigsburg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10738,
+        "timestamp": 1656770918908,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-6505296971639851845",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Wagner",
+                "birthdate": "23.07.1970",
+                "city": "Kaufering"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10739,
+        "timestamp": 1656770918954,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5996831882272220770",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Westenfelder",
+                "birthdate": "20.01.1960",
+                "city": "Eggenstein-Leopoldshafen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10740,
+        "timestamp": 1656770919001,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7249361208483243807",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Wäschle",
+                "birthdate": "10.01.1958",
+                "city": "Weingarten"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10741,
+        "timestamp": 1656770919053,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6227613124224570640",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Zankl",
+                "birthdate": "21.11.1963",
+                "city": "Gilching"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10742,
+        "timestamp": 1656770919125,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5547186633607834304",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thomas",
+                "lastname": "Zeiler",
+                "birthdate": "25.06.1964",
+                "city": "Mittelstetten"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10743,
+        "timestamp": 1656770919168,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1374008017122397335",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thorsten",
+                "lastname": "Eitle",
+                "birthdate": "09.04.1973",
+                "city": "Brackenheim"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10744,
+        "timestamp": 1656770919218,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7961403231549204821",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thorsten",
+                "lastname": "Flörsheimer",
+                "birthdate": "14.08.1973",
+                "city": "Meßkirch"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10745,
+        "timestamp": 1656770919262,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2653564218601789035",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Thorsten",
+                "lastname": "Priebe",
+                "birthdate": "13.12.1966",
+                "city": "Eschweiler"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10746,
+        "timestamp": 1656770919306,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1639789764539540665",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tim",
+                "lastname": "Schneider",
+                "birthdate": "21.06.1983",
+                "city": "Baden-Baden"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10747,
+        "timestamp": 1656770919461,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4813965006716586413",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Timo",
+                "lastname": "Herzberg",
+                "birthdate": "04.05.1976",
+                "city": "Berlin"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10748,
+        "timestamp": 1656770919506,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8778369358220276288",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Timo",
+                "lastname": "Reik",
+                "birthdate": "04.11.1977",
+                "city": "Urbach"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10749,
+        "timestamp": 1656770919553,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5502592313119101654",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Timon",
+                "lastname": "Linke",
+                "birthdate": "03.11.1986",
+                "city": "Karlsbad"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10750,
+        "timestamp": 1656770919599,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5165543058592559412",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tino",
+                "lastname": "Wenzel",
+                "birthdate": "10.01.1985",
+                "city": "Mannheim"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10751,
+        "timestamp": 1656770919642,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5228059696643116213",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Bernhardt",
+                "birthdate": "10.05.1988",
+                "city": "Übersee"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10752,
+        "timestamp": 1656770919688,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2071606895551277640",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias Christoph",
+                "lastname": "Cuoco",
+                "birthdate": "09.09.1998",
+                "city": "Renningen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10753,
+        "timestamp": 1656770919765,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-703545203524726981",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Denzel",
+                "birthdate": "22.10.1986",
+                "city": "Gottmadingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10754,
+        "timestamp": 1656770919811,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5520607734057825205",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Friedrich",
+                "birthdate": "09.12.1988",
+                "city": "Esslingen am Neckar"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10755,
+        "timestamp": 1656770919858,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4997008388952433781",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Gemperlein",
+                "birthdate": "08.06.1961",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10756,
+        "timestamp": 1656770919904,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2693666363061821677",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Irger",
+                "birthdate": "18.09.1981",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10757,
+        "timestamp": 1656770919950,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1113877195316351527",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Kuhl",
+                "birthdate": "28.01.1999",
+                "city": "Adelsheim"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10758,
+        "timestamp": 1656770919995,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-7778377438083745016",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Lohn",
+                "birthdate": "18.03.1985",
+                "city": "Taunusstein"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10759,
+        "timestamp": 1656770920040,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7677709918142187601",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias Marcus",
+                "lastname": "Adomeit",
+                "birthdate": "31.10.1982",
+                "city": "Emmendingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10760,
+        "timestamp": 1656770920087,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3676123899352697943",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Peipe",
+                "birthdate": "22.05.1978",
+                "city": "Cleebronn"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10761,
+        "timestamp": 1656770920132,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-6593967655591207236",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Peter",
+                "birthdate": "08.04.1982",
+                "city": "Landsberg am Lech"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10762,
+        "timestamp": 1656770920209,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "168841081213759889",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias Peter Karl",
+                "lastname": "Harms",
+                "birthdate": "07.03.1973",
+                "city": "Ettlingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10763,
+        "timestamp": 1656770920256,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1908415248413905993",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Schneider",
+                "birthdate": "19.12.1974",
+                "city": "Königsbach-Stein"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10764,
+        "timestamp": 1656770920315,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3318214816185574797",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Spiethaler",
+                "birthdate": "06.07.1996",
+                "city": "Laberweinting"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10765,
+        "timestamp": 1656770920362,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4149617656641610891",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Stark",
+                "birthdate": "28.10.1989",
+                "city": "Weingarten"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10766,
+        "timestamp": 1656770920422,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3462238489699309678",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tobias",
+                "lastname": "Wallner",
+                "birthdate": "11.07.1997",
+                "city": "Horb am Neckar"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10767,
+        "timestamp": 1656770920468,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "478836235843601915",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Todor Boris",
+                "lastname": "Bodurov",
+                "birthdate": "20.04.1985",
+                "city": "Darmstadt"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10768,
+        "timestamp": 1656770920516,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2063543358989547517",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tomasz",
+                "lastname": "Kozielec",
+                "birthdate": "11.10.1988",
+                "city": "Oftersheim"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10769,
+        "timestamp": 1656770920559,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7080834022380126245",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tony",
+                "lastname": "Wieschalla",
+                "birthdate": "08.04.1985",
+                "city": "Dietramszell"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10770,
+        "timestamp": 1656770920609,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4836321936096644950",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Torsten Alexander",
+                "lastname": "Ledwig",
+                "birthdate": "01.10.1970",
+                "city": "Waldkirch"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10771,
+        "timestamp": 1656770920651,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7455269751746280336",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Torsten",
+                "lastname": "Fründt",
+                "birthdate": "13.08.1976",
+                "city": "Durbach"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10772,
+        "timestamp": 1656770920714,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-189461858344473024",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Torsten",
+                "lastname": "Kern",
+                "birthdate": "28.12.1965",
+                "city": "Wurmlingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10773,
+        "timestamp": 1656770920760,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8881383782172160271",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Tys",
+                "lastname": "Gohl",
+                "birthdate": "11.08.1971",
+                "city": "Stuttgart"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10774,
+        "timestamp": 1656770920821,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "4893753397623061438",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Udo Manfred Wolfgang",
+                "lastname": "Schwetlick",
+                "birthdate": "24.10.1951",
+                "city": "Offenburg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10775,
+        "timestamp": 1656770920886,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6788035824523988755",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Udo",
+                "lastname": "Schwetlick",
+                "birthdate": "24.10.1951",
+                "city": "Offenburg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10776,
+        "timestamp": 1656770920962,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8415860819627604890",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Udo",
+                "lastname": "Zimmermann",
+                "birthdate": "25.10.1963",
+                "city": "Esslingen am Neckar"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10777,
+        "timestamp": 1656770921004,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4620487771187126204",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich",
+                "lastname": "Friedrichson",
+                "birthdate": "03.07.1950",
+                "city": "Westhausen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10778,
+        "timestamp": 1656770921049,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-667020781546015804",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich",
+                "lastname": "Hoffmann",
+                "birthdate": "21.11.1970",
+                "city": "Klingenmünster"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10779,
+        "timestamp": 1656770921095,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3017050070700789207",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich Josef",
+                "lastname": "Reichenbach",
+                "birthdate": "15.03.1970",
+                "city": "Glottertal"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10780,
+        "timestamp": 1656770921177,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2849382980290057762",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich",
+                "lastname": "Kammerer",
+                "birthdate": "13.06.1966",
+                "city": "Karlsruhe"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10781,
+        "timestamp": 1656770921217,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-9162886192601985656",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrich Werner",
+                "lastname": "Fränkle",
+                "birthdate": "06.09.1960",
+                "city": "Bruchsal"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10782,
+        "timestamp": 1656770921263,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3976194301519205734",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Ulrike",
+                "lastname": "Gschossmann",
+                "birthdate": "10.12.1965",
+                "city": "Schwandorf"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10783,
+        "timestamp": 1656770921307,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7076990163843331612",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Urs",
+                "lastname": "Nibler",
+                "birthdate": "11.02.1974",
+                "city": "Bad Homburg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10784,
+        "timestamp": 1656770921398,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "969075327837119800",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uta",
+                "lastname": "Röttger",
+                "birthdate": "23.08.1966",
+                "city": "Dachau"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10785,
+        "timestamp": 1656770921453,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8553533283819276389",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uwe Dieter",
+                "lastname": "Weigele",
+                "birthdate": "03.01.1962",
+                "city": "Hohenfels"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10786,
+        "timestamp": 1656770921532,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1926129380204588673",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uwe Gerhard",
+                "lastname": "Zimmermann",
+                "birthdate": "26.04.1964",
+                "city": "Stutensee"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10787,
+        "timestamp": 1656770921587,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-137671143324368282",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uwe",
+                "lastname": "Stoll",
+                "birthdate": "04.09.1964",
+                "city": "Ellwangen Jagst"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10788,
+        "timestamp": 1656770921631,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1407809806689442700",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Uwe",
+                "lastname": "Thoma",
+                "birthdate": "06.07.1963",
+                "city": "Freiburg im Breisgau"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10789,
+        "timestamp": 1656770921679,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4616970596503669265",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Valentin",
+                "lastname": "Kosterin",
+                "birthdate": "30.10.1986",
+                "city": "Stuttgart"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10790,
+        "timestamp": 1656770921723,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3043174468362538842",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Veit",
+                "lastname": "Klinkenberg",
+                "birthdate": "22.10.1977",
+                "city": "Offenburg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10791,
+        "timestamp": 1656770921769,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2559821166825075035",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Vera",
+                "lastname": "Seehausen",
+                "birthdate": "15.08.1986",
+                "city": "geb. Riehle"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10792,
+        "timestamp": 1656770921829,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6724602979064760616",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Verena",
+                "lastname": "Benz",
+                "birthdate": "25.01.1989",
+                "city": "Sigmaringendorf"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10793,
+        "timestamp": 1656770921875,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "749353455510995670",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Verena",
+                "lastname": "Götz",
+                "birthdate": "12.01.1995",
+                "city": "Neustadt a.d.Aisch"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10794,
+        "timestamp": 1656770921923,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4620096614093919432",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Viktor",
+                "lastname": "Sellmann",
+                "birthdate": "20.03.1970",
+                "city": "Leonberg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10795,
+        "timestamp": 1656770921968,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "3297342451903247259",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Vinzent",
+                "lastname": "von Witten",
+                "birthdate": "13.11.1992",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10796,
+        "timestamp": 1656770922014,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2848998969950541338",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Vlado",
+                "lastname": "Lazic",
+                "birthdate": "21.09.1982",
+                "city": "Fellbach"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10797,
+        "timestamp": 1656770922060,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2204246869937547305",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Baumgärtner",
+                "birthdate": "30.11.1963",
+                "city": "Zirndorf"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10798,
+        "timestamp": 1656770922106,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-612117873831686800",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Burkhard",
+                "birthdate": "16.11.1958",
+                "city": "Pforzheim"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10799,
+        "timestamp": 1656770922197,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "499502700977898723",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Feldkamp",
+                "birthdate": "22.11.1959",
+                "city": "Aachen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10800,
+        "timestamp": 1656770922244,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3448354730447487057",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Knickel",
+                "birthdate": "13.05.1966",
+                "city": "Kaiserslautern"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10801,
+        "timestamp": 1656770922290,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7232223011269020423",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Käsewieter",
+                "birthdate": "13.05.1969",
+                "city": "Deuerling"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10802,
+        "timestamp": 1656770922337,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5496908239796704659",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Roese",
+                "birthdate": "26.04.1959",
+                "city": "Kiel"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10803,
+        "timestamp": 1656770922397,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4743041317558752729",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volker",
+                "lastname": "Seynstahl",
+                "birthdate": "22.06.1959",
+                "city": "Nürnberg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10804,
+        "timestamp": 1656770922443,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8698050916454473476",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Volkmar",
+                "lastname": "Mäckle",
+                "birthdate": "07.06.1949",
+                "city": "Stuttgart"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10805,
+        "timestamp": 1656770922519,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "155196879151645515",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Walter",
+                "lastname": "Kuna",
+                "birthdate": "21.08.1952",
+                "city": "Hausham"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10806,
+        "timestamp": 1656770922566,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-6552421171958098181",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Walter Michael",
+                "lastname": "Leuthe",
+                "birthdate": "23.06.1966",
+                "city": "Nürtingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10807,
+        "timestamp": 1656770922611,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2998200677960102701",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Walter",
+                "lastname": "Winkler",
+                "birthdate": "01.12.1937",
+                "city": "Parkstein"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10808,
+        "timestamp": 1656770922658,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6938778069349667461",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wedemark",
+                "lastname": "Sebastian",
+                "birthdate": "11.12.1982",
+                "city": "Ortsteil Abbensen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10809,
+        "timestamp": 1656770922705,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8741803870328149377",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wei",
+                "lastname": "Guo",
+                "birthdate": "01.12.1978",
+                "city": "Stutensee"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10810,
+        "timestamp": 1656770922780,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "639515528843712977",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner Hubertus",
+                "lastname": "Echsle",
+                "birthdate": "01.08.1964",
+                "city": "Baden-Baden"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10811,
+        "timestamp": 1656770922840,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2925506319538970256",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner",
+                "lastname": "Kreibl",
+                "birthdate": "05.05.1960",
+                "city": "Überlingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10812,
+        "timestamp": 1656770922886,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4949913127902512379",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner Rolf",
+                "lastname": "Dürr",
+                "birthdate": "11.06.1962",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10813,
+        "timestamp": 1656770922947,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-3924787921500255421",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Werner",
+                "lastname": "Schilcher",
+                "birthdate": "03.05.1967",
+                "city": "Markt Indersdorf"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10814,
+        "timestamp": 1656770923008,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "521247786768921719",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wido",
+                "lastname": "Fath",
+                "birthdate": "15.09.1970",
+                "city": "Spalt"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10815,
+        "timestamp": 1656770923209,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4115536751465373249",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wigo",
+                "lastname": "Steinberg",
+                "birthdate": "27.11.1975",
+                "city": "Leipzig"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10816,
+        "timestamp": 1656770923254,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5207739171938746040",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wilfrid Bernd",
+                "lastname": "Friedrich",
+                "birthdate": "02.07.1951",
+                "city": "Knittlingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10817,
+        "timestamp": 1656770923314,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5481422676290874218",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wilfried",
+                "lastname": "Halbig",
+                "birthdate": "12.11.1937",
+                "city": "Steißlingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10818,
+        "timestamp": 1656770923357,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1835437554496052226",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wilhelm",
+                "lastname": "Bezold",
+                "birthdate": "16.07.1946",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10819,
+        "timestamp": 1656770923402,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4724837130331762604",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Winfried",
+                "lastname": "Aust",
+                "birthdate": "02.10.1950",
+                "city": "Nersingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10820,
+        "timestamp": 1656770923449,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2344756536435628260",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Winfried",
+                "lastname": "Rothermel",
+                "birthdate": "22.01.1943",
+                "city": "Rosenheim"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10821,
+        "timestamp": 1656770923496,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-2184912265044541294",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Bartel",
+                "birthdate": "01.09.1969",
+                "city": "Aschaffenburg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10822,
+        "timestamp": 1656770923539,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1599028268935389498",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Bichler",
+                "birthdate": "20.12.1968",
+                "city": "Marquartstein"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10823,
+        "timestamp": 1656770923610,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1772509068583938485",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Eilzer",
+                "birthdate": "26.10.1956",
+                "city": "Nürnberg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10824,
+        "timestamp": 1656770923738,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2373098600858774601",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Heller",
+                "birthdate": "07.02.1947",
+                "city": "Bad Feilnbach-Au"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10825,
+        "timestamp": 1656770923784,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-8878636968758944903",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Hörz",
+                "birthdate": "16.12.1972",
+                "city": "Filderstadt"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10826,
+        "timestamp": 1656770923834,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7340207696231961198",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang Josef",
+                "lastname": "Hirth",
+                "birthdate": "21.09.1965",
+                "city": "Baden-Baden"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10827,
+        "timestamp": 1656770923879,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "639880206366549584",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Klose",
+                "birthdate": "13.08.1960",
+                "city": "Weiden i.d.OPf."
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10828,
+        "timestamp": 1656770923925,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5001180671464150766",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Köstler",
+                "birthdate": "13.05.1963",
+                "city": "Aidlingen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10829,
+        "timestamp": 1656770923976,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7888921356203716591",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Lichtenwalder",
+                "birthdate": "22.02.1964",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10830,
+        "timestamp": 1656770924048,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "1598382540665613418",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang Markus",
+                "lastname": "Winter",
+                "birthdate": "02.07.1970",
+                "city": "Aalen"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10831,
+        "timestamp": 1656770924109,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-839525899251660360",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Rösch",
+                "birthdate": "05.12.1964",
+                "city": "Löwenstein"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10832,
+        "timestamp": 1656770924172,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6664670470889431737",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Schneider",
+                "birthdate": "01.07.1966",
+                "city": "Stuttgart"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10833,
+        "timestamp": 1656770924220,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "404323833110103007",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Schütt",
+                "birthdate": "22.12.1964",
+                "city": "Raesfeld"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10834,
+        "timestamp": 1656770924262,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-4912683659329462306",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Trenkwald",
+                "birthdate": "07.09.1964",
+                "city": "Burgkunstadt"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10835,
+        "timestamp": 1656770924325,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8636801134570642631",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Werner",
+                "birthdate": "22.02.1964",
+                "city": "Troisdorf"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10836,
+        "timestamp": 1656770924367,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-1377742322497276763",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Wolfgang",
+                "lastname": "Zappe",
+                "birthdate": "21.04.1948",
+                "city": "Langenneufnach"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10837,
+        "timestamp": 1656770924414,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "6098494071297577193",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Yasin Friedrich",
+                "lastname": "Tuncer",
+                "birthdate": "17.10.1983",
+                "city": "Stuttgart"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10838,
+        "timestamp": 1656770924459,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5562553645473955896",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "York Sebastian Friedrich",
+                "lastname": "Dhein",
+                "birthdate": "06.02.1966",
+                "city": "Nürnberg"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10839,
+        "timestamp": 1656770924505,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "-5664273249021540247",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Yousef",
+                "lastname": "Bajjali",
+                "birthdate": "22.09.1969",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10840,
+        "timestamp": 1656770924560,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "7540441196708573094",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Yuan",
+                "lastname": "Zhao",
+                "birthdate": "04.02.1977",
+                "city": "Dreieich"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10841,
+        "timestamp": 1656770924614,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "2865164248768538282",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Yvonne",
+                "lastname": "Burkhart",
+                "birthdate": "13.04.1965",
+                "city": "Breitbrunn"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10842,
+        "timestamp": 1656770924657,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "8660214263180455346",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Zeki",
+                "lastname": "Taygar",
+                "birthdate": "11.12.1961",
+                "city": "München"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 10843,
+        "timestamp": 1656770924704,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "5188222819964326632",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "firstname": "Zenun",
+                "lastname": "Krasniqi",
+                "birthdate": "28.02.1972",
+                "city": "Kehl"
+            },
+            "encoding": "protobuf",
+            "schemaId": 7
+        }
+    }
+]
