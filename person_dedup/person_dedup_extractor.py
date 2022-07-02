@@ -80,14 +80,12 @@ class PersonDedupExtractor:
                         if duplicate_indices[i + j + 1] not in duplicate_family and duplicate_indices[i + j + 1] > 0:
                             duplicate_family.append(duplicate_indices[i + j + 1])
                             duplicate_indices[i + j + 1] = - duplicate_indices[i + j + 1]
-            counter = 0
+            existing = False
             for existing_duplicate_family in duplicate_families:
-                if existing_duplicate_family[0] not in duplicate_family:
-                    duplicate_families.append(duplicate_family)
-                    counter += 1
-            if counter == 0:
+                if existing_duplicate_family[0] in duplicate_family:
+                    existing = True
+            if not existing:
                 duplicate_families.append(duplicate_family)
-                
         print(duplicate_families)
         exit(0)
 
