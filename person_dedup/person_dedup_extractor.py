@@ -107,7 +107,6 @@ class PersonDedupExtractor:
     def dedupPersonFromMessages(self, msgs):
         person = DeDup_Person()
         for msg in msgs:
-            print(msg)
             person.firstname = person.firstname if person.firstname and len(person.firstname) >= len(msg.firstname) else msg.firstname
             person.lastname = person.lastname if person.lastname and len(person.lastname) >= len(msg.lastname) else msg.lastname
             try:
