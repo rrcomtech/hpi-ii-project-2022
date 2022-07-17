@@ -9,6 +9,7 @@ Start the initial project setup as explained below in the initial project readme
 
 ```
 poetry run python rb_crawler/data_loader.py
+```
 
 instead of the given rb_crawler.
 
