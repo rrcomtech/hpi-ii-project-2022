@@ -56,7 +56,7 @@ poetry run python person_dedup/main.py
 
 The persons will then be inspected for duplicates. All distinct persons will be produced to the topic persons_dedup in kafka and all duplicate persons will be produced to dup_persons. 
 
-The visualization of results is done with Kibana which we included in our docker configuration. To see the visualized results, please visit its gui at https://localhost:5601 when running the project.
+The visualization of results is done with Kibana which we included in our docker configuration. To see the visualized results, please visit its GUI at https://localhost:5601 when running the project and navigate to the preferred chart.
 
 # Initial Repository Readme
 This repository provides a code base for the information integration lecture in the summer semester of 2022. Below you
