@@ -3,6 +3,10 @@ by Robert Richter and Fabian Lange
 
 This project integrates the given data source "Handelsregisterbekanntmachungen" with the data set "Voting Rights Proportions" from Bafin.
 
+## Architecture
+
+![](architecture_new.png)
+
 ## How to run the system
 
 Start the initial project setup as explained below in the initial project readme. Alternatively, you can use the shared dataset when storing it to the folder `rb_crawler` and running 
@@ -69,10 +73,6 @@ can find the documentation for setting up the project.
 - Install [Protobuf compiler (protoc)](https://grpc.io/docs/protoc-installation/). If you are using windows you can
   use [this guide](https://www.geeksforgeeks.org/how-to-install-protocol-buffers-on-windows/)
 - Install [jq](https://stedolan.github.io/jq/download/)
-
-## Architecture
-
-![](architecture.png)
 
 ### RB Website
 
