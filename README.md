@@ -3,21 +3,34 @@ by Robert Richter and Fabian Lange
 
 This project integrates the given data source "Handelsregisterbekanntmachungen" with the data set "Voting Rights Proportions" from Bafin.
 
-## Task 2
+## Architecture
+
+![](architecture_new.png)
+
+## How to run the system
+
+Start the initial project setup as explained below in the initial project readme. Alternatively, you can use the shared dataset when storing it to the folder `rb_crawler` and running 
+
+```
+poetry run python rb_crawler/data_loader.py
+```
+
+instead of the given rb_crawler.
+
+Then start the crawling of voting rights proportions:
+
 Crawl the "Voting Rights Proportions" dataset in two steps:
 1. Crawl the general data for each letter of the alphabet starting with letter  `A`  including a bafin-id, name, domicile and country for each company.
 2. Crawl detail data for each company that was returned during the first step including data for each issuer of a company: bafin-id, name, domicile, country, publishing data and their voting rights split up into three categories of german law paragraphs: [1] §33 and §34, [2] §38 and [3] §39.
 
-The second step will only be executed when crawling in detail mode. Furthermore, our system provides the ability to additionally store the data in a csv file. Both can be indicated when starting the crawler with the command below:
+The second step will only be executed when crawling in detail mode. This can be indicated when starting the crawler with the command below:
 
 ```shell
-poetry run python rights_bafin_crawler/main.py --detail "True" --csv_path "/OutputCSVFile.csv"
+poetry run python rights_bafin_crawler/main.py --detail "True"
 # --detail : True if crawling also the details for each company, False if not.
-# --path : The path to an empty, already existing csv file including the filename.
-#          If not given, no csv output will be produced.
 ```
 
-The crawler automatically produces results using a [protobuf schema](./proto/bakdata/bafin/v1/bafin.proto) by doing the following requests on the bafin website:
+The crawler automatically produces results using [protobuf schemata](./proto/bakdata/bafin/v1/) by doing the following requests on the bafin website:
 
 ```shell
 # General search for every letter starting with A
@@ -31,6 +44,24 @@ export BAFIN_ID = "40001244"
 curl -X Get "https://portal.mvp.bafin.de/database/AnteileInfo/aktiengesellschaft.do?d-3611442-e=1&cmd=zeigeAktiengesellschaft&id=$BAFIN_ID&6578706f7274=1"
 ```
 
+For producing intersecting entries (e.g. those with the same company) of the crawling results start the unionizer with 
+
+```
+poetry run python union/main.py
+```
+
+The results of the union process will be produced to another union schema in kafka.
+
+For the detection of duplicate persons, please start 
+
+```
+poetry run python person_dedup/main.py
+```
+
+The persons will then be inspected for duplicates. All distinct persons will be produced to the topic persons_dedup in kafka and all duplicate persons will be produced to dup_persons. 
+
+The visualization of results is done with Kibana which we included in our docker configuration. To see the visualized results, please visit its GUI at https://localhost:5601 when running the project and navigate to the preferred chart.
+
 # Initial Repository Readme
 This repository provides a code base for the information integration lecture in the summer semester of 2022. Below you
 can find the documentation for setting up the project.
@@ -42,10 +73,6 @@ can find the documentation for setting up the project.
 - Install [Protobuf compiler (protoc)](https://grpc.io/docs/protoc-installation/). If you are using windows you can
   use [this guide](https://www.geeksforgeeks.org/how-to-install-protocol-buffers-on-windows/)
 - Install [jq](https://stedolan.github.io/jq/download/)
-
-## Architecture
-
-![](architecture.png)
 
 ### RB Website
 
